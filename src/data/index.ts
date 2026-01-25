@@ -1,10 +1,12 @@
 import allQuestions from './all.json'
+import wordsQuestions from './words_quiz.json'
 import type { Question, Deck, HistoryRecord, Report, ExportData, ChapterInfo } from '../types'
 
 // 型アサーション
 const BUILTIN_QUESTIONS = allQuestions as Question[]
+const WORDS_QUESTIONS = wordsQuestions as Question[]
 
-// ビルトインデッキ
+// ビルトインデッキ: CISSP試験問題
 export const BUILTIN_DECK: Deck = {
   id: 'cissp-exam',
   name: 'CISSP試験問題',
@@ -12,6 +14,18 @@ export const BUILTIN_DECK: Deck = {
   questions: BUILTIN_QUESTIONS,
   isBuiltin: true
 }
+
+// ビルトインデッキ: CISSP単語帳
+export const WORDS_DECK: Deck = {
+  id: 'cissp-words',
+  name: 'CISSP単語帳',
+  description: `知識問題${WORDS_QUESTIONS.length}問`,
+  questions: WORDS_QUESTIONS,
+  isBuiltin: true
+}
+
+// すべてのビルトインデッキ
+export const BUILTIN_DECKS: Deck[] = [BUILTIN_DECK, WORDS_DECK]
 
 // チャプター定義
 export const CHAPTERS: ChapterInfo[] = [
@@ -78,7 +92,7 @@ export function removeCustomDeck(deckId: string): void {
 }
 
 export function getAllDecks(): Deck[] {
-  return [BUILTIN_DECK, ...getCustomDecks()]
+  return [...BUILTIN_DECKS, ...getCustomDecks()]
 }
 
 export function getDeckById(deckId: string): Deck | undefined {

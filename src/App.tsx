@@ -383,6 +383,43 @@ export default function CISSPQuizApp() {
             )}
           </div>
 
+          {/* 進捗率表示 */}
+          <div className="bg-slate-800/50 backdrop-blur rounded-2xl p-4 mb-4 border border-slate-700/50">
+            <div className="flex items-center justify-between mb-2">
+              <p className="text-sm text-slate-400 font-medium">Progress</p>
+              <div className="flex items-center gap-2">
+                <CheckCircle size={16} className="text-green-400" />
+                <span className="text-lg font-bold text-green-400">
+                  {questions.length > 0 ? Math.round((hCounts.mastered / questions.length) * 100) : 0}%
+                </span>
+                <span className="text-sm text-slate-500">
+                  ({hCounts.mastered}/{questions.length})
+                </span>
+              </div>
+            </div>
+            <div className="h-3 bg-slate-700 rounded-full overflow-hidden">
+              <div className="h-full flex">
+                <div
+                  className="bg-gradient-to-r from-green-500 to-green-400 transition-all duration-500"
+                  style={{ width: `${questions.length > 0 ? (hCounts.mastered / questions.length) * 100 : 0}%` }}
+                />
+                <div
+                  className="bg-gradient-to-r from-amber-500 to-amber-400 transition-all duration-500"
+                  style={{ width: `${questions.length > 0 ? (hCounts.learning / questions.length) * 100 : 0}%` }}
+                />
+                <div
+                  className="bg-gradient-to-r from-red-500 to-red-400 transition-all duration-500"
+                  style={{ width: `${questions.length > 0 ? (hCounts.wrong / questions.length) * 100 : 0}%` }}
+                />
+              </div>
+            </div>
+            <div className="flex justify-between mt-2 text-xs text-slate-500">
+              <span className="flex items-center gap-1"><span className="w-2 h-2 rounded-full bg-green-400"></span> Mastered: {hCounts.mastered}</span>
+              <span className="flex items-center gap-1"><span className="w-2 h-2 rounded-full bg-amber-400"></span> Learning: {hCounts.learning}</span>
+              <span className="flex items-center gap-1"><span className="w-2 h-2 rounded-full bg-red-400"></span> Wrong: {hCounts.wrong}</span>
+            </div>
+          </div>
+
           <div className="flex justify-center gap-6 text-sm mb-6">
             <div className="flex items-center gap-2 bg-slate-800/50 px-4 py-2 rounded-full">
               <Database size={16} className="text-blue-400" />
