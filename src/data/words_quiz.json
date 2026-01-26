@@ -61,17 +61,17 @@
       },
       {
         "label": "C",
-        "text_jp": "忘れられる権利（削除権）",
-        "text_en": "Right to be Forgotten (Right to Erasure)"
+        "text_jp": "異議申立権",
+        "text_en": "Right to Object"
       },
       {
         "label": "D",
-        "text_jp": "異議申立権",
-        "text_en": "Right to Object"
+        "text_jp": "忘れられる権利（削除権）",
+        "text_en": "Right to be Forgotten (Right to Erasure)"
       }
     ],
-    "answer": "C",
-    "explanation_jp": "【用語】忘れられる権利（Right to be Forgotten）\n\n【各選択肢の解説】\nA. アクセス権 → ❌ 自分のデータを閲覧・取得する権利\n   データ主体は自分のどのデータが処理されているか確認できる。削除ではなく閲覧の権利。\n\nB. データポータビリティ権 → ❌ データを別の事業者に移す権利\n   機械可読形式でデータを受け取り、他社サービスに移行できる権利。\n\nC. 忘れられる権利（削除権） → ✅ 正解：個人データの削除を要求できる権利\n   GDPR第17条。データ処理の同意撤回時や、処理目的が終了した場合に行使可能。\n\nD. 異議申立権 → ❌ データ処理に反対する権利\n   ダイレクトマーケティング目的の処理などに異議を唱える権利。削除とは異なる。\n\n【定義】\n忘れられる権利は、GDPR第17条に規定された削除権。同意撤回や目的達成後にデータ削除を要求できる。\n\n【覚え方のコツ】\n「Forgotten=忘れて」→ データを消して忘れてもらう権利。",
+    "answer": "D",
+    "explanation_jp": "【用語】忘れられる権利（Right to be Forgotten）\n\n【各選択肢の解説】\nA. アクセス権 → ❌ 自分のデータを閲覧・取得する権利\n   データ主体は自分のどのデータが処理されているか確認できる。削除ではなく閲覧の権利。\n\nB. データポータビリティ権 → ❌ データを別の事業者に移す権利\n   機械可読形式でデータを受け取り、他社サービスに移行できる権利。\n\nD. 忘れられる権利（削除権） → ✅ 正解：個人データの削除を要求できる権利\n   GDPR第17条。データ処理の同意撤回時や、処理目的が終了した場合に行使可能。\n\nC. 異議申立権 → ❌ データ処理に反対する権利\n   ダイレクトマーケティング目的の処理などに異議を唱える権利。削除とは異なる。\n\n【定義】\n忘れられる権利は、GDPR第17条に規定された削除権。同意撤回や目的達成後にデータ削除を要求できる。\n\n【覚え方のコツ】\n「Forgotten=忘れて」→ データを消して忘れてもらう権利。",
     "tags_jp": [
       "GDPR",
       "プライバシー",
@@ -99,8 +99,8 @@
       },
       {
         "label": "B",
-        "text_jp": "なりすまし（Spoofing）",
-        "text_en": "Spoofing"
+        "text_jp": "サービス拒否",
+        "text_en": "Service Denial"
       },
       {
         "label": "C",
@@ -109,12 +109,12 @@
       },
       {
         "label": "D",
-        "text_jp": "サービス拒否",
-        "text_en": "Service Denial"
+        "text_jp": "なりすまし（Spoofing）",
+        "text_en": "Spoofing"
       }
     ],
-    "answer": "B",
-    "explanation_jp": "【用語】STRIDE脅威モデル\n\n【各選択肢の解説】\nA. セッションハイジャック → ❌ STRIDEの「S」ではない\n   これは具体的な攻撃手法であり、STRIDEのカテゴリ名ではない。\n\nB. なりすまし（Spoofing） → ✅ 正解：STRIDEの「S」\n   他者になりすまして認証を偽装する脅威。ID詐称、偽装メールなど。\n\nC. SQLインジェクション → ❌ これは「T」（Tampering）に含まれる攻撃\n   データ改ざんの一種で、STRIDEの「S」ではない。\n\nD. サービス拒否 → ❌ STRIDEの「D」（Denial of Service）\n   可用性を脅かす脅威カテゴリ。「S」ではない。\n\n【定義】\nSTRIDE = Spoofing（なりすまし）、Tampering（改ざん）、Repudiation（否認）、Information Disclosure（情報漏洩）、DoS（サービス拒否）、Elevation of Privilege（権限昇格）\n\n【覚え方のコツ】\n「S=Spoofing=なりすまし」→ 偽物になる（Spoof=いたずら、偽造）。",
+    "answer": "D",
+    "explanation_jp": "【用語】STRIDE脅威モデル\n\n【各選択肢の解説】\nA. セッションハイジャック → ❌ STRIDEの「S」ではない\n   これは具体的な攻撃手法であり、STRIDEのカテゴリ名ではない。\n\nD. なりすまし（Spoofing） → ✅ 正解：STRIDEの「S」\n   他者になりすまして認証を偽装する脅威。ID詐称、偽装メールなど。\n\nC. SQLインジェクション → ❌ これは「T」（Tampering）に含まれる攻撃\n   データ改ざんの一種で、STRIDEの「S」ではない。\n\nB. サービス拒否 → ❌ STRIDEの「D」（Denial of Service）\n   可用性を脅かす脅威カテゴリ。「S」ではない。\n\n【定義】\nSTRIDE = Spoofing（なりすまし）、Tampering（改ざん）、Repudiation（否認）、Information Disclosure（情報漏洩）、DoS（サービス拒否）、Elevation of Privilege（権限昇格）\n\n【覚え方のコツ】\n「S=Spoofing=なりすまし」→ 偽物になる（Spoof=いたずら、偽造）。",
     "tags_jp": [
       "脅威モデリング",
       "STRIDE"
@@ -145,17 +145,17 @@
       },
       {
         "label": "C",
-        "text_jp": "経済スパイ法（EEA）",
-        "text_en": "Economic Espionage Act"
+        "text_jp": "SOX法",
+        "text_en": "Sarbanes-Oxley Act"
       },
       {
         "label": "D",
-        "text_jp": "SOX法",
-        "text_en": "Sarbanes-Oxley Act"
+        "text_jp": "経済スパイ法（EEA）",
+        "text_en": "Economic Espionage Act"
       }
     ],
-    "answer": "C",
-    "explanation_jp": "【用語】経済スパイ法（Economic Espionage Act: EEA）\n\n【各選択肢の解説】\nA. DMCA → ❌ 著作権保護の法律\n   デジタルコンテンツの著作権保護とDRM回避禁止を規定。営業秘密ではない。\n\nB. CFAA → ❌ コンピュータへの不正アクセスを規制\n   許可なくコンピュータにアクセスする行為を犯罪化。営業秘密特化ではない。\n\nC. 経済スパイ法（EEA） → ✅ 正解：営業秘密の窃盗を連邦犯罪として規定\n   1996年制定。外国政府のための経済スパイ、商業目的の営業秘密窃盗を処罰。\n\nD. SOX法 → ❌ 財務報告の内部統制を規定\n   上場企業の財務報告の正確性を確保する法律。営業秘密とは無関係。\n\n【定義】\n経済スパイ法（EEA）は1996年制定の連邦法。営業秘密の窃盗・不正取得を連邦犯罪とし、最大15年の禁固刑と500万ドルの罰金を規定。\n\n【覚え方のコツ】\n「Economic（経済）+ Espionage（スパイ）」→ 経済的価値のある秘密を盗むスパイを罰する法律。",
+    "answer": "D",
+    "explanation_jp": "【用語】経済スパイ法（Economic Espionage Act: EEA）\n\n【各選択肢の解説】\nA. DMCA → ❌ 著作権保護の法律\n   デジタルコンテンツの著作権保護とDRM回避禁止を規定。営業秘密ではない。\n\nB. CFAA → ❌ コンピュータへの不正アクセスを規制\n   許可なくコンピュータにアクセスする行為を犯罪化。営業秘密特化ではない。\n\nD. 経済スパイ法（EEA） → ✅ 正解：営業秘密の窃盗を連邦犯罪として規定\n   1996年制定。外国政府のための経済スパイ、商業目的の営業秘密窃盗を処罰。\n\nC. SOX法 → ❌ 財務報告の内部統制を規定\n   上場企業の財務報告の正確性を確保する法律。営業秘密とは無関係。\n\n【定義】\n経済スパイ法（EEA）は1996年制定の連邦法。営業秘密の窃盗・不正取得を連邦犯罪とし、最大15年の禁固刑と500万ドルの罰金を規定。\n\n【覚え方のコツ】\n「Economic（経済）+ Espionage（スパイ）」→ 経済的価値のある秘密を盗むスパイを罰する法律。",
     "tags_jp": [
       "法規制",
       "知的財産",
@@ -188,17 +188,17 @@
       },
       {
         "label": "C",
-        "text_jp": "リスク受容",
-        "text_en": "Risk Acceptance"
+        "text_jp": "リスク移転",
+        "text_en": "Risk Transference"
       },
       {
         "label": "D",
-        "text_jp": "リスク移転",
-        "text_en": "Risk Transference"
+        "text_jp": "リスク受容",
+        "text_en": "Risk Acceptance"
       }
     ],
-    "answer": "D",
-    "explanation_jp": "【用語】リスク移転（Risk Transference）\n\n【各選択肢の解説】\nA. リスク回避 → ❌ リスクを生む活動自体をやめる\n   例：危険なサービスを提供しない。リスクを第三者に移すのではなく、排除する。\n\nB. リスク低減 → ❌ コントロールを実装して発生確率や影響を下げる\n   例：ファイアウォール導入。リスクは残るが減少させる。\n\nC. リスク受容 → ❌ リスクを受け入れてコントロールしない\n   費用対効果が見合わない場合に選択。文書化が必要。\n\nD. リスク移転 → ✅ 正解：リスクの影響を第三者に移す\n   保険購入、アウトソーシング、契約による責任移転など。\n\n【定義】\nリスク移転は、リスクの財務的影響を保険会社や契約先に移す戦略。リスク自体は消えないが、発生時の損失を他者が負担する。\n\n【覚え方のコツ】\n「Transfer=移す」→ 保険会社にリスク（お金）を移す。4つのリスク対応の1つ。",
+    "answer": "C",
+    "explanation_jp": "【用語】リスク移転（Risk Transference）\n\n【各選択肢の解説】\nA. リスク回避 → ❌ リスクを生む活動自体をやめる\n   例：危険なサービスを提供しない。リスクを第三者に移すのではなく、排除する。\n\nB. リスク低減 → ❌ コントロールを実装して発生確率や影響を下げる\n   例：ファイアウォール導入。リスクは残るが減少させる。\n\nD. リスク受容 → ❌ リスクを受け入れてコントロールしない\n   費用対効果が見合わない場合に選択。文書化が必要。\n\nC. リスク移転 → ✅ 正解：リスクの影響を第三者に移す\n   保険購入、アウトソーシング、契約による責任移転など。\n\n【定義】\nリスク移転は、リスクの財務的影響を保険会社や契約先に移す戦略。リスク自体は消えないが、発生時の損失を他者が負担する。\n\n【覚え方のコツ】\n「Transfer=移す」→ 保険会社にリスク（お金）を移す。4つのリスク対応の1つ。",
     "tags_jp": [
       "リスクマネジメント",
       "リスク対応"
@@ -219,8 +219,8 @@
     "options": [
       {
         "label": "A",
-        "text_jp": "IDS（侵入検知システム）",
-        "text_en": "IDS (Intrusion Detection System)"
+        "text_jp": "ファイアウォール",
+        "text_en": "Firewall"
       },
       {
         "label": "B",
@@ -229,8 +229,8 @@
       },
       {
         "label": "C",
-        "text_jp": "ファイアウォール",
-        "text_en": "Firewall"
+        "text_jp": "IDS（侵入検知システム）",
+        "text_en": "IDS (Intrusion Detection System)"
       },
       {
         "label": "D",
@@ -238,8 +238,8 @@
         "text_en": "Backup"
       }
     ],
-    "answer": "C",
-    "explanation_jp": "【用語】セキュリティコントロールの分類\n\n【各選択肢の解説】\nA. IDS → ❌ 検知的コントロール（Detective）\n   攻撃を検知するが、防止はしない。アラートを出す役割。\n\nB. 監査ログ → ❌ 検知的コントロール（Detective）\n   事後に不正を発見するために使用。予防ではない。\n\nC. ファイアウォール → ✅ 正解：予防的コントロール（Preventive）\n   不正なトラフィックをブロックして攻撃を未然に防ぐ。\n\nD. バックアップ → ❌ 是正的コントロール（Corrective）\n   障害後の復旧に使用。予防ではなく回復。\n\n【定義】\nコントロールの機能分類：予防（Preventive）=事前に防ぐ、検知（Detective）=発見する、是正（Corrective）=復旧する、抑止（Deterrent）=思いとどまらせる。\n\n【覚え方のコツ】\nPreventive=Prevent=防ぐ → ファイアウォールは「壁」で攻撃を防ぐ。",
+    "answer": "A",
+    "explanation_jp": "【用語】セキュリティコントロールの分類\n\n【各選択肢の解説】\nC. IDS → ❌ 検知的コントロール（Detective）\n   攻撃を検知するが、防止はしない。アラートを出す役割。\n\nB. 監査ログ → ❌ 検知的コントロール（Detective）\n   事後に不正を発見するために使用。予防ではない。\n\nA. ファイアウォール → ✅ 正解：予防的コントロール（Preventive）\n   不正なトラフィックをブロックして攻撃を未然に防ぐ。\n\nD. バックアップ → ❌ 是正的コントロール（Corrective）\n   障害後の復旧に使用。予防ではなく回復。\n\n【定義】\nコントロールの機能分類：予防（Preventive）=事前に防ぐ、検知（Detective）=発見する、是正（Corrective）=復旧する、抑止（Deterrent）=思いとどまらせる。\n\n【覚え方のコツ】\nPreventive=Prevent=防ぐ → ファイアウォールは「壁」で攻撃を防ぐ。",
     "tags_jp": [
       "セキュリティコントロール",
       "分類"
@@ -349,8 +349,8 @@
       },
       {
         "label": "B",
-        "text_jp": "ハッシュ化",
-        "text_en": "Hashing"
+        "text_jp": "アクセス制御",
+        "text_en": "Access Control"
       },
       {
         "label": "C",
@@ -359,12 +359,12 @@
       },
       {
         "label": "D",
-        "text_jp": "アクセス制御",
-        "text_en": "Access Control"
+        "text_jp": "ハッシュ化",
+        "text_en": "Hashing"
       }
     ],
-    "answer": "B",
-    "explanation_jp": "【用語】CIAトライアド - 完全性（Integrity）\n\n【各選択肢の解説】\nA. 暗号化 → ❌ 主に機密性（Confidentiality）を確保\n   データを読めなくする技術。完全性ではなく秘匿性。\n\nB. ハッシュ化 → ✅ 正解：データの改ざん検知で完全性を確保\n   SHA-256等でハッシュ値を計算し、変更を検出する。\n\nC. 冗長化（RAID） → ❌ 主に可用性（Availability）を確保\n   障害時も稼働継続する技術。完全性ではなく可用性。\n\nD. アクセス制御 → ❌ 機密性・完全性両方に貢献するが、検知には使えない\n   不正な変更を防ぐが、変更の検知はハッシュが適切。\n\n【定義】\n完全性（Integrity）=データが許可なく変更されていないこと。ハッシュ、デジタル署名、チェックサムで検証する。\n\n【覚え方のコツ】\n「Hash（ハッシュ）でIntegrity（完全性）を確認」→ 両方「H」「I」で始まらないが、改ざん検知にはハッシュ。",
+    "answer": "D",
+    "explanation_jp": "【用語】CIAトライアド - 完全性（Integrity）\n\n【各選択肢の解説】\nA. 暗号化 → ❌ 主に機密性（Confidentiality）を確保\n   データを読めなくする技術。完全性ではなく秘匿性。\n\nD. ハッシュ化 → ✅ 正解：データの改ざん検知で完全性を確保\n   SHA-256等でハッシュ値を計算し、変更を検出する。\n\nC. 冗長化（RAID） → ❌ 主に可用性（Availability）を確保\n   障害時も稼働継続する技術。完全性ではなく可用性。\n\nB. アクセス制御 → ❌ 機密性・完全性両方に貢献するが、検知には使えない\n   不正な変更を防ぐが、変更の検知はハッシュが適切。\n\n【定義】\n完全性（Integrity）=データが許可なく変更されていないこと。ハッシュ、デジタル署名、チェックサムで検証する。\n\n【覚え方のコツ】\n「Hash（ハッシュ）でIntegrity（完全性）を確認」→ 両方「H」「I」で始まらないが、改ざん検知にはハッシュ。",
     "tags_jp": [
       "CIA",
       "完全性",
@@ -392,13 +392,13 @@
       },
       {
         "label": "B",
-        "text_jp": "BCP=事業継続、DRP=IT復旧",
-        "text_en": "BCP=Business Continuity, DRP=IT Recovery"
+        "text_jp": "BCPはDRPの一部である",
+        "text_en": "BCP is part of DRP"
       },
       {
         "label": "C",
-        "text_jp": "BCPはDRPの一部である",
-        "text_en": "BCP is part of DRP"
+        "text_jp": "BCP=事業継続、DRP=IT復旧",
+        "text_en": "BCP=Business Continuity, DRP=IT Recovery"
       },
       {
         "label": "D",
@@ -406,8 +406,8 @@
         "text_en": "They are synonyms"
       }
     ],
-    "answer": "B",
-    "explanation_jp": "【用語】BCP / DRP\n\n【各選択肢の解説】\nA. BCP=IT復旧、DRP=事業継続 → ❌ 逆である\n   BCPがビジネス全体、DRPがIT/技術的復旧。\n\nB. BCP=事業継続、DRP=IT復旧 → ✅ 正解\n   BCP（Business Continuity Plan）=事業全体の継続計画。DRP（Disaster Recovery Plan）=ITシステムの復旧計画。\n\nC. BCPはDRPの一部である → ❌ 逆：DRPがBCPの一部\n   BCPの方が範囲が広く、DRPはその中のIT部分。\n\nD. 両者は同義語である → ❌ 範囲が異なる\n   BCPは人、場所、プロセスを含む。DRPはIT中心。\n\n【定義】\nBCP=災害時に重要な業務を継続・復旧するための計画。DRP=ITシステムを復旧するための技術的計画。DRPはBCPのサブセット。\n\n【覚え方のコツ】\n「B=Business（事業全体）」「D=Disaster（災害後のIT復旧）」→ Bの方が大きい。",
+    "answer": "C",
+    "explanation_jp": "【用語】BCP / DRP\n\n【各選択肢の解説】\nA. BCP=IT復旧、DRP=事業継続 → ❌ 逆である\n   BCPがビジネス全体、DRPがIT/技術的復旧。\n\nC. BCP=事業継続、DRP=IT復旧 → ✅ 正解\n   BCP（Business Continuity Plan）=事業全体の継続計画。DRP（Disaster Recovery Plan）=ITシステムの復旧計画。\n\nB. BCPはDRPの一部である → ❌ 逆：DRPがBCPの一部\n   BCPの方が範囲が広く、DRPはその中のIT部分。\n\nD. 両者は同義語である → ❌ 範囲が異なる\n   BCPは人、場所、プロセスを含む。DRPはIT中心。\n\n【定義】\nBCP=災害時に重要な業務を継続・復旧するための計画。DRP=ITシステムを復旧するための技術的計画。DRPはBCPのサブセット。\n\n【覚え方のコツ】\n「B=Business（事業全体）」「D=Disaster（災害後のIT復旧）」→ Bの方が大きい。",
     "tags_jp": [
       "BCP",
       "DRP",
@@ -435,13 +435,13 @@
       },
       {
         "label": "B",
-        "text_jp": "職務の分離",
-        "text_en": "Separation of Duties"
+        "text_jp": "強制休暇",
+        "text_en": "Mandatory Vacation"
       },
       {
         "label": "C",
-        "text_jp": "強制休暇",
-        "text_en": "Mandatory Vacation"
+        "text_jp": "職務の分離",
+        "text_en": "Separation of Duties"
       },
       {
         "label": "D",
@@ -449,8 +449,8 @@
         "text_en": "Job Rotation"
       }
     ],
-    "answer": "B",
-    "explanation_jp": "【用語】職務の分離（Separation of Duties）\n\n【各選択肢の解説】\nA. 最小特権の原則 → ❌ 必要最小限の権限のみ付与\n   業務に必要な最低限の権限を与える。単独行動の防止ではない。\n\nB. 職務の分離 → ✅ 正解：重要プロセスを複数人で分担\n   例：発注者と承認者を分ける。共謀が必要になり不正が困難に。\n\nC. 強制休暇 → ❌ 不正の発見を目的とした人事コントロール\n   休暇中に別の人が業務を担当し、不正を発見する。予防ではなく検知。\n\nD. ジョブローテーション → ❌ 定期的な配置転換\n   複数の人が同じ業務を経験することで不正を発見。予防より検知寄り。\n\n【定義】\n職務の分離=重要なタスクを複数の人に分割し、一人では完結できないようにする。不正には共謀が必要となり、リスクが低減する。\n\n【覚え方のコツ】\n「Separation=分ける」→ 仕事を分けて一人でできなくする。銀行の送金：入力者≠承認者。",
+    "answer": "C",
+    "explanation_jp": "【用語】職務の分離（Separation of Duties）\n\n【各選択肢の解説】\nA. 最小特権の原則 → ❌ 必要最小限の権限のみ付与\n   業務に必要な最低限の権限を与える。単独行動の防止ではない。\n\nC. 職務の分離 → ✅ 正解：重要プロセスを複数人で分担\n   例：発注者と承認者を分ける。共謀が必要になり不正が困難に。\n\nB. 強制休暇 → ❌ 不正の発見を目的とした人事コントロール\n   休暇中に別の人が業務を担当し、不正を発見する。予防ではなく検知。\n\nD. ジョブローテーション → ❌ 定期的な配置転換\n   複数の人が同じ業務を経験することで不正を発見。予防より検知寄り。\n\n【定義】\n職務の分離=重要なタスクを複数の人に分割し、一人では完結できないようにする。不正には共謀が必要となり、リスクが低減する。\n\n【覚え方のコツ】\n「Separation=分ける」→ 仕事を分けて一人でできなくする。銀行の送金：入力者≠承認者。",
     "tags_jp": [
       "内部統制",
       "不正防止"
@@ -471,8 +471,8 @@
     "options": [
       {
         "label": "A",
-        "text_jp": "HIPAA",
-        "text_en": "HIPAA"
+        "text_jp": "FISMA",
+        "text_en": "FISMA"
       },
       {
         "label": "B",
@@ -481,8 +481,8 @@
       },
       {
         "label": "C",
-        "text_jp": "FISMA",
-        "text_en": "FISMA"
+        "text_jp": "HIPAA",
+        "text_en": "HIPAA"
       },
       {
         "label": "D",
@@ -490,8 +490,8 @@
         "text_en": "PCI DSS"
       }
     ],
-    "answer": "C",
-    "explanation_jp": "【用語】FISMA（Federal Information Security Management Act）\n\n【各選択肢の解説】\nA. HIPAA → ❌ 医療機関が対象\n   医療情報のプライバシーとセキュリティ。連邦政府特化ではない。\n\nB. SOX法 → ❌ 上場企業の財務報告が対象\n   内部統制と財務報告の正確性。政府機関ではない。\n\nC. FISMA → ✅ 正解：連邦政府機関のセキュリティ義務\n   2002年制定。連邦機関と請負業者に情報セキュリティプログラム実施を義務付け。\n\nD. PCI DSS → ❌ クレジットカード業界の基準\n   業界標準（法律ではない）。政府特化ではない。\n\n【定義】\nFISMAは連邦情報セキュリティマネジメント法。NISTのフレームワークに基づくセキュリティプログラムを義務付ける。\n\n【覚え方のコツ】\n「F=Federal（連邦）」→ FISMAは連邦政府向け。HIPAAは医療、SOXは上場企業。",
+    "answer": "A",
+    "explanation_jp": "【用語】FISMA（Federal Information Security Management Act）\n\n【各選択肢の解説】\nC. HIPAC → ❌ 医療機関が対象\n   医療情報のプライバシーとセキュリティ。連邦政府特化ではない。\n\nB. SOX法 → ❌ 上場企業の財務報告が対象\n   内部統制と財務報告の正確性。政府機関ではない。\n\nA. FISMC → ✅ 正解：連邦政府機関のセキュリティ義務\n   2002年制定。連邦機関と請負業者に情報セキュリティプログラム実施を義務付け。\n\nD. PCI DSS → ❌ クレジットカード業界の基準\n   業界標準（法律ではない）。政府特化ではない。\n\n【定義】\nFISMAは連邦情報セキュリティマネジメント法。NISTのフレームワークに基づくセキュリティプログラムを義務付ける。\n\n【覚え方のコツ】\n「F=Federal（連邦）」→ FISMAは連邦政府向け。HIPAAは医療、SOXは上場企業。",
     "tags_jp": [
       "法規制",
       "連邦政府",
@@ -514,8 +514,8 @@
     "options": [
       {
         "label": "A",
-        "text_jp": "特許（Patent）",
-        "text_en": "Patent"
+        "text_jp": "営業秘密（Trade Secret）",
+        "text_en": "Trade Secret"
       },
       {
         "label": "B",
@@ -529,12 +529,12 @@
       },
       {
         "label": "D",
-        "text_jp": "営業秘密（Trade Secret）",
-        "text_en": "Trade Secret"
+        "text_jp": "特許（Patent）",
+        "text_en": "Patent"
       }
     ],
-    "answer": "D",
-    "explanation_jp": "【用語】知的財産権の保護期間\n\n【各選択肢の解説】\nA. 特許 → ❌ 20年間（出願から）\n   発明を公開する代わりに20年間の独占権。期間終了後は誰でも使用可能。\n\nB. 著作権 → ❌ 著者の死後70年（米国）\n   長いが、最終的に期限切れになる。\n\nC. 商標 → ❌ 10年ごとに更新すれば無期限\n   更新が必要。使用しないと失効する。\n\nD. 営業秘密 → ✅ 正解：秘密を維持する限り無期限\n   公開されない限り永久に保護。コカ・コーラのレシピは100年以上保護。\n\n【定義】\n営業秘密（Trade Secret）は秘密性を維持する限り無期限。特許は公開義務があり20年。著作権は死後70年。\n\n【覚え方のコツ】\n「秘密は秘密のままなら永遠」→ 営業秘密は公開しないから無期限。",
+    "answer": "A",
+    "explanation_jp": "【用語】知的財産権の保護期間\n\n【各選択肢の解説】\nD. 特許 → ❌ 20年間（出願から）\n   発明を公開する代わりに20年間の独占権。期間終了後は誰でも使用可能。\n\nB. 著作権 → ❌ 著者の死後70年（米国）\n   長いが、最終的に期限切れになる。\n\nC. 商標 → ❌ 10年ごとに更新すれば無期限\n   更新が必要。使用しないと失効する。\n\nA. 営業秘密 → ✅ 正解：秘密を維持する限り無期限\n   公開されない限り永久に保護。コカ・コーラのレシピは100年以上保護。\n\n【定義】\n営業秘密（Trade Secret）は秘密性を維持する限り無期限。特許は公開義務があり20年。著作権は死後70年。\n\n【覚え方のコツ】\n「秘密は秘密のままなら永遠」→ 営業秘密は公開しないから無期限。",
     "tags_jp": [
       "知的財産",
       "保護期間"
@@ -685,13 +685,13 @@
       },
       {
         "label": "B",
-        "text_jp": "否認防止と完全性の確保",
-        "text_en": "Non-repudiation and Integrity"
+        "text_jp": "可用性の確保",
+        "text_en": "Ensuring Availability"
       },
       {
         "label": "C",
-        "text_jp": "可用性の確保",
-        "text_en": "Ensuring Availability"
+        "text_jp": "否認防止と完全性の確保",
+        "text_en": "Non-repudiation and Integrity"
       },
       {
         "label": "D",
@@ -699,8 +699,8 @@
         "text_en": "Access Control"
       }
     ],
-    "answer": "B",
-    "explanation_jp": "【用語】デジタル署名と否認防止\n\n【各選択肢の解説】\nA. データの暗号化 → ❌ 暗号化は機密性の確保\n   デジタル署名は暗号化技術を使うが、目的は秘匿ではない。\n\nB. 否認防止と完全性 → ✅ 正解\n   送信者の身元証明（否認防止）とデータ改ざん検知（完全性）を提供。\n\nC. 可用性の確保 → ❌ 冗長化やバックアップの目的\n   デジタル署名は可用性とは無関係。\n\nD. アクセス制御 → ❌ 誰が何にアクセスできるかの制御\n   認可の仕組み。デジタル署名は認証の一部。\n\n【定義】\nデジタル署名=秘密鍵で署名、公開鍵で検証。否認防止（送信者が送信を否定できない）と完全性（改ざん検知）を提供。\n\n【覚え方のコツ】\n「署名=サインした証拠」→ 後から「私じゃない」と言えなくなる（否認防止）。",
+    "answer": "C",
+    "explanation_jp": "【用語】デジタル署名と否認防止\n\n【各選択肢の解説】\nA. データの暗号化 → ❌ 暗号化は機密性の確保\n   デジタル署名は暗号化技術を使うが、目的は秘匿ではない。\n\nC. 否認防止と完全性 → ✅ 正解\n   送信者の身元証明（否認防止）とデータ改ざん検知（完全性）を提供。\n\nB. 可用性の確保 → ❌ 冗長化やバックアップの目的\n   デジタル署名は可用性とは無関係。\n\nD. アクセス制御 → ❌ 誰が何にアクセスできるかの制御\n   認可の仕組み。デジタル署名は認証の一部。\n\n【定義】\nデジタル署名=秘密鍵で署名、公開鍵で検証。否認防止（送信者が送信を否定できない）と完全性（改ざん検知）を提供。\n\n【覚え方のコツ】\n「署名=サインした証拠」→ 後から「私じゃない」と言えなくなる（否認防止）。",
     "tags_jp": [
       "暗号",
       "否認防止",
@@ -728,8 +728,8 @@
       },
       {
         "label": "B",
-        "text_jp": "複数のセキュリティ層を重ねて保護する",
-        "text_en": "Protecting with multiple security layers"
+        "text_jp": "コストを最小化するアプローチ",
+        "text_en": "An approach to minimize cost"
       },
       {
         "label": "C",
@@ -738,12 +738,12 @@
       },
       {
         "label": "D",
-        "text_jp": "コストを最小化するアプローチ",
-        "text_en": "An approach to minimize cost"
+        "text_jp": "複数のセキュリティ層を重ねて保護する",
+        "text_en": "Protecting with multiple security layers"
       }
     ],
-    "answer": "B",
-    "explanation_jp": "【用語】多層防御（Defense in Depth）\n\n【各選択肢の解説】\nA. 単一の強力なコントロール → ❌ 単一障害点になる\n   一つが破られると全て突破される。多層防御の逆。\n\nB. 複数のセキュリティ層を重ねる → ✅ 正解\n   ファイアウォール+IDS+暗号化+アクセス制御など。一つ破られても次がある。\n\nC. 外部からの攻撃のみ → ❌ 内部脅威も対象\n   多層防御は内外両方の脅威に対応。\n\nD. コスト最小化 → ❌ 複数層でコストは増加する\n   セキュリティ強化が目的であり、コスト削減ではない。\n\n【定義】\n多層防御=複数の防御メカニズムを階層的に配置し、一つの防御が破られても他が保護する戦略。「縦深防御」とも呼ばれる。\n\n【覚え方のコツ】\n「城の守り=堀、壁、門、兵士」→ 何重もの防御層で攻撃を止める。",
+    "answer": "D",
+    "explanation_jp": "【用語】多層防御（Defense in Depth）\n\n【各選択肢の解説】\nA. 単一の強力なコントロール → ❌ 単一障害点になる\n   一つが破られると全て突破される。多層防御の逆。\n\nD. 複数のセキュリティ層を重ねる → ✅ 正解\n   ファイアウォール+IDS+暗号化+アクセス制御など。一つ破られても次がある。\n\nC. 外部からの攻撃のみ → ❌ 内部脅威も対象\n   多層防御は内外両方の脅威に対応。\n\nB. コスト最小化 → ❌ 複数層でコストは増加する\n   セキュリティ強化が目的であり、コスト削減ではない。\n\n【定義】\n多層防御=複数の防御メカニズムを階層的に配置し、一つの防御が破られても他が保護する戦略。「縦深防御」とも呼ばれる。\n\n【覚え方のコツ】\n「城の守り=堀、壁、門、兵士」→ 何重もの防御層で攻撃を止める。",
     "tags_jp": [
       "セキュリティ原則",
       "多層防御"
@@ -774,17 +774,17 @@
       },
       {
         "label": "C",
-        "text_jp": "PCI DSS",
-        "text_en": "PCI DSS"
+        "text_jp": "FISMA",
+        "text_en": "FISMA"
       },
       {
         "label": "D",
-        "text_jp": "FISMA",
-        "text_en": "FISMA"
+        "text_jp": "PCI DSS",
+        "text_en": "PCI DSS"
       }
     ],
-    "answer": "C",
-    "explanation_jp": "【用語】PCI DSS（Payment Card Industry Data Security Standard）\n\n【各選択肢の解説】\nA. HIPAA → ❌ 医療情報のセキュリティ\n   病院、保険会社、医療データを扱う組織が対象。\n\nB. SOX法 → ❌ 上場企業の財務報告\n   内部統制と財務の正確性。クレジットカードではない。\n\nC. PCI DSS → ✅ 正解：クレジットカード業界のセキュリティ基準\n   Visa、Mastercard等が策定。加盟店、決済代行業者が遵守必須。\n\nD. FISMA → ❌ 連邦政府機関のセキュリティ\n   米国政府向け。民間のカード決済は対象外。\n\n【定義】\nPCI DSS=カード会員データを保護するための12の要件。ネットワークセキュリティ、暗号化、アクセス制御、監視などを規定。\n\n【覚え方のコツ】\n「PCI=Payment Card Industry（ペイメントカード業界）」→ クレジットカード=PCI。",
+    "answer": "D",
+    "explanation_jp": "【用語】PCI DSS（Payment Card Industry Data Security Standard）\n\n【各選択肢の解説】\nA. HIPAA → ❌ 医療情報のセキュリティ\n   病院、保険会社、医療データを扱う組織が対象。\n\nB. SOX法 → ❌ 上場企業の財務報告\n   内部統制と財務の正確性。クレジットカードではない。\n\nD. PCI DSS → ✅ 正解：クレジットカード業界のセキュリティ基準\n   Visa、Mastercard等が策定。加盟店、決済代行業者が遵守必須。\n\nC. FISMA → ❌ 連邦政府機関のセキュリティ\n   米国政府向け。民間のカード決済は対象外。\n\n【定義】\nPCI DSS=カード会員データを保護するための12の要件。ネットワークセキュリティ、暗号化、アクセス制御、監視などを規定。\n\n【覚え方のコツ】\n「PCI=Payment Card Industry（ペイメントカード業界）」→ クレジットカード=PCI。",
     "tags_jp": [
       "コンプライアンス",
       "PCI DSS"
@@ -887,13 +887,13 @@
     "options": [
       {
         "label": "A",
-        "text_jp": "脆弱性をスキャンする",
-        "text_en": "Scan for vulnerabilities"
+        "text_jp": "重要な業務機能と許容ダウンタイムを特定する",
+        "text_en": "Identify critical business functions and acceptable downtime"
       },
       {
         "label": "B",
-        "text_jp": "重要な業務機能と許容ダウンタイムを特定する",
-        "text_en": "Identify critical business functions and acceptable downtime"
+        "text_jp": "脆弱性をスキャンする",
+        "text_en": "Scan for vulnerabilities"
       },
       {
         "label": "C",
@@ -906,8 +906,8 @@
         "text_en": "Conduct employee training"
       }
     ],
-    "answer": "B",
-    "explanation_jp": "【用語】BIA（Business Impact Analysis）\n\n【各選択肢の解説】\nA. 脆弱性スキャン → ❌ 技術的評価\n   システムの弱点を発見する活動。BIAはビジネス視点の分析。\n\nB. 重要業務と許容ダウンタイムの特定 → ✅ 正解\n   RTO（復旧時間目標）、RPO（復旧ポイント目標）、MTD（最大許容停止時間）を定義。\n\nC. ポリシー作成 → ❌ BIAの結果を使うが、BIA自体の目的ではない\n   BIAの結果がBCP策定に使われる。\n\nD. トレーニング実施 → ❌ 意識啓発活動\n   BIAとは別のセキュリティ活動。\n\n【定義】\nBIA=災害時の事業への影響を分析し、重要な業務機能の優先順位と復旧目標を決定する。BCPの基礎となる分析。\n\n【覚え方のコツ】\n「BIA=Business Impact（事業への影響）」→ どの業務が止まると困るか、どれだけ止まっていいかを分析。",
+    "answer": "A",
+    "explanation_jp": "【用語】BIA（Business Impact Analysis）\n\n【各選択肢の解説】\nB. 脆弱性スキャン → ❌ 技術的評価\n   システムの弱点を発見する活動。BIAはビジネス視点の分析。\n\nA. 重要業務と許容ダウンタイムの特定 → ✅ 正解\n   RTO（復旧時間目標）、RPO（復旧ポイント目標）、MTD（最大許容停止時間）を定義。\n\nC. ポリシー作成 → ❌ BIAの結果を使うが、BIA自体の目的ではない\n   BIAの結果がBCP策定に使われる。\n\nD. トレーニング実施 → ❌ 意識啓発活動\n   BIAとは別のセキュリティ活動。\n\n【定義】\nBIA=災害時の事業への影響を分析し、重要な業務機能の優先順位と復旧目標を決定する。BCPの基礎となる分析。\n\n【覚え方のコツ】\n「BIA=Business Impact（事業への影響）」→ どの業務が止まると困るか、どれだけ止まっていいかを分析。",
     "tags_jp": [
       "BCP",
       "BIA"
@@ -1065,17 +1065,17 @@
       },
       {
         "label": "C",
-        "text_jp": "Confidential（機密）",
-        "text_en": "Confidential"
+        "text_jp": "Private（非公開）",
+        "text_en": "Private"
       },
       {
         "label": "D",
-        "text_jp": "Private（非公開）",
-        "text_en": "Private"
+        "text_jp": "Confidential（機密）",
+        "text_en": "Confidential"
       }
     ],
-    "answer": "C",
-    "explanation_jp": "【用語】データ分類（政府 vs 民間）\n\n【各選択肢の解説】\nA. Public → ❌ 政府の「Unclassified」に相当\n   公開情報。誰でもアクセス可能。\n\nB. Internal Use → ❌ 政府の「Sensitive」に相当\n   社内のみ。漏洩しても深刻ではないが公開不可。\n\nC. Confidential → ✅ 正解：政府の「Secret」に相当\n   漏洩すると重大な損害。アクセス制限必須。\n\nD. Private → ❌ 政府の「Confidential」に相当\n   個人情報など。Confidentialより一段階低い。\n\n【定義】\n政府：Top Secret > Secret > Confidential > Sensitive > Unclassified\n民間：Confidential > Private > Sensitive > Public\nSecretとConfidentialが対応。\n\n【覚え方のコツ】\n「Secret（秘密）=Confidential（機密）」→ 両方「秘密」を意味する。",
+    "answer": "D",
+    "explanation_jp": "【用語】データ分類（政府 vs 民間）\n\n【各選択肢の解説】\nA. Public → ❌ 政府の「Unclassified」に相当\n   公開情報。誰でもアクセス可能。\n\nB. Internal Use → ❌ 政府の「Sensitive」に相当\n   社内のみ。漏洩しても深刻ではないが公開不可。\n\nD. Confidential → ✅ 正解：政府の「Secret」に相当\n   漏洩すると重大な損害。アクセス制限必須。\n\nC. Private → ❌ 政府の「Confidential」に相当\n   個人情報など。Confidentialより一段階低い。\n\n【定義】\n政府：Top Secret > Secret > Confidential > Sensitive > Unclassified\n民間：Confidential > Private > Sensitive > Public\nSecretとConfidentialが対応。\n\n【覚え方のコツ】\n「Secret（秘密）=Confidential（機密）」→ 両方「秘密」を意味する。",
     "tags_jp": [
       "データ分類",
       "資産管理"
@@ -1096,8 +1096,8 @@
     "options": [
       {
         "label": "A",
-        "text_jp": "保存（Storage）",
-        "text_en": "Storage"
+        "text_jp": "廃棄（Disposal）",
+        "text_en": "Disposal"
       },
       {
         "label": "B",
@@ -1111,12 +1111,12 @@
       },
       {
         "label": "D",
-        "text_jp": "廃棄（Disposal）",
-        "text_en": "Disposal"
+        "text_jp": "保存（Storage）",
+        "text_en": "Storage"
       }
     ],
-    "answer": "D",
-    "explanation_jp": "【用語】データライフサイクル\n\n【各選択肢の解説】\nA. 保存 → ❌ 中間フェーズ\n   データを保管する段階。まだ使用される可能性がある。\n\nB. 使用 → ❌ 中間フェーズ\n   データを積極的に使用する段階。\n\nC. アーカイブ → ❌ 廃棄の前のフェーズ\n   長期保存だが、まだ破棄されていない。\n\nD. 廃棄 → ✅ 正解：最終フェーズ\n   データを安全に破棄する。暗号化消去、物理破壊など。\n\n【定義】\nデータライフサイクル：作成→分類→保存→使用→アーカイブ→廃棄。各段階で適切なセキュリティコントロールが必要。\n\n【覚え方のコツ】\n「生まれて→使われて→捨てられる」→ 最後は必ず廃棄（Disposal）。",
+    "answer": "A",
+    "explanation_jp": "【用語】データライフサイクル\n\n【各選択肢の解説】\nD. 保存 → ❌ 中間フェーズ\n   データを保管する段階。まだ使用される可能性がある。\n\nB. 使用 → ❌ 中間フェーズ\n   データを積極的に使用する段階。\n\nC. アーカイブ → ❌ 廃棄の前のフェーズ\n   長期保存だが、まだ破棄されていない。\n\nA. 廃棄 → ✅ 正解：最終フェーズ\n   データを安全に破棄する。暗号化消去、物理破壊など。\n\n【定義】\nデータライフサイクル：作成→分類→保存→使用→アーカイブ→廃棄。各段階で適切なセキュリティコントロールが必要。\n\n【覚え方のコツ】\n「生まれて→使われて→捨てられる」→ 最後は必ず廃棄（Disposal）。",
     "tags_jp": [
       "データライフサイクル",
       "廃棄"
@@ -1137,8 +1137,8 @@
     "options": [
       {
         "label": "A",
-        "text_jp": "ファイル削除",
-        "text_en": "File Deletion"
+        "text_jp": "暗号化消去（Cryptographic Erasure）",
+        "text_en": "Cryptographic Erasure"
       },
       {
         "label": "B",
@@ -1147,8 +1147,8 @@
       },
       {
         "label": "C",
-        "text_jp": "暗号化消去（Cryptographic Erasure）",
-        "text_en": "Cryptographic Erasure"
+        "text_jp": "ファイル削除",
+        "text_en": "File Deletion"
       },
       {
         "label": "D",
@@ -1156,8 +1156,8 @@
         "text_en": "Empty Recycle Bin"
       }
     ],
-    "answer": "C",
-    "explanation_jp": "【用語】データ残存性（Data Remanence）\n\n【各選択肢の解説】\nA. ファイル削除 → ❌ ポインタを削除するだけ\n   データ自体は残っている。復元ソフトで回復可能。\n\nB. フォーマット → ❌ 通常フォーマットはデータを残す\n   クイックフォーマットはポインタのみ削除。データ回復可能。\n\nC. 暗号化消去 → ✅ 正解：暗号鍵を破棄してデータを読めなくする\n   データは残るが、鍵がないため復号不可能。SSDに効果的。\n\nD. ゴミ箱を空にする → ❌ ファイル削除と同じ\n   ポインタ削除のみ。データは残存する。\n\n【定義】\nデータ残存性=削除後もストレージに残るデータ。対策：上書き（Overwriting）、消磁（Degaussing）、暗号化消去、物理破壊。\n\n【覚え方のコツ】\n「Remanence=残る」→ 削除しても残るから「暗号化して鍵を捨てる」が効果的。",
+    "answer": "A",
+    "explanation_jp": "【用語】データ残存性（Data Remanence）\n\n【各選択肢の解説】\nC. ファイル削除 → ❌ ポインタを削除するだけ\n   データ自体は残っている。復元ソフトで回復可能。\n\nB. フォーマット → ❌ 通常フォーマットはデータを残す\n   クイックフォーマットはポインタのみ削除。データ回復可能。\n\nA. 暗号化消去 → ✅ 正解：暗号鍵を破棄してデータを読めなくする\n   データは残るが、鍵がないため復号不可能。SSDに効果的。\n\nD. ゴミ箱を空にする → ❌ ファイル削除と同じ\n   ポインタ削除のみ。データは残存する。\n\n【定義】\nデータ残存性=削除後もストレージに残るデータ。対策：上書き（Overwriting）、消磁（Degaussing）、暗号化消去、物理破壊。\n\n【覚え方のコツ】\n「Remanence=残る」→ 削除しても残るから「暗号化して鍵を捨てる」が効果的。",
     "tags_jp": [
       "データ残存性",
       "安全な廃棄"
@@ -1183,13 +1183,13 @@
       },
       {
         "label": "B",
-        "text_jp": "機密データの不正な流出を防止",
-        "text_en": "Preventing unauthorized exfiltration of sensitive data"
+        "text_jp": "システムの可用性を確保",
+        "text_en": "Ensuring system availability"
       },
       {
         "label": "C",
-        "text_jp": "システムの可用性を確保",
-        "text_en": "Ensuring system availability"
+        "text_jp": "機密データの不正な流出を防止",
+        "text_en": "Preventing unauthorized exfiltration of sensitive data"
       },
       {
         "label": "D",
@@ -1197,8 +1197,8 @@
         "text_en": "Strengthening user authentication"
       }
     ],
-    "answer": "B",
-    "explanation_jp": "【用語】DLP（Data Loss Prevention）\n\n【各選択肢の解説】\nA. マルウェア検出 → ❌ アンチウイルス/EDRの機能\n   DLPはマルウェアではなくデータの流出を監視。\n\nB. 機密データの不正流出防止 → ✅ 正解\n   メール、USB、クラウドへの機密情報送信を検知・ブロック。\n\nC. 可用性確保 → ❌ 冗長化やバックアップの目的\n   DLPはデータ保護であり、可用性ではない。\n\nD. 認証強化 → ❌ MFAやIDMの機能\n   DLPは認証ではなく、データの移動を監視。\n\n【定義】\nDLP=機密データの識別・監視・保護を行うソリューション。ネットワークDLP、エンドポイントDLP、ディスカバリーDLPがある。\n\n【覚え方のコツ】\n「DLP=Data Loss Prevention=データ流出防止」→ データが外に漏れるのを防ぐ。",
+    "answer": "C",
+    "explanation_jp": "【用語】DLP（Data Loss Prevention）\n\n【各選択肢の解説】\nA. マルウェア検出 → ❌ アンチウイルス/EDRの機能\n   DLPはマルウェアではなくデータの流出を監視。\n\nC. 機密データの不正流出防止 → ✅ 正解\n   メール、USB、クラウドへの機密情報送信を検知・ブロック。\n\nB. 可用性確保 → ❌ 冗長化やバックアップの目的\n   DLPはデータ保護であり、可用性ではない。\n\nD. 認証強化 → ❌ MFAやIDMの機能\n   DLPは認証ではなく、データの移動を監視。\n\n【定義】\nDLP=機密データの識別・監視・保護を行うソリューション。ネットワークDLP、エンドポイントDLP、ディスカバリーDLPがある。\n\n【覚え方のコツ】\n「DLP=Data Loss Prevention=データ流出防止」→ データが外に漏れるのを防ぐ。",
     "tags_jp": [
       "DLP",
       "データ保護"
@@ -1260,13 +1260,13 @@
     "options": [
       {
         "label": "A",
-        "text_jp": "データプロセッサ",
-        "text_en": "Data Processor"
+        "text_jp": "データコントローラー",
+        "text_en": "Data Controller"
       },
       {
         "label": "B",
-        "text_jp": "データコントローラー",
-        "text_en": "Data Controller"
+        "text_jp": "データプロセッサ",
+        "text_en": "Data Processor"
       },
       {
         "label": "C",
@@ -1279,8 +1279,8 @@
         "text_en": "Data Custodian"
       }
     ],
-    "answer": "B",
-    "explanation_jp": "【用語】GDPRの役割定義\n\n【各選択肢の解説】\nA. データプロセッサ → ❌ コントローラーの指示でデータを処理\n   クラウドプロバイダーなど。処理方法は決定しない。\n\nB. データコントローラー → ✅ 正解：処理目的と方法を決定\n   顧客データを収集する企業など。データ保護の主責任を負う。\n\nC. データ主体 → ❌ 個人情報の本人\n   自分のデータに関する権利を持つ個人。\n\nD. データカストディアン → ❌ GDPR用語ではない\n   一般的なセキュリティ用語で、技術的管理者を指す。\n\n【定義】\nデータコントローラー=「なぜ」「どのように」データを処理するか決定する主体。データプロセッサ=コントローラーに代わって処理する主体。\n\n【覚え方のコツ】\n「Controller=支配者」→ データの使い方を「支配」する側。Processorは処理を「実行」するだけ。",
+    "answer": "A",
+    "explanation_jp": "【用語】GDPRの役割定義\n\n【各選択肢の解説】\nB. データプロセッサ → ❌ コントローラーの指示でデータを処理\n   クラウドプロバイダーなど。処理方法は決定しない。\n\nA. データコントローラー → ✅ 正解：処理目的と方法を決定\n   顧客データを収集する企業など。データ保護の主責任を負う。\n\nC. データ主体 → ❌ 個人情報の本人\n   自分のデータに関する権利を持つ個人。\n\nD. データカストディアン → ❌ GDPR用語ではない\n   一般的なセキュリティ用語で、技術的管理者を指す。\n\n【定義】\nデータコントローラー=「なぜ」「どのように」データを処理するか決定する主体。データプロセッサ=コントローラーに代わって処理する主体。\n\n【覚え方のコツ】\n「Controller=支配者」→ データの使い方を「支配」する側。Processorは処理を「実行」するだけ。",
     "tags_jp": [
       "GDPR",
       "データコントローラー"
@@ -1347,13 +1347,13 @@
       },
       {
         "label": "B",
-        "text_jp": "スコーピング=適用範囲の決定、テーラリング=コントロールの調整",
-        "text_en": "Scoping=Determining applicability, Tailoring=Adjusting controls"
+        "text_jp": "スコーピング=コントロールの選択、テーラリング=文書化",
+        "text_en": "Scoping=Control selection, Tailoring=Documentation"
       },
       {
         "label": "C",
-        "text_jp": "スコーピング=コントロールの選択、テーラリング=文書化",
-        "text_en": "Scoping=Control selection, Tailoring=Documentation"
+        "text_jp": "スコーピング=適用範囲の決定、テーラリング=コントロールの調整",
+        "text_en": "Scoping=Determining applicability, Tailoring=Adjusting controls"
       },
       {
         "label": "D",
@@ -1361,8 +1361,8 @@
         "text_en": "Scoping is technical, Tailoring is administrative"
       }
     ],
-    "answer": "B",
-    "explanation_jp": "【用語】スコーピングとテーラリング\n\n【各選択肢の解説】\nA. 同義語 → ❌ 異なる活動\n   順番も目的も異なる。\n\nB. スコーピング=範囲決定、テーラリング=調整 → ✅ 正解\n   スコーピング：どのコントロールが適用対象か判断。テーラリング：選択したコントロールを環境に合わせて修正。\n\nC. 選択と文書化 → ❌ テーラリングは文書化ではない\n   テーラリングは調整・カスタマイズ。\n\nD. 技術/管理の区分 → ❌ そのような分類ではない\n   両方ともコントロール選定プロセスの一部。\n\n【定義】\nスコーピング=ベースラインから不要なコントロールを除外（例：暗号化不要なシステムから暗号化要件を除外）。テーラリング=残ったコントロールを組織固有の状況に合わせて調整。\n\n【覚え方のコツ】\n「Scope=範囲」→ 範囲を決める。「Tailor=仕立屋」→ 体に合わせて調整。",
+    "answer": "C",
+    "explanation_jp": "【用語】スコーピングとテーラリング\n\n【各選択肢の解説】\nA. 同義語 → ❌ 異なる活動\n   順番も目的も異なる。\n\nC. スコーピング=範囲決定、テーラリング=調整 → ✅ 正解\n   スコーピング：どのコントロールが適用対象か判断。テーラリング：選択したコントロールを環境に合わせて修正。\n\nB. 選択と文書化 → ❌ テーラリングは文書化ではない\n   テーラリングは調整・カスタマイズ。\n\nD. 技術/管理の区分 → ❌ そのような分類ではない\n   両方ともコントロール選定プロセスの一部。\n\n【定義】\nスコーピング=ベースラインから不要なコントロールを除外（例：暗号化不要なシステムから暗号化要件を除外）。テーラリング=残ったコントロールを組織固有の状況に合わせて調整。\n\n【覚え方のコツ】\n「Scope=範囲」→ 範囲を決める。「Tailor=仕立屋」→ 体に合わせて調整。",
     "tags_jp": [
       "セキュリティコントロール",
       "カスタマイズ"
@@ -1393,17 +1393,17 @@
       },
       {
         "label": "C",
-        "text_jp": "フルディスク暗号化",
-        "text_en": "Full Disk Encryption"
+        "text_jp": "ファイアウォール",
+        "text_en": "Firewall"
       },
       {
         "label": "D",
-        "text_jp": "ファイアウォール",
-        "text_en": "Firewall"
+        "text_jp": "フルディスク暗号化",
+        "text_en": "Full Disk Encryption"
       }
     ],
-    "answer": "C",
-    "explanation_jp": "【用語】データの状態と保護\n\n【各選択肢の解説】\nA. TLS → ❌ 転送中データ（Data in Transit）を保護\n   通信の暗号化。保存データには使用しない。\n\nB. IPSec → ❌ ネットワーク層の暗号化\n   VPNなどで転送中データを保護。保存データではない。\n\nC. フルディスク暗号化 → ✅ 正解：保存データを保護\n   BitLocker、FileVaultなど。ディスク全体を暗号化。\n\nD. ファイアウォール → ❌ ネットワークアクセス制御\n   暗号化ではなくトラフィック制御。データ保護ではない。\n\n【定義】\nData at Rest=保存されているデータ。保護：ディスク暗号化、データベース暗号化、ファイル暗号化。\nData in Transit=転送中のデータ。保護：TLS、IPSec、SSH。\nData in Use=処理中のデータ。保護：メモリ暗号化、エンクレーブ。\n\n【覚え方のコツ】\n「Rest=休んでいる=保存中」→ 保存データにはディスク暗号化。Transit=移動中。",
+    "answer": "D",
+    "explanation_jp": "【用語】データの状態と保護\n\n【各選択肢の解説】\nA. TLS → ❌ 転送中データ（Data in Transit）を保護\n   通信の暗号化。保存データには使用しない。\n\nB. IPSec → ❌ ネットワーク層の暗号化\n   VPNなどで転送中データを保護。保存データではない。\n\nD. フルディスク暗号化 → ✅ 正解：保存データを保護\n   BitLocker、FileVaultなど。ディスク全体を暗号化。\n\nC. ファイアウォール → ❌ ネットワークアクセス制御\n   暗号化ではなくトラフィック制御。データ保護ではない。\n\n【定義】\nData at Rest=保存されているデータ。保護：ディスク暗号化、データベース暗号化、ファイル暗号化。\nData in Transit=転送中のデータ。保護：TLS、IPSec、SSH。\nData in Use=処理中のデータ。保護：メモリ暗号化、エンクレーブ。\n\n【覚え方のコツ】\n「Rest=休んでいる=保存中」→ 保存データにはディスク暗号化。Transit=移動中。",
     "tags_jp": [
       "暗号化",
       "データ保護"
@@ -1429,13 +1429,13 @@
       },
       {
         "label": "B",
-        "text_jp": "法的・規制要件",
-        "text_en": "Legal and Regulatory Requirements"
+        "text_jp": "技術的な制約",
+        "text_en": "Technical Constraints"
       },
       {
         "label": "C",
-        "text_jp": "技術的な制約",
-        "text_en": "Technical Constraints"
+        "text_jp": "法的・規制要件",
+        "text_en": "Legal and Regulatory Requirements"
       },
       {
         "label": "D",
@@ -1443,8 +1443,8 @@
         "text_en": "User Preferences"
       }
     ],
-    "answer": "B",
-    "explanation_jp": "【用語】データ保持（Data Retention）\n\n【各選択肢の解説】\nA. ストレージコスト → ❌ 重要だが最優先ではない\n   コスト削減のためにデータを削除すると法的問題になる可能性。\n\nB. 法的・規制要件 → ✅ 正解：最も重要な考慮事項\n   SOX（7年）、HIPAA（6年）、GDPR（必要期間のみ）など。違反すると罰則。\n\nC. 技術的制約 → ❌ 対応すべきだが規制より優先度低い\n   技術的理由で法的要件を満たせないのは言い訳にならない。\n\nD. ユーザーの希望 → ❌ 考慮するが最優先ではない\n   ユーザー要望より法的義務が優先。\n\n【定義】\nデータ保持ポリシー=データをいつまで保管し、いつ廃棄するかを定める。法的要件を最低限として、ビジネス要件も考慮。\n\n【覚え方のコツ】\n「法律に従わないと罰則」→ 法的要件が最優先。コストは二の次。",
+    "answer": "C",
+    "explanation_jp": "【用語】データ保持（Data Retention）\n\n【各選択肢の解説】\nA. ストレージコスト → ❌ 重要だが最優先ではない\n   コスト削減のためにデータを削除すると法的問題になる可能性。\n\nC. 法的・規制要件 → ✅ 正解：最も重要な考慮事項\n   SOX（7年）、HIPAA（6年）、GDPR（必要期間のみ）など。違反すると罰則。\n\nB. 技術的制約 → ❌ 対応すべきだが規制より優先度低い\n   技術的理由で法的要件を満たせないのは言い訳にならない。\n\nD. ユーザーの希望 → ❌ 考慮するが最優先ではない\n   ユーザー要望より法的義務が優先。\n\n【定義】\nデータ保持ポリシー=データをいつまで保管し、いつ廃棄するかを定める。法的要件を最低限として、ビジネス要件も考慮。\n\n【覚え方のコツ】\n「法律に従わないと罰則」→ 法的要件が最優先。コストは二の次。",
     "tags_jp": [
       "データ保持",
       "コンプライアンス"
@@ -1465,8 +1465,8 @@
     "options": [
       {
         "label": "A",
-        "text_jp": "Bell-LaPadulaモデル",
-        "text_en": "Bell-LaPadula Model"
+        "text_jp": "Brewer-Nashモデル",
+        "text_en": "Brewer-Nash Model"
       },
       {
         "label": "B",
@@ -1480,12 +1480,12 @@
       },
       {
         "label": "D",
-        "text_jp": "Brewer-Nashモデル",
-        "text_en": "Brewer-Nash Model"
+        "text_jp": "Bell-LaPadulaモデル",
+        "text_en": "Bell-LaPadula Model"
       }
     ],
-    "answer": "A",
-    "explanation_jp": "【用語】Bell-LaPadulaモデル（BLP）\n\n【各選択肢の解説】\nA. Bell-LaPadulaモデル → ✅ 正解：機密性重視のモデル\n   「Simple Security（No Read Up）」：自分より高い機密レベルを読めない\n   「*-property（No Write Down）」：自分より低い機密レベルに書けない\n   軍事用に設計され、情報の下方漏洩を防止する。\n\nB. Bibaモデル → ❌ 完全性重視のモデル（BLPの逆）\n   「No Read Down」「No Write Up」で完全性を保護。\n   低い完全性レベルからの汚染を防止する。\n\nC. Clark-Wilsonモデル → ❌ 商用向け完全性モデル\n   整合性のあるトランザクション（CDI/TP）と職務分離を強制。\n   銀行など商業システム向け。\n\nD. Brewer-Nashモデル → ❌ 利益相反防止モデル（Chinese Wall）\n   競合他社のデータへの同時アクセスを制限。\n   コンサルティング会社等で使用。\n\n【定義】\n軍事機密を保護するために設計された状態機械モデル。機密性を最優先し、情報が低いセキュリティレベルに流れることを防止する。\n\n【覚え方のコツ】\n「BLP = Bell = 鐘 = 上から落とすな（No Write Down）」\n機密情報は上に留めて下に落とさない。",
+    "answer": "D",
+    "explanation_jp": "【用語】Bell-LaPadulaモデル（BLP）\n\n【各選択肢の解説】\nD. Bell-LaPadulaモデル → ✅ 正解：機密性重視のモデル\n   「Simple Security（No Read Up）」：自分より高い機密レベルを読めない\n   「*-property（No Write Down）」：自分より低い機密レベルに書けない\n   軍事用に設計され、情報の下方漏洩を防止する。\n\nB. Bibaモデル → ❌ 完全性重視のモデル（BLPの逆）\n   「No Read Down」「No Write Up」で完全性を保護。\n   低い完全性レベルからの汚染を防止する。\n\nC. Clark-Wilsonモデル → ❌ 商用向け完全性モデル\n   整合性のあるトランザクション（CDI/TP）と職務分離を強制。\n   銀行など商業システム向け。\n\nA. Brewer-Nashモデル → ❌ 利益相反防止モデル（Chinese Wall）\n   競合他社のデータへの同時アクセスを制限。\n   コンサルティング会社等で使用。\n\n【定義】\n軍事機密を保護するために設計された状態機械モデル。機密性を最優先し、情報が低いセキュリティレベルに流れることを防止する。\n\n【覚え方のコツ】\n「BLP = Bell = 鐘 = 上から落とすな（No Write Down）」\n機密情報は上に留めて下に落とさない。",
     "explanation_en": "Bell-LaPadula: No Read Up, No Write Down. Biba is the opposite (integrity). Clark-Wilson is for commercial integrity. Brewer-Nash prevents conflicts of interest.",
     "tags_jp": [
       "セキュリティモデル",
@@ -1508,13 +1508,13 @@
     "options": [
       {
         "label": "A",
-        "text_jp": "Ring 0",
-        "text_en": "Ring 0"
+        "text_jp": "Ring 1",
+        "text_en": "Ring 1"
       },
       {
         "label": "B",
-        "text_jp": "Ring 1",
-        "text_en": "Ring 1"
+        "text_jp": "Ring 0",
+        "text_en": "Ring 0"
       },
       {
         "label": "C",
@@ -1527,8 +1527,8 @@
         "text_en": "Ring 3"
       }
     ],
-    "answer": "A",
-    "explanation_jp": "【用語】リングモデル（Ring Protection Model）\n\n【各選択肢の解説】\nA. Ring 0 → ✅ 正解：カーネルモード（最高特権）\n   OSカーネルが動作する最も特権の高いレベル。\n   ハードウェアへの直接アクセスが可能。\n\nB. Ring 1 → ❌ OSの他の部分（ドライバ等）\n   現代のOSではほとんど使用されない。\n   Ring 0より低い特権レベル。\n\nC. Ring 2 → ❌ OSサービス用\n   Ring 1同様、現代のOSでは未使用が多い。\n   理論上はI/Oドライバ等に使用。\n\nD. Ring 3 → ❌ ユーザーモード（最低特権）\n   通常のアプリケーションが動作するレベル。\n   直接ハードウェアにアクセスできない。\n\n【定義】\nCPUの特権レベルを0-3の4段階で定義するモデル。数字が小さいほど特権が高く、Ring 0はカーネル、Ring 3はユーザーアプリケーションが動作する。\n\n【覚え方のコツ】\n「0は原点＝中心＝カーネル」\n数字が大きくなるほど外側（ユーザー空間）に広がる同心円をイメージ。",
+    "answer": "B",
+    "explanation_jp": "【用語】リングモデル（Ring Protection Model）\n\n【各選択肢の解説】\nB. Ring 0 → ✅ 正解：カーネルモード（最高特権）\n   OSカーネルが動作する最も特権の高いレベル。\n   ハードウェアへの直接アクセスが可能。\n\nA. Ring 1 → ❌ OSの他の部分（ドライバ等）\n   現代のOSではほとんど使用されない。\n   Ring 0より低い特権レベル。\n\nC. Ring 2 → ❌ OSサービス用\n   Ring 1同様、現代のOSでは未使用が多い。\n   理論上はI/Oドライバ等に使用。\n\nD. Ring 3 → ❌ ユーザーモード（最低特権）\n   通常のアプリケーションが動作するレベル。\n   直接ハードウェアにアクセスできない。\n\n【定義】\nCPUの特権レベルを0-3の4段階で定義するモデル。数字が小さいほど特権が高く、Ring 0はカーネル、Ring 3はユーザーアプリケーションが動作する。\n\n【覚え方のコツ】\n「0は原点＝中心＝カーネル」\n数字が大きくなるほど外側（ユーザー空間）に広がる同心円をイメージ。",
     "explanation_en": "Ring 0 = Kernel mode (highest privilege). Ring 3 = User mode (lowest privilege). Modern OSes typically only use Ring 0 and Ring 3.",
     "tags_jp": [
       "OSセキュリティ",
@@ -1551,8 +1551,8 @@
     "options": [
       {
         "label": "A",
-        "text_jp": "ソルト（Salt）",
-        "text_en": "Salt"
+        "text_jp": "パディング",
+        "text_en": "Padding"
       },
       {
         "label": "B",
@@ -1566,12 +1566,12 @@
       },
       {
         "label": "D",
-        "text_jp": "パディング",
-        "text_en": "Padding"
+        "text_jp": "ソルト（Salt）",
+        "text_en": "Salt"
       }
     ],
-    "answer": "A",
-    "explanation_jp": "【用語】ソルト（Salt）\n\n【各選択肢の解説】\nA. ソルト（Salt）→ ✅ 正解：ハッシュ前に追加するランダム値\n   各パスワードに異なるソルトを追加し、同じパスワードでも異なるハッシュを生成。\n   レインボーテーブル攻撃を無効化。ソルトはハッシュと共に保存。\n\nB. ペッパー（Pepper）→ ❌ 秘密の固定値（ソルトとは別）\n   ソルトと異なり、データベースとは別の場所に保管する秘密値。\n   ソルト＋ペッパーの併用でさらに安全性向上。\n\nC. ストレッチング → ❌ ハッシュ計算を繰り返す技術\n   bcrypt、PBKDF2等がこれを実装。\n   ブルートフォース攻撃を遅延させる。\n\nD. パディング → ❌ ブロック暗号で使用する埋め草\n   データをブロックサイズに合わせるための追加データ。\n   パスワード保護とは直接関係ない。\n\n【定義】\nパスワードハッシュに追加するランダムなデータ。事前計算攻撃（レインボーテーブル）を防ぎ、同一パスワードでも異なるハッシュ値を生成させる。\n\n【覚え方のコツ】\n「塩（ソルト）を振って味（ハッシュ）を変える」\n同じ料理（パスワード）でも塩加減で違う味になる。",
+    "answer": "D",
+    "explanation_jp": "【用語】ソルト（Salt）\n\n【各選択肢の解説】\nD. ソルト（Salt）→ ✅ 正解：ハッシュ前に追加するランダム値\n   各パスワードに異なるソルトを追加し、同じパスワードでも異なるハッシュを生成。\n   レインボーテーブル攻撃を無効化。ソルトはハッシュと共に保存。\n\nB. ペッパー（Pepper）→ ❌ 秘密の固定値（ソルトとは別）\n   ソルトと異なり、データベースとは別の場所に保管する秘密値。\n   ソルト＋ペッパーの併用でさらに安全性向上。\n\nC. ストレッチング → ❌ ハッシュ計算を繰り返す技術\n   bcrypt、PBKDF2等がこれを実装。\n   ブルートフォース攻撃を遅延させる。\n\nA. パディング → ❌ ブロック暗号で使用する埋め草\n   データをブロックサイズに合わせるための追加データ。\n   パスワード保護とは直接関係ない。\n\n【定義】\nパスワードハッシュに追加するランダムなデータ。事前計算攻撃（レインボーテーブル）を防ぎ、同一パスワードでも異なるハッシュ値を生成させる。\n\n【覚え方のコツ】\n「塩（ソルト）を振って味（ハッシュ）を変える」\n同じ料理（パスワード）でも塩加減で違う味になる。",
     "explanation_en": "Salt is a random value added before hashing. Pepper is a secret fixed value stored separately. Key stretching repeats hashing to slow attacks. Padding is for block ciphers.",
     "tags_jp": [
       "暗号化",
@@ -1594,13 +1594,13 @@
     "options": [
       {
         "label": "A",
-        "text_jp": "中間一致攻撃（Meet-in-the-Middle）",
-        "text_en": "Meet-in-the-Middle Attack"
+        "text_jp": "既知平文攻撃",
+        "text_en": "Known Plaintext Attack"
       },
       {
         "label": "B",
-        "text_jp": "既知平文攻撃",
-        "text_en": "Known Plaintext Attack"
+        "text_jp": "中間一致攻撃（Meet-in-the-Middle）",
+        "text_en": "Meet-in-the-Middle Attack"
       },
       {
         "label": "C",
@@ -1613,8 +1613,8 @@
         "text_en": "Differential Cryptanalysis"
       }
     ],
-    "answer": "A",
-    "explanation_jp": "【用語】中間一致攻撃（Meet-in-the-Middle Attack）\n\n【各選択肢の解説】\nA. 中間一致攻撃 → ✅ 正解：2DESを破る代表的攻撃\n   平文を全ての鍵で暗号化、暗号文を全ての鍵で復号し、中間値を照合。\n   2DESの実効鍵長を112ビット→57ビットに低下させる。\n   これが3DESが開発された理由。\n\nB. 既知平文攻撃 → ❌ 平文と暗号文のペアから鍵を推測\n   攻撃者が一部の平文とその暗号文を知っている状態で鍵を解読。\n   WEPがこの攻撃に脆弱。\n\nC. 選択平文攻撃 → ❌ 攻撃者が平文を選択できる状態\n   任意の平文を暗号化させ、その結果を分析。\n   既知平文攻撃より強力。\n\nD. 差分解読攻撃 → ❌ 入力の差分と出力の差分を分析\n   DESなどのブロック暗号に対する攻撃手法。\n   多数の平文ペアが必要。\n\n【定義】\n二重暗号化（2DES）を破る攻撃。鍵空間を半分ずつ探索し、中間で一致する値を見つける。計算量を2^112から2^57に削減。\n\n【覚え方のコツ】\n「両側から掘って真ん中で会う（Meet in the Middle）」\nトンネル工事のように両端から攻めて中央で合流。",
+    "answer": "B",
+    "explanation_jp": "【用語】中間一致攻撃（Meet-in-the-Middle Attack）\n\n【各選択肢の解説】\nB. 中間一致攻撃 → ✅ 正解：2DESを破る代表的攻撃\n   平文を全ての鍵で暗号化、暗号文を全ての鍵で復号し、中間値を照合。\n   2DESの実効鍵長を112ビット→57ビットに低下させる。\n   これが3DESが開発された理由。\n\nA. 既知平文攻撃 → ❌ 平文と暗号文のペアから鍵を推測\n   攻撃者が一部の平文とその暗号文を知っている状態で鍵を解読。\n   WEPがこの攻撃に脆弱。\n\nC. 選択平文攻撃 → ❌ 攻撃者が平文を選択できる状態\n   任意の平文を暗号化させ、その結果を分析。\n   既知平文攻撃より強力。\n\nD. 差分解読攻撃 → ❌ 入力の差分と出力の差分を分析\n   DESなどのブロック暗号に対する攻撃手法。\n   多数の平文ペアが必要。\n\n【定義】\n二重暗号化（2DES）を破る攻撃。鍵空間を半分ずつ探索し、中間で一致する値を見つける。計算量を2^112から2^57に削減。\n\n【覚え方のコツ】\n「両側から掘って真ん中で会う（Meet in the Middle）」\nトンネル工事のように両端から攻めて中央で合流。",
     "explanation_en": "Meet-in-the-Middle reduces 2DES security from 112 bits to 57 bits. This is why 3DES was developed. Known/Chosen plaintext attacks use known data. Differential cryptanalysis analyzes input/output differences.",
     "tags_jp": [
       "暗号解読",
@@ -1638,13 +1638,13 @@
     "options": [
       {
         "label": "A",
-        "text_jp": "MTBF = MTTF + MTTR",
-        "text_en": "MTBF = MTTF + MTTR"
+        "text_jp": "MTTF = MTBF + MTTR",
+        "text_en": "MTTF = MTBF + MTTR"
       },
       {
         "label": "B",
-        "text_jp": "MTTF = MTBF + MTTR",
-        "text_en": "MTTF = MTBF + MTTR"
+        "text_jp": "MTBF = MTTF + MTTR",
+        "text_en": "MTBF = MTTF + MTTR"
       },
       {
         "label": "C",
@@ -1657,8 +1657,8 @@
         "text_en": "MTBF = MTTF × MTTR"
       }
     ],
-    "answer": "A",
-    "explanation_jp": "【用語】MTBF/MTTR/MTTF（可用性指標）\n\n【各選択肢の解説】\nA. MTBF = MTTF + MTTR → ✅ 正解：故障間隔の計算式\n   MTBF（Mean Time Between Failures）= 故障間の平均時間\n   = MTTF（稼働時間）+ MTTR（修復時間）\n\nB. MTTF = MTBF + MTTR → ❌ 計算式が逆\n   MTTFはMTBFより小さい（修復時間を含まない）。\n   修復不能な機器に使用。\n\nC. MTTR = MTBF + MTTF → ❌ 論理的に不正\n   MTTRは修復にかかる時間で、通常最も短い。\n   短いほど可用性が高い。\n\nD. MTBF = MTTF × MTTR → ❌ 乗算ではなく加算\n   各指標は「時間」の単位なので乗算は意味をなさない。\n\n【定義】\n• MTBF（Mean Time Between Failures）：故障から次の故障までの平均時間\n• MTTF（Mean Time To Failure）：稼働開始から故障までの平均時間（修復不能機器用）\n• MTTR（Mean Time To Repair）：修復にかかる平均時間\n\n【覚え方のコツ】\n「故障間(BF) = 動いてる時間(TF) + 直してる時間(TR)」",
+    "answer": "B",
+    "explanation_jp": "【用語】MTBF/MTTR/MTTF（可用性指標）\n\n【各選択肢の解説】\nB. MTBF = MTTF + MTTR → ✅ 正解：故障間隔の計算式\n   MTBF（Mean Time Between Failures）= 故障間の平均時間\n   = MTTF（稼働時間）+ MTTR（修復時間）\n\nA. MTTF = MTBF + MTTR → ❌ 計算式が逆\n   MTTFはMTBFより小さい（修復時間を含まない）。\n   修復不能な機器に使用。\n\nC. MTTR = MTBF + MTTF → ❌ 論理的に不正\n   MTTRは修復にかかる時間で、通常最も短い。\n   短いほど可用性が高い。\n\nD. MTBF = MTTF × MTTR → ❌ 乗算ではなく加算\n   各指標は「時間」の単位なので乗算は意味をなさない。\n\n【定義】\n• MTBF（Mean Time Between Failures）：故障から次の故障までの平均時間\n• MTTF（Mean Time To Failure）：稼働開始から故障までの平均時間（修復不能機器用）\n• MTTR（Mean Time To Repair）：修復にかかる平均時間\n\n【覚え方のコツ】\n「故障間(BF) = 動いてる時間(TF) + 直してる時間(TR)」",
     "explanation_en": "MTBF = MTTF + MTTR. MTBF is total cycle time between failures, MTTF is uptime, MTTR is repair time. Lower MTTR means higher availability.",
     "tags_jp": [
       "可用性",
@@ -1681,13 +1681,13 @@
     "options": [
       {
         "label": "A",
-        "text_jp": "TEMPEST",
-        "text_en": "TEMPEST"
+        "text_jp": "Common Criteria",
+        "text_en": "Common Criteria"
       },
       {
         "label": "B",
-        "text_jp": "Common Criteria",
-        "text_en": "Common Criteria"
+        "text_jp": "TEMPEST",
+        "text_en": "TEMPEST"
       },
       {
         "label": "C",
@@ -1700,8 +1700,8 @@
         "text_en": "SOC 2"
       }
     ],
-    "answer": "A",
-    "explanation_jp": "【用語】TEMPEST\n\n【各選択肢の解説】\nA. TEMPEST → ✅ 正解：電磁波漏洩対策の規格\n   電子機器から発生する電磁放射を傍受する「Van Eck phreaking」を防止。\n   対策：ファラデーケージ、ホワイトノイズ、シールドケーブル。\n   政府・軍事施設で必須。\n\nB. Common Criteria → ❌ セキュリティ製品の国際評価基準\n   製品のセキュリティ機能を評価するEAL1-7のレベル。\n   電磁波対策とは無関係。\n\nC. ISO 27001 → ❌ 情報セキュリティマネジメントシステム（ISMS）\n   組織のセキュリティ管理体制の認証規格。\n   技術的な電磁波対策ではない。\n\nD. SOC 2 → ❌ サービス組織の監査報告書\n   クラウドサービス等の信頼性原則を監査。\n   物理的漏洩対策ではない。\n\n【定義】\n電子機器から発生する電磁放射を通じた情報漏洩を防止するための米国政府規格。機密情報を扱う施設で要求される。\n\n【覚え方のコツ】\n「TEMPEST = 嵐 = 電磁波の嵐を抑える」\n電気の嵐（電磁放射）が情報を運び出すのを防ぐ。",
+    "answer": "B",
+    "explanation_jp": "【用語】TEMPEST\n\n【各選択肢の解説】\nB. TEMPEST → ✅ 正解：電磁波漏洩対策の規格\n   電子機器から発生する電磁放射を傍受する「Van Eck phreaking」を防止。\n   対策：ファラデーケージ、ホワイトノイズ、シールドケーブル。\n   政府・軍事施設で必須。\n\nA. Common Criteria → ❌ セキュリティ製品の国際評価基準\n   製品のセキュリティ機能を評価するEAL1-7のレベル。\n   電磁波対策とは無関係。\n\nC. ISO 27001 → ❌ 情報セキュリティマネジメントシステム（ISMS）\n   組織のセキュリティ管理体制の認証規格。\n   技術的な電磁波対策ではない。\n\nD. SOC 2 → ❌ サービス組織の監査報告書\n   クラウドサービス等の信頼性原則を監査。\n   物理的漏洩対策ではない。\n\n【定義】\n電子機器から発生する電磁放射を通じた情報漏洩を防止するための米国政府規格。機密情報を扱う施設で要求される。\n\n【覚え方のコツ】\n「TEMPEST = 嵐 = 電磁波の嵐を抑える」\n電気の嵐（電磁放射）が情報を運び出すのを防ぐ。",
     "explanation_en": "TEMPEST protects against electromagnetic emanation attacks. Common Criteria evaluates products. ISO 27001 is for management systems. SOC 2 is for service organization audits.",
     "tags_jp": [
       "物理セキュリティ",
@@ -1724,8 +1724,8 @@
     "options": [
       {
         "label": "A",
-        "text_jp": "Clark-Wilsonモデル",
-        "text_en": "Clark-Wilson Model"
+        "text_jp": "Graham-Denningモデル",
+        "text_en": "Graham-Denning Model"
       },
       {
         "label": "B",
@@ -1739,12 +1739,12 @@
       },
       {
         "label": "D",
-        "text_jp": "Graham-Denningモデル",
-        "text_en": "Graham-Denning Model"
+        "text_jp": "Clark-Wilsonモデル",
+        "text_en": "Clark-Wilson Model"
       }
     ],
-    "answer": "A",
-    "explanation_jp": "【用語】Clark-Wilsonモデル\n\n【各選択肢の解説】\nA. Clark-Wilsonモデル → ✅ 正解：商用向け完全性モデル\n   CDI（Constrained Data Items）を整合性TP（Transformation Procedures）のみで変更。\n   職務分離と監査を強制。銀行システム等で使用。\n\nB. Bibaモデル → ❌ 格子ベースの完全性モデル\n   「No Read Down」「No Write Up」の単純なルール。\n   商用向けの詳細な要件は含まない。\n\nC. Bell-LaPadulaモデル → ❌ 機密性重視のモデル\n   完全性ではなく機密性を保護。\n   軍事向け設計。\n\nD. Graham-Denningモデル → ❌ アクセス制御の8ルール\n   サブジェクト/オブジェクトの作成・削除・権限管理を定義。\n   完全性や機密性を直接扱わない。\n\n【定義】\n商用環境向けに設計された完全性モデル。データの整合性を保証する「整形式トランザクション」と、不正防止のための「職務分離」を強制する。\n\n【覚え方のコツ】\n「Clark-Wilson = 銀行員（Commercial）向け」\n銀行では勝手にデータを変更できない（整形式トランザクション）し、一人で全てできない（職務分離）。",
+    "answer": "D",
+    "explanation_jp": "【用語】Clark-Wilsonモデル\n\n【各選択肢の解説】\nD. Clark-Wilsonモデル → ✅ 正解：商用向け完全性モデル\n   CDI（Constrained Data Items）を整合性TP（Transformation Procedures）のみで変更。\n   職務分離と監査を強制。銀行システム等で使用。\n\nB. Bibaモデル → ❌ 格子ベースの完全性モデル\n   「No Read Down」「No Write Up」の単純なルール。\n   商用向けの詳細な要件は含まない。\n\nC. Bell-LaPadulaモデル → ❌ 機密性重視のモデル\n   完全性ではなく機密性を保護。\n   軍事向け設計。\n\nA. Graham-Denningモデル → ❌ アクセス制御の8ルール\n   サブジェクト/オブジェクトの作成・削除・権限管理を定義。\n   完全性や機密性を直接扱わない。\n\n【定義】\n商用環境向けに設計された完全性モデル。データの整合性を保証する「整形式トランザクション」と、不正防止のための「職務分離」を強制する。\n\n【覚え方のコツ】\n「Clark-Wilson = 銀行員（Commercial）向け」\n銀行では勝手にデータを変更できない（整形式トランザクション）し、一人で全てできない（職務分離）。",
     "explanation_en": "Clark-Wilson uses CDIs and TPs for commercial integrity. Biba is lattice-based integrity. Bell-LaPadula is for confidentiality. Graham-Denning defines access control rules.",
     "tags_jp": [
       "セキュリティモデル",
@@ -1767,13 +1767,13 @@
     "options": [
       {
         "label": "A",
-        "text_jp": "電磁波の遮断",
-        "text_en": "Block electromagnetic signals"
+        "text_jp": "火災の消火",
+        "text_en": "Extinguish fires"
       },
       {
         "label": "B",
-        "text_jp": "火災の消火",
-        "text_en": "Extinguish fires"
+        "text_jp": "電磁波の遮断",
+        "text_en": "Block electromagnetic signals"
       },
       {
         "label": "C",
@@ -1786,8 +1786,8 @@
         "text_en": "Regulate temperature"
       }
     ],
-    "answer": "A",
-    "explanation_jp": "【用語】ファラデーケージ（Faraday Cage）\n\n【各選択肢の解説】\nA. 電磁波の遮断 → ✅ 正解：TEMPEST対策の物理的手段\n   導電性の金属メッシュで電磁波を遮断。\n   外部からの傍受を防ぎ、内部への電磁干渉も防止。\n   SCIF（機密情報施設）で使用。\n\nB. 火災の消火 → ❌ 消火システムが担当\n   FM-200、CO2、スプリンクラー等が消火担当。\n   ファラデーケージは電磁波専門。\n\nC. 不正侵入の防止 → ❌ 物理的アクセス制御が担当\n   マントラップ、警備員、バッジ認証等が担当。\n   電磁波遮断とは別の対策。\n\nD. 温度の調整 → ❌ HVACシステムが担当\n   データセンターの温度は空調で管理。\n   金属ケージは温度調整機能なし。\n\n【定義】\n導電性素材で作られた遮蔽構造。外部からの電磁波傍受と内部への電磁干渉を防止。TEMPEST対策として政府機関や軍で使用。\n\n【覚え方のコツ】\n「ファラデー（Faraday）= 電磁誘導を発見した科学者」\n電磁波を研究した人の名前 → 電磁波を遮断するケージ。",
+    "answer": "B",
+    "explanation_jp": "【用語】ファラデーケージ（Faraday Cage）\n\n【各選択肢の解説】\nB. 電磁波の遮断 → ✅ 正解：TEMPEST対策の物理的手段\n   導電性の金属メッシュで電磁波を遮断。\n   外部からの傍受を防ぎ、内部への電磁干渉も防止。\n   SCIF（機密情報施設）で使用。\n\nA. 火災の消火 → ❌ 消火システムが担当\n   FM-200、CO2、スプリンクラー等が消火担当。\n   ファラデーケージは電磁波専門。\n\nC. 不正侵入の防止 → ❌ 物理的アクセス制御が担当\n   マントラップ、警備員、バッジ認証等が担当。\n   電磁波遮断とは別の対策。\n\nD. 温度の調整 → ❌ HVACシステムが担当\n   データセンターの温度は空調で管理。\n   金属ケージは温度調整機能なし。\n\n【定義】\n導電性素材で作られた遮蔽構造。外部からの電磁波傍受と内部への電磁干渉を防止。TEMPEST対策として政府機関や軍で使用。\n\n【覚え方のコツ】\n「ファラデー（Faraday）= 電磁誘導を発見した科学者」\n電磁波を研究した人の名前 → 電磁波を遮断するケージ。",
     "explanation_en": "Faraday cage blocks electromagnetic signals for TEMPEST protection. Fire suppression, physical access control, and HVAC are separate security concerns.",
     "tags_jp": [
       "物理セキュリティ",
@@ -1810,8 +1810,8 @@
     "options": [
       {
         "label": "A",
-        "text_jp": "TPM（Trusted Platform Module）",
-        "text_en": "TPM (Trusted Platform Module)"
+        "text_jp": "ASIC",
+        "text_en": "ASIC"
       },
       {
         "label": "B",
@@ -1820,8 +1820,8 @@
       },
       {
         "label": "C",
-        "text_jp": "ASIC",
-        "text_en": "ASIC"
+        "text_jp": "TPM（Trusted Platform Module）",
+        "text_en": "TPM (Trusted Platform Module)"
       },
       {
         "label": "D",
@@ -1829,8 +1829,8 @@
         "text_en": "GPU"
       }
     ],
-    "answer": "A",
-    "explanation_jp": "【用語】TPM（Trusted Platform Module）\n\n【各選択肢の解説】\nA. TPM → ✅ 正解：マザーボード上の暗号チップ\n   BitLocker等のフルディスク暗号化で鍵を保護。\n   プラットフォームの完全性測定（ブート検証）も実行。\n   改ざん耐性のあるハードウェア。\n\nB. HSM → ❌ より高度な暗号処理専用機器\n   大規模な鍵管理やPKIで使用。\n   TPMより高価で、サーバー・金融機関向け。\n   TPMは個人PC向け。\n\nC. ASIC → ❌ 特定用途向け集積回路\n   暗号通貨マイニング等の特定処理に最適化。\n   汎用的な鍵保管機能はない。\n\nD. GPU → ❌ グラフィック処理ユニット\n   画像処理や並列計算に使用。\n   セキュアな鍵保管機能は持たない。\n\n【定義】\nコンピュータのマザーボードに実装される暗号処理チップ。暗号鍵の生成・保管、プラットフォーム完全性の検証を行う。\n\n【覚え方のコツ】\n「TPM = Trusted（信頼できる）Platform Module」\n「信頼」の鍵を守るチップ → 暗号鍵を信頼して預けられるモジュール。",
+    "answer": "C",
+    "explanation_jp": "【用語】TPM（Trusted Platform Module）\n\n【各選択肢の解説】\nC. TPM → ✅ 正解：マザーボード上の暗号チップ\n   BitLocker等のフルディスク暗号化で鍵を保護。\n   プラットフォームの完全性測定（ブート検証）も実行。\n   改ざん耐性のあるハードウェア。\n\nB. HSM → ❌ より高度な暗号処理専用機器\n   大規模な鍵管理やPKIで使用。\n   TPMより高価で、サーバー・金融機関向け。\n   TPMは個人PC向け。\n\nA. ASIA → ❌ 特定用途向け集積回路\n   暗号通貨マイニング等の特定処理に最適化。\n   汎用的な鍵保管機能はない。\n\nD. GPU → ❌ グラフィック処理ユニット\n   画像処理や並列計算に使用。\n   セキュアな鍵保管機能は持たない。\n\n【定義】\nコンピュータのマザーボードに実装される暗号処理チップ。暗号鍵の生成・保管、プラットフォーム完全性の検証を行う。\n\n【覚え方のコツ】\n「TPM = Trusted（信頼できる）Platform Module」\n「信頼」の鍵を守るチップ → 暗号鍵を信頼して預けられるモジュール。",
     "explanation_en": "TPM stores encryption keys on the motherboard for BitLocker etc. HSM is for enterprise key management. ASIC is for specific tasks. GPU is for graphics processing.",
     "tags_jp": [
       "ハードウェアセキュリティ",
@@ -1853,8 +1853,8 @@
     "options": [
       {
         "label": "A",
-        "text_jp": "くすぶり段階（Smoldering）",
-        "text_en": "Smoldering Stage"
+        "text_jp": "炎段階（Flame）",
+        "text_en": "Flame Stage"
       },
       {
         "label": "B",
@@ -1863,8 +1863,8 @@
       },
       {
         "label": "C",
-        "text_jp": "炎段階（Flame）",
-        "text_en": "Flame Stage"
+        "text_jp": "くすぶり段階（Smoldering）",
+        "text_en": "Smoldering Stage"
       },
       {
         "label": "D",
@@ -1872,8 +1872,8 @@
         "text_en": "Heat Stage"
       }
     ],
-    "answer": "A",
-    "explanation_jp": "【用語】火災検知の4段階\n\n【各選択肢の解説】\nA. くすぶり段階 → ✅ 正解：イオン化検知器が最も効果的\n   目に見える煙が発生。イオン化検知器は煙粒子を感知。\n   早期検知に最適。\n\nB. 発火段階 → ❌ 最も早い段階（燃焼ガスのみ）\n   煙や炎はまだない。空気イオン化検知器が有効。\n   通常の煙検知器では検知困難。\n\nC. 炎段階 → ❌ 可視炎が発生\n   炎検知器（赤外線/紫外線）が有効。\n   イオン化検知器も機能するが最適ではない。\n\nD. 熱段階 → ❌ 高温に達する最終段階\n   熱検知器（固定温度式、上昇率式）が使用。\n   この段階では既に大規模火災。\n\n【定義】\n火災は4段階で進行：1.発火（ガス）→ 2.くすぶり（煙）→ 3.炎（可視炎）→ 4.熱（高温）。早期検知ほど被害軽減。\n\n【覚え方のコツ】\n「発（発火）く（くすぶり）ほ（炎/Flame）ね（熱）」\n発火 → くすぶり → 炎 → 熱の順で進行。",
+    "answer": "C",
+    "explanation_jp": "【用語】火災検知の4段階\n\n【各選択肢の解説】\nC. くすぶり段階 → ✅ 正解：イオン化検知器が最も効果的\n   目に見える煙が発生。イオン化検知器は煙粒子を感知。\n   早期検知に最適。\n\nB. 発火段階 → ❌ 最も早い段階（燃焼ガスのみ）\n   煙や炎はまだない。空気イオン化検知器が有効。\n   通常の煙検知器では検知困難。\n\nA. 炎段階 → ❌ 可視炎が発生\n   炎検知器（赤外線/紫外線）が有効。\n   イオン化検知器も機能するが最適ではない。\n\nD. 熱段階 → ❌ 高温に達する最終段階\n   熱検知器（固定温度式、上昇率式）が使用。\n   この段階では既に大規模火災。\n\n【定義】\n火災は4段階で進行：1.発火（ガス）→ 2.くすぶり（煙）→ 3.炎（可視炎）→ 4.熱（高温）。早期検知ほど被害軽減。\n\n【覚え方のコツ】\n「発（発火）く（くすぶり）ほ（炎/Flame）ね（熱）」\n発火 → くすぶり → 炎 → 熱の順で進行。",
     "explanation_en": "Four fire stages: Incipient (gas) → Smoldering (smoke) → Flame (visible fire) → Heat (high temperature). Ionization detectors work best at smoldering stage with visible smoke.",
     "tags_jp": [
       "物理セキュリティ",
@@ -1896,13 +1896,13 @@
     "options": [
       {
         "label": "A",
-        "text_jp": "離散対数問題",
-        "text_en": "Discrete Logarithm Problem"
+        "text_jp": "素因数分解問題",
+        "text_en": "Integer Factorization Problem"
       },
       {
         "label": "B",
-        "text_jp": "素因数分解問題",
-        "text_en": "Integer Factorization Problem"
+        "text_jp": "離散対数問題",
+        "text_en": "Discrete Logarithm Problem"
       },
       {
         "label": "C",
@@ -1915,8 +1915,8 @@
         "text_en": "Knapsack Problem"
       }
     ],
-    "answer": "A",
-    "explanation_jp": "【用語】Diffie-Hellman鍵交換\n\n【各選択肢の解説】\nA. 離散対数問題 → ✅ 正解：DH鍵交換の数学的基盤\n   g^x mod p = y のとき、yからxを求めることが困難。\n   公開値から秘密鍵を逆算できない。\n\nB. 素因数分解問題 → ❌ RSAの基盤\n   大きな数を素因数に分解することが困難。\n   RSAの公開鍵から秘密鍵を計算不能。\n\nC. 楕円曲線問題 → ❌ ECDHやECDSAの基盤\n   楕円曲線上の離散対数問題。\n   より短い鍵で同等のセキュリティ。\n\nD. ナップサック問題 → ❌ 初期の公開鍵暗号で使用\n   Merkle-Hellmanナップサック暗号（破られた）。\n   現代の暗号では使用されない。\n\n【定義】\n安全でないチャネル上で共通の秘密鍵を確立する最初の公開鍵プロトコル。1976年に発明。離散対数問題の計算困難性に基づく。\n\n【覚え方のコツ】\n「DH = Discrete（離散）から始まる」\nDiffie-Hellman → D = Discrete Logarithm（離散対数）。",
+    "answer": "B",
+    "explanation_jp": "【用語】Diffie-Hellman鍵交換\n\n【各選択肢の解説】\nB. 離散対数問題 → ✅ 正解：DH鍵交換の数学的基盤\n   g^x mod p = y のとき、yからxを求めることが困難。\n   公開値から秘密鍵を逆算できない。\n\nA. 素因数分解問題 → ❌ RSAの基盤\n   大きな数を素因数に分解することが困難。\n   RSAの公開鍵から秘密鍵を計算不能。\n\nC. 楕円曲線問題 → ❌ ECDHやECDSAの基盤\n   楕円曲線上の離散対数問題。\n   より短い鍵で同等のセキュリティ。\n\nD. ナップサック問題 → ❌ 初期の公開鍵暗号で使用\n   Merkle-Hellmanナップサック暗号（破られた）。\n   現代の暗号では使用されない。\n\n【定義】\n安全でないチャネル上で共通の秘密鍵を確立する最初の公開鍵プロトコル。1976年に発明。離散対数問題の計算困難性に基づく。\n\n【覚え方のコツ】\n「DH = Discrete（離散）から始まる」\nDiffie-Hellman → D = Discrete Logarithm（離散対数）。",
     "explanation_en": "Diffie-Hellman uses discrete logarithm problem. RSA uses integer factorization. Elliptic curve is for ECDH/ECDSA. Knapsack problem was used in early (broken) cryptosystems.",
     "tags_jp": [
       "暗号化",
@@ -1939,13 +1939,13 @@
     "options": [
       {
         "label": "A",
-        "text_jp": "SaaS",
-        "text_en": "SaaS"
+        "text_jp": "PaaS",
+        "text_en": "PaaS"
       },
       {
         "label": "B",
-        "text_jp": "PaaS",
-        "text_en": "PaaS"
+        "text_jp": "SaaS",
+        "text_en": "SaaS"
       },
       {
         "label": "C",
@@ -1958,8 +1958,8 @@
         "text_en": "FaaS"
       }
     ],
-    "answer": "A",
-    "explanation_jp": "【用語】SaaS/PaaS/IaaS\n\n【各選択肢の解説】\nA. SaaS → ✅ 正解：アプリケーションのみ使用\n   ユーザーはアプリを使うだけ。インフラ〜アプリまで全てプロバイダ管理。\n   例：Microsoft 365、Salesforce、Gmail。\n\nB. PaaS → ❌ 開発プラットフォームを提供\n   ユーザーはアプリケーション開発に専念。\n   OS・ミドルウェアはプロバイダ管理。\n   例：Heroku、Google App Engine。\n\nC. IaaS → ❌ 仮想インフラを提供\n   ユーザーがOS以上を全て管理。\n   プロバイダはハードウェア・ネットワークのみ。\n   例：AWS EC2、Azure VM。\n\nD. FaaS → ❌ 関数単位の実行環境\n   サーバーレスコンピューティング。\n   関数コードのみ管理。\n   例：AWS Lambda。\n\n【定義】\nクラウドの3層モデル：IaaS（インフラ）→ PaaS（プラットフォーム）→ SaaS（ソフトウェア）。上位ほどユーザーの管理責任が軽減。\n\n【覚え方のコツ】\n「Pizza as a Service」で覚える：\nIaaS = 材料だけ買う、PaaS = 宅配ピザ生地、SaaS = レストランで食べるだけ。",
+    "answer": "B",
+    "explanation_jp": "【用語】SaaS/PaaS/IaaS\n\n【各選択肢の解説】\nB. SaaS → ✅ 正解：アプリケーションのみ使用\n   ユーザーはアプリを使うだけ。インフラ〜アプリまで全てプロバイダ管理。\n   例：Microsoft 365、Salesforce、Gmail。\n\nA. PaaS → ❌ 開発プラットフォームを提供\n   ユーザーはアプリケーション開発に専念。\n   OS・ミドルウェアはプロバイダ管理。\n   例：Heroku、Google App Engine。\n\nC. IaaS → ❌ 仮想インフラを提供\n   ユーザーがOS以上を全て管理。\n   プロバイダはハードウェア・ネットワークのみ。\n   例：AWS EC2、Azure VM。\n\nD. FaaS → ❌ 関数単位の実行環境\n   サーバーレスコンピューティング。\n   関数コードのみ管理。\n   例：AWS Lambda。\n\n【定義】\nクラウドの3層モデル：IaaS（インフラ）→ PaaS（プラットフォーム）→ SaaS（ソフトウェア）。上位ほどユーザーの管理責任が軽減。\n\n【覚え方のコツ】\n「Pizza as a Service」で覚える：\nIaaS = 材料だけ買う、PaaS = 宅配ピザ生地、SaaS = レストランで食べるだけ。",
     "explanation_en": "SaaS: Use applications only. PaaS: Develop applications. IaaS: Manage everything from OS up. FaaS: Run individual functions (serverless).",
     "tags_jp": [
       "クラウド",
@@ -1982,8 +1982,8 @@
     "options": [
       {
         "label": "A",
-        "text_jp": "参照モニター（Reference Monitor）",
-        "text_en": "Reference Monitor"
+        "text_jp": "ハイパーバイザー",
+        "text_en": "Hypervisor"
       },
       {
         "label": "B",
@@ -1997,12 +1997,12 @@
       },
       {
         "label": "D",
-        "text_jp": "ハイパーバイザー",
-        "text_en": "Hypervisor"
+        "text_jp": "参照モニター（Reference Monitor）",
+        "text_en": "Reference Monitor"
       }
     ],
-    "answer": "A",
-    "explanation_jp": "【用語】参照モニター（Reference Monitor）\n\n【各選択肢の解説】\nA. 参照モニター → ✅ 正解：アクセス制御の抽象概念\n   サブジェクトからオブジェクトへの全アクセスを仲介・検証。\n   改ざん不可、バイパス不可、検証可能の3要件を満たす。\n\nB. セキュリティカーネル → ❌ 参照モニターの実装\n   参照モニター概念をハードウェア/ソフトウェアで実現したもの。\n   概念(参照モニター)と実装(セキュリティカーネル)の違い。\n\nC. TCB → ❌ セキュリティ機能全体の集合\n   セキュリティカーネル＋保護機構の総称。\n   参照モニターより広い概念。\n\nD. ハイパーバイザー → ❌ 仮想化を管理するソフトウェア\n   VM間の分離を提供するが、参照モニターとは別概念。\n   物理リソースの抽象化が主目的。\n\n【定義】\nアクセス制御を実施する抽象的なセキュリティコンポーネント。全てのサブジェクト-オブジェクト間アクセスを仲介し、ポリシーに基づいて許可/拒否を決定。\n\n【覚え方のコツ】\n「参照（Reference）= 参照して確認する門番」\n全ての通行人（アクセス要求）をチェックする監視員。",
+    "answer": "D",
+    "explanation_jp": "【用語】参照モニター（Reference Monitor）\n\n【各選択肢の解説】\nD. 参照モニター → ✅ 正解：アクセス制御の抽象概念\n   サブジェクトからオブジェクトへの全アクセスを仲介・検証。\n   改ざん不可、バイパス不可、検証可能の3要件を満たす。\n\nB. セキュリティカーネル → ❌ 参照モニターの実装\n   参照モニター概念をハードウェア/ソフトウェアで実現したもの。\n   概念(参照モニター)と実装(セキュリティカーネル)の違い。\n\nC. TCB → ❌ セキュリティ機能全体の集合\n   セキュリティカーネル＋保護機構の総称。\n   参照モニターより広い概念。\n\nA. ハイパーバイザー → ❌ 仮想化を管理するソフトウェア\n   VM間の分離を提供するが、参照モニターとは別概念。\n   物理リソースの抽象化が主目的。\n\n【定義】\nアクセス制御を実施する抽象的なセキュリティコンポーネント。全てのサブジェクト-オブジェクト間アクセスを仲介し、ポリシーに基づいて許可/拒否を決定。\n\n【覚え方のコツ】\n「参照（Reference）= 参照して確認する門番」\n全ての通行人（アクセス要求）をチェックする監視員。",
     "explanation_en": "Reference Monitor is the abstract concept. Security Kernel is its implementation. TCB is the total security mechanism. Hypervisor manages virtualization.",
     "tags_jp": [
       "セキュリティアーキテクチャ",
@@ -2068,13 +2068,13 @@
     "options": [
       {
         "label": "A",
-        "text_jp": "Class C",
-        "text_en": "Class C"
+        "text_jp": "Class A",
+        "text_en": "Class A"
       },
       {
         "label": "B",
-        "text_jp": "Class A",
-        "text_en": "Class A"
+        "text_jp": "Class C",
+        "text_en": "Class C"
       },
       {
         "label": "C",
@@ -2087,8 +2087,8 @@
         "text_en": "Class D"
       }
     ],
-    "answer": "A",
-    "explanation_jp": "【用語】消火器クラス（A/B/C/D）\n\n【各選択肢の解説】\nA. Class C → ✅ 正解：電気火災用\n   通電中の機器の火災に使用。\n   CO2消火器やドライケミカルが代表的。\n   データセンターで重要。\n\nB. Class A → ❌ 一般可燃物（紙、木、布）\n   水や泡消火器が使用可能。\n   電気火災には感電リスクあり。\n\nC. Class B → ❌ 可燃性液体（ガソリン、油）\n   泡、CO2、ドライケミカルを使用。\n   液体火災専用。\n\nD. Class D → ❌ 可燃性金属（マグネシウム等）\n   特殊な乾燥粉末消火剤が必要。\n   水は厳禁（爆発の危険）。\n\n【定義】\n消火器は燃焼物により4クラスに分類：A=一般可燃物、B=可燃性液体、C=電気機器、D=可燃性金属。適切なクラスを使用しないと被害拡大。\n\n【覚え方のコツ】\n「A=Ash（灰になるもの）、B=Boil（沸く液体）、C=Current（電流）、D=Duralumin（金属）」",
+    "answer": "B",
+    "explanation_jp": "【用語】消火器クラス（A/B/C/D）\n\n【各選択肢の解説】\nB. Class C → ✅ 正解：電気火災用\n   通電中の機器の火災に使用。\n   CO2消火器やドライケミカルが代表的。\n   データセンターで重要。\n\nA. Class B → ❌ 一般可燃物（紙、木、布）\n   水や泡消火器が使用可能。\n   電気火災には感電リスクあり。\n\nC. Class A → ❌ 可燃性液体（ガソリン、油）\n   泡、CO2、ドライケミカルを使用。\n   液体火災専用。\n\nD. Class D → ❌ 可燃性金属（マグネシウム等）\n   特殊な乾燥粉末消火剤が必要。\n   水は厳禁（爆発の危険）。\n\n【定義】\n消火器は燃焼物により4クラスに分類：A=一般可燃物、B=可燃性液体、C=電気機器、D=可燃性金属。適切なクラスを使用しないと被害拡大。\n\n【覚え方のコツ】\n「A=Ash（灰になるもの）、B=Boil（沸く液体）、C=Current（電流）、D=Duralumin（金属）」",
     "explanation_en": "Class A: ordinary combustibles. Class B: flammable liquids. Class C: electrical equipment. Class D: combustible metals. Use CO2 for data center electrical fires.",
     "tags_jp": [
       "物理セキュリティ",
@@ -2111,8 +2111,8 @@
     "options": [
       {
         "label": "A",
-        "text_jp": "レイヤー3（ネットワーク層）",
-        "text_en": "Layer 3 (Network Layer)"
+        "text_jp": "レイヤー7（アプリケーション層）",
+        "text_en": "Layer 7 (Application Layer)"
       },
       {
         "label": "B",
@@ -2126,12 +2126,12 @@
       },
       {
         "label": "D",
-        "text_jp": "レイヤー7（アプリケーション層）",
-        "text_en": "Layer 7 (Application Layer)"
+        "text_jp": "レイヤー3（ネットワーク層）",
+        "text_en": "Layer 3 (Network Layer)"
       }
     ],
-    "answer": "A",
-    "explanation_jp": "【用語】OSI参照モデル（7層）\n\n【各選択肢の解説】\nA. レイヤー3（ネットワーク層）→ ✅ 正解：ルーターの動作層\n   IPアドレスに基づいてパケットをルーティング。\n   論理アドレス（IP）を使用し、最適経路を決定。\n\nB. レイヤー2（データリンク層）→ ❌ スイッチの動作層\n   MACアドレスに基づいてフレームを転送。\n   ブリッジやスイッチがこの層で動作。\n\nC. レイヤー4（トランスポート層）→ ❌ エンドツーエンド通信を管理\n   TCP/UDPによるポート番号の管理。\n   ファイアウォールがこの層を検査することも。\n\nD. レイヤー7（アプリケーション層）→ ❌ アプリケーションプロトコル\n   HTTP、FTP、SMTP等のプロトコル。\n   WAFやプロキシがこの層で動作。\n\n【定義】\nOSI 7層：L1物理→L2データリンク→L3ネットワーク→L4トランスポート→L5セッション→L6プレゼンテーション→L7アプリケーション。\n\n【覚え方のコツ】\n「All People Seem To Need Data Processing」\n（Application, Presentation, Session, Transport, Network, Data Link, Physical）\n上から下へ。",
+    "answer": "D",
+    "explanation_jp": "【用語】OSI参照モデル（7層）\n\n【各選択肢の解説】\nD. レイヤー3（ネットワーク層）→ ✅ 正解：ルーターの動作層\n   IPアドレスに基づいてパケットをルーティング。\n   論理アドレス（IP）を使用し、最適経路を決定。\n\nB. レイヤー2（データリンク層）→ ❌ スイッチの動作層\n   MACアドレスに基づいてフレームを転送。\n   ブリッジやスイッチがこの層で動作。\n\nC. レイヤー4（トランスポート層）→ ❌ エンドツーエンド通信を管理\n   TCP/UDPによるポート番号の管理。\n   ファイアウォールがこの層を検査することも。\n\nA. レイヤー7（アプリケーション層）→ ❌ アプリケーションプロトコル\n   HTTP、FTP、SMTP等のプロトコル。\n   WAFやプロキシがこの層で動作。\n\n【定義】\nOSI 7層：L1物理→L2データリンク→L3ネットワーク→L4トランスポート→L5セッション→L6プレゼンテーション→L7アプリケーション。\n\n【覚え方のコツ】\n「All People Seem To Need Data Processing」\n（Application, Presentation, Session, Transport, Network, Data Link, Physical）\n上から下へ。",
     "explanation_en": "Routers operate at Layer 3 (Network) using IP addresses. Switches operate at Layer 2 (Data Link) using MAC addresses. Layer 4 handles TCP/UDP ports.",
     "tags_jp": [
       "OSIモデル",
@@ -2197,13 +2197,13 @@
     "options": [
       {
         "label": "A",
-        "text_jp": "45",
-        "text_en": "45"
+        "text_jp": "90",
+        "text_en": "90"
       },
       {
         "label": "B",
-        "text_jp": "90",
-        "text_en": "90"
+        "text_jp": "45",
+        "text_en": "45"
       },
       {
         "label": "C",
@@ -2216,8 +2216,8 @@
         "text_en": "10"
       }
     ],
-    "answer": "A",
-    "explanation_jp": "【用語】フルメッシュ接続数\n\n【各選択肢の解説】\nA. 45 → ✅ 正解：n(n-1)/2 = 10×9/2 = 45\n   フルメッシュの接続数は「n(n-1)/2」で計算。\n   各ノードは他の全ノード（n-1個）と接続、÷2は重複排除。\n\nB. 90 → ❌ n(n-1) = 10×9 = 90（重複計算）\n   A-BとB-Aを別カウントした場合。\n   片方向通信なら90、双方向なら45。\n\nC. 100 → ❌ n² = 10×10 = 100（自己接続含む）\n   自分自身への接続を含めた誤計算。\n   ノードは自分とは接続しない。\n\nD. 10 → ❌ ノード数のみ（接続数ではない）\n   スター型なら中央ノードへの10接続。\n   フルメッシュはすべてのペアを接続。\n\n【定義】\nフルメッシュ：全ノードが相互に直接接続。冗長性最高だがコスト高。接続数 = n(n-1)/2。各ノードの接続数 = n-1。\n\n【覚え方のコツ】\n「握手問題」と同じ計算。\n10人全員が握手 = 10×9÷2 = 45回。",
+    "answer": "B",
+    "explanation_jp": "【用語】フルメッシュ接続数\n\n【各選択肢の解説】\nB. 45 → ✅ 正解：n(n-1)/2 = 10×9/2 = 45\n   フルメッシュの接続数は「n(n-1)/2」で計算。\n   各ノードは他の全ノード（n-1個）と接続、÷2は重複排除。\n\nA. 90 → ❌ n(n-1) = 10×9 = 90（重複計算）\n   A-BとB-Aを別カウントした場合。\n   片方向通信なら90、双方向なら45。\n\nC. 100 → ❌ n² = 10×10 = 100（自己接続含む）\n   自分自身への接続を含めた誤計算。\n   ノードは自分とは接続しない。\n\nD. 10 → ❌ ノード数のみ（接続数ではない）\n   スター型なら中央ノードへの10接続。\n   フルメッシュはすべてのペアを接続。\n\n【定義】\nフルメッシュ：全ノードが相互に直接接続。冗長性最高だがコスト高。接続数 = n(n-1)/2。各ノードの接続数 = n-1。\n\n【覚え方のコツ】\n「握手問題」と同じ計算。\n10人全員が握手 = 10×9÷2 = 45回。",
     "explanation_en": "Full mesh formula: n(n-1)/2. For 10 nodes: 10×9/2 = 45. Each node connects to n-1 other nodes, divided by 2 to eliminate duplicates.",
     "tags_jp": [
       "トポロジー",
@@ -2240,8 +2240,8 @@
     "options": [
       {
         "label": "A",
-        "text_jp": "中間者攻撃（MITM）の準備",
-        "text_en": "Preparation for Man-in-the-Middle attack"
+        "text_jp": "パスワードのクラック",
+        "text_en": "Crack passwords"
       },
       {
         "label": "B",
@@ -2250,8 +2250,8 @@
       },
       {
         "label": "C",
-        "text_jp": "パスワードのクラック",
-        "text_en": "Crack passwords"
+        "text_jp": "中間者攻撃（MITM）の準備",
+        "text_en": "Preparation for Man-in-the-Middle attack"
       },
       {
         "label": "D",
@@ -2259,8 +2259,8 @@
         "text_en": "Bypass firewall"
       }
     ],
-    "answer": "A",
-    "explanation_jp": "【用語】ARPキャッシュポイズニング\n\n【各選択肢の解説】\nA. 中間者攻撃（MITM）の準備 → ✅ 正解：通信傍受の前段階\n   偽のARP応答を送信し、ターゲットのARPキャッシュを汚染。\n   攻撃者のMACアドレスをゲートウェイに偽装。\n   以降の通信が攻撃者を経由 → 傍受・改ざん可能。\n\nB. DoS攻撃の実行 → ❌ 副次的な効果\n   存在しないMACアドレスを設定すれば通信断絶も可能だが主目的ではない。\n   MITMの方が一般的な目的。\n\nC. パスワードのクラック → ❌ MITM後の行為\n   ARPポイズニング自体はパスワードを解読しない。\n   傍受後に平文パスワードを取得する可能性はある。\n\nD. ファイアウォールのバイパス → ❌ 別の攻撃手法\n   ARPはローカルネットワーク（L2）で動作。\n   ファイアウォールはL3/L4で動作し、直接関係ない。\n\n【定義】\nARP（Address Resolution Protocol）キャッシュに偽のIP-MAC対応を注入する攻撃。ローカルネットワーク上の通信を傍受するMITM攻撃の準備として使用。\n\n【覚え方のコツ】\n「ARP Poison → MITM → 傍受」の3ステップ。\n毒（Poison）を盛って、真ん中に入り込む（MITM）。",
+    "answer": "C",
+    "explanation_jp": "【用語】ARPキャッシュポイズニング\n\n【各選択肢の解説】\nC. 中間者攻撃（MITM）の準備 → ✅ 正解：通信傍受の前段階\n   偽のARP応答を送信し、ターゲットのARPキャッシュを汚染。\n   攻撃者のMACアドレスをゲートウェイに偽装。\n   以降の通信が攻撃者を経由 → 傍受・改ざん可能。\n\nB. DoS攻撃の実行 → ❌ 副次的な効果\n   存在しないMACアドレスを設定すれば通信断絶も可能だが主目的ではない。\n   MITMの方が一般的な目的。\n\nA. パスワードのクラック → ❌ MITM後の行為\n   ARPポイズニング自体はパスワードを解読しない。\n   傍受後に平文パスワードを取得する可能性はある。\n\nD. ファイアウォールのバイパス → ❌ 別の攻撃手法\n   ARPはローカルネットワーク（L2）で動作。\n   ファイアウォールはL3/L4で動作し、直接関係ない。\n\n【定義】\nARP（Address Resolution Protocol）キャッシュに偽のIP-MAC対応を注入する攻撃。ローカルネットワーク上の通信を傍受するMITM攻撃の準備として使用。\n\n【覚え方のコツ】\n「ARP Poison → MITM → 傍受」の3ステップ。\n毒（Poison）を盛って、真ん中に入り込む（MITM）。",
     "explanation_en": "ARP poisoning is typically used to prepare for MITM attacks by redirecting traffic through the attacker. The attacker sends fake ARP replies to associate their MAC with the gateway's IP.",
     "tags_jp": [
       "攻撃手法",
@@ -2284,8 +2284,8 @@
     "options": [
       {
         "label": "A",
-        "text_jp": "明示的に許可されていないトラフィックはすべてブロック",
-        "text_en": "Block all traffic not explicitly permitted"
+        "text_jp": "ログに記録せずにブロック",
+        "text_en": "Block without logging"
       },
       {
         "label": "B",
@@ -2299,12 +2299,12 @@
       },
       {
         "label": "D",
-        "text_jp": "ログに記録せずにブロック",
-        "text_en": "Block without logging"
+        "text_jp": "明示的に許可されていないトラフィックはすべてブロック",
+        "text_en": "Block all traffic not explicitly permitted"
       }
     ],
-    "answer": "A",
-    "explanation_jp": "【用語】暗黙的拒否（Implicit Deny）\n\n【各選択肢の解説】\nA. 明示的に許可されていないトラフィックはすべてブロック → ✅ 正解\n   ルールリストの最後に暗黙の「deny all」が存在。\n   ホワイトリスト方式のセキュリティ原則。\n   最小権限の原則に基づく。\n\nB. すべてのトラフィックをデフォルトで許可 → ❌ 暗黙的許可（危険）\n   ブラックリスト方式。許可がデフォルト。\n   セキュリティ的に非推奨。\n\nC. 特定のポートのみブロック → ❌ 明示的拒否ルール\n   特定のトラフィックを明示的にブロック。\n   暗黙的拒否とは異なる概念。\n\nD. ログに記録せずにブロック → ❌ ステルスブロック\n   ログの有無は暗黙的拒否とは無関係。\n   監査のためにはログ記録を推奨。\n\n【定義】\nファイアウォールルールの基本原則。明示的に許可されたトラフィック以外は自動的に拒否される。「許可されていないものは禁止」という最小権限の考え方。\n\n【覚え方のコツ】\n「暗黙（言わなくても）拒否」= 許可リストになければ自動ブロック。\n「明示的に招待されたゲストのみ入場可」のパーティーと同じ。",
+    "answer": "D",
+    "explanation_jp": "【用語】暗黙的拒否（Implicit Deny）\n\n【各選択肢の解説】\nD. 明示的に許可されていないトラフィックはすべてブロック → ✅ 正解\n   ルールリストの最後に暗黙の「deny all」が存在。\n   ホワイトリスト方式のセキュリティ原則。\n   最小権限の原則に基づく。\n\nB. すべてのトラフィックをデフォルトで許可 → ❌ 暗黙的許可（危険）\n   ブラックリスト方式。許可がデフォルト。\n   セキュリティ的に非推奨。\n\nC. 特定のポートのみブロック → ❌ 明示的拒否ルール\n   特定のトラフィックを明示的にブロック。\n   暗黙的拒否とは異なる概念。\n\nA. ログに記録せずにブロック → ❌ ステルスブロック\n   ログの有無は暗黙的拒否とは無関係。\n   監査のためにはログ記録を推奨。\n\n【定義】\nファイアウォールルールの基本原則。明示的に許可されたトラフィック以外は自動的に拒否される。「許可されていないものは禁止」という最小権限の考え方。\n\n【覚え方のコツ】\n「暗黙（言わなくても）拒否」= 許可リストになければ自動ブロック。\n「明示的に招待されたゲストのみ入場可」のパーティーと同じ。",
     "explanation_en": "Implicit deny blocks all traffic not explicitly permitted. This is a whitelist approach following the principle of least privilege. It's the default rule at the end of firewall rule lists.",
     "tags_jp": [
       "ファイアウォール",
@@ -2327,8 +2327,8 @@
     "options": [
       {
         "label": "A",
-        "text_jp": "ポートベースのネットワークアクセス制御",
-        "text_en": "Port-based network access control"
+        "text_jp": "VLANの作成",
+        "text_en": "VLAN creation"
       },
       {
         "label": "B",
@@ -2337,8 +2337,8 @@
       },
       {
         "label": "C",
-        "text_jp": "VLANの作成",
-        "text_en": "VLAN creation"
+        "text_jp": "ポートベースのネットワークアクセス制御",
+        "text_en": "Port-based network access control"
       },
       {
         "label": "D",
@@ -2346,8 +2346,8 @@
         "text_en": "Loop prevention"
       }
     ],
-    "answer": "A",
-    "explanation_jp": "【用語】802.1x\n\n【各選択肢の解説】\nA. ポートベースのネットワークアクセス制御 → ✅ 正解：NAC標準\n   認証されるまでネットワークポートを閉鎖。\n   Supplicant（クライアント）→ Authenticator（スイッチ）→ Authentication Server（RADIUS）。\n   EAPプロトコルで認証情報を交換。\n\nB. 無線LANの暗号化 → ❌ WPA/WPA2が担当\n   802.1xは認証を提供、暗号化は別プロトコル。\n   WPA2-Enterpriseは802.1x + AESの組み合わせ。\n\nC. VLANの作成 → ❌ 802.1Qが担当\n   VLANタギングは802.1Q規格。\n   802.1xは認証後にVLAN割り当ては可能。\n\nD. ループ防止 → ❌ スパニングツリープロトコル（STP）が担当\n   802.1Dがループ防止の規格。\n   802.1xはアクセス制御専門。\n\n【定義】\nIEEE 802.1xは、ネットワークへの接続時にユーザー/デバイスを認証するポートベースアクセス制御の標準。有線・無線ネットワークの両方で使用。\n\n【覚え方のコツ】\n「802.1x = 認証の門番（eXamine = 検査）」\nポートに「x」マークがついていて、認証されるまで通れない。",
+    "answer": "C",
+    "explanation_jp": "【用語】802.1x\n\n【各選択肢の解説】\nC. ポートベースのネットワークアクセス制御 → ✅ 正解：NAC標準\n   認証されるまでネットワークポートを閉鎖。\n   Supplicant（クライアント）→ Authenticator（スイッチ）→ Authentication Server（RADIUS）。\n   EAPプロトコルで認証情報を交換。\n\nB. 無線LANの暗号化 → ❌ WPA/WPA2が担当\n   802.1xは認証を提供、暗号化は別プロトコル。\n   WPA2-Enterpriseは802.1x + AESの組み合わせ。\n\nA. VLANの作成 → ❌ 802.1Qが担当\n   VLANタギングは802.1Q規格。\n   802.1xは認証後にVLAN割り当ては可能。\n\nD. ループ防止 → ❌ スパニングツリープロトコル（STP）が担当\n   802.1Dがループ防止の規格。\n   802.1xはアクセス制御専門。\n\n【定義】\nIEEE 802.1xは、ネットワークへの接続時にユーザー/デバイスを認証するポートベースアクセス制御の標準。有線・無線ネットワークの両方で使用。\n\n【覚え方のコツ】\n「802.1x = 認証の門番（eXamine = 検査）」\nポートに「x」マークがついていて、認証されるまで通れない。",
     "explanation_en": "802.1x provides port-based Network Access Control (NAC). It authenticates users before granting network access. Uses EAP and typically works with RADIUS servers.",
     "tags_jp": [
       "認証",
@@ -2413,13 +2413,13 @@
     "options": [
       {
         "label": "A",
-        "text_jp": "暗号化機能がない",
-        "text_en": "No encryption capability"
+        "text_jp": "認証機能がない",
+        "text_en": "No authentication capability"
       },
       {
         "label": "B",
-        "text_jp": "認証機能がない",
-        "text_en": "No authentication capability"
+        "text_jp": "暗号化機能がない",
+        "text_en": "No encryption capability"
       },
       {
         "label": "C",
@@ -2432,8 +2432,8 @@
         "text_en": "Does not support IPv6"
       }
     ],
-    "answer": "A",
-    "explanation_jp": "【用語】L2TP/IPSec\n\n【各選択肢の解説】\nA. 暗号化機能がない → ✅ 正解：L2TPの弱点\n   L2TP（Layer 2 Tunneling Protocol）はトンネリングのみ。\n   機密性のためにIPSecと組み合わせて使用。\n   L2TP/IPSecで完全なVPNソリューション。\n\nB. 認証機能がない → ❌ 誤り\n   L2TPはPPPの認証（PAP/CHAP）をサポート。\n   ユーザー認証は可能。\n\nC. トンネリングができない → ❌ 誤り\n   L2TPの主機能がトンネリング。\n   L2F + PPTPの後継プロトコル。\n\nD. IPv6に対応していない → ❌ 誤り\n   L2TPv3はIPv6をサポート。\n   現代の実装では問題なし。\n\n【定義】\nL2TP（Layer 2 Tunneling Protocol）はCiscoのL2FとMicrosoftのPPTPを統合。トンネリングのみ提供し、暗号化にはIPSecを使用。\n\n【覚え方のコツ】\n「L2TP = Layer 2 = データリンク層 = 暗号化なし」\nレイヤー2はパケットの中身（暗号化）には関与しない。",
+    "answer": "B",
+    "explanation_jp": "【用語】L2TP/IPSec\n\n【各選択肢の解説】\nB. 暗号化機能がない → ✅ 正解：L2TPの弱点\n   L2TP（Layer 2 Tunneling Protocol）はトンネリングのみ。\n   機密性のためにIPSecと組み合わせて使用。\n   L2TP/IPSecで完全なVPNソリューション。\n\nA. 認証機能がない → ❌ 誤り\n   L2TPはPPPの認証（PAP/CHAP）をサポート。\n   ユーザー認証は可能。\n\nC. トンネリングができない → ❌ 誤り\n   L2TPの主機能がトンネリング。\n   L2F + PPTPの後継プロトコル。\n\nD. IPv6に対応していない → ❌ 誤り\n   L2TPv3はIPv6をサポート。\n   現代の実装では問題なし。\n\n【定義】\nL2TP（Layer 2 Tunneling Protocol）はCiscoのL2FとMicrosoftのPPTPを統合。トンネリングのみ提供し、暗号化にはIPSecを使用。\n\n【覚え方のコツ】\n「L2TP = Layer 2 = データリンク層 = 暗号化なし」\nレイヤー2はパケットの中身（暗号化）には関与しない。",
     "explanation_en": "L2TP provides tunneling only, no encryption. It must be combined with IPSec for confidentiality. L2TP/IPSec is the complete solution used in enterprise VPNs.",
     "tags_jp": [
       "VPN",
@@ -2456,8 +2456,8 @@
     "options": [
       {
         "label": "A",
-        "text_jp": "パスワードが平文で送信される",
-        "text_en": "Password is sent in plaintext"
+        "text_jp": "暗号化が弱い",
+        "text_en": "Weak encryption"
       },
       {
         "label": "B",
@@ -2471,12 +2471,12 @@
       },
       {
         "label": "D",
-        "text_jp": "暗号化が弱い",
-        "text_en": "Weak encryption"
+        "text_jp": "パスワードが平文で送信される",
+        "text_en": "Password is sent in plaintext"
       }
     ],
-    "answer": "A",
-    "explanation_jp": "【用語】PAP/CHAP\n\n【各選択肢の解説】\nA. パスワードが平文で送信される → ✅ 正解：PAPの致命的脆弱性\n   Password Authentication Protocol。\n   認証情報が暗号化されずにネットワークを流れる。\n   傍受されるとパスワードが漏洩。\n\nB. 一度しか使用できない → ❌ OTP（ワンタイムパスワード）の特徴\n   PAPは何度でも同じパスワードを使用。\n   むしろこれが脆弱性の原因。\n\nC. サーバー認証ができない → ❌ PAPの主要な問題ではない\n   相互認証の欠如は別の問題。\n   平文パスワードがより深刻。\n\nD. 暗号化が弱い → ❌ そもそも暗号化しない\n   弱い暗号ではなく、暗号化自体がない。\n   CHAPはチャレンジ/レスポンスで対策。\n\n【定義】\nPAP（Password Authentication Protocol）は最もシンプルな認証。ユーザー名とパスワードを平文で送信。CHAPはチャレンジ/レスポンス方式で安全。\n\n【覚え方のコツ】\n「PAP = Plain（平文）Authentication」\nPの頭文字が同じ → 平文で危険。",
+    "answer": "D",
+    "explanation_jp": "【用語】PAP/CHAP\n\n【各選択肢の解説】\nD. パスワードが平文で送信される → ✅ 正解：PAPの致命的脆弱性\n   Password Authentication Protocol。\n   認証情報が暗号化されずにネットワークを流れる。\n   傍受されるとパスワードが漏洩。\n\nB. 一度しか使用できない → ❌ OTP（ワンタイムパスワード）の特徴\n   PAPは何度でも同じパスワードを使用。\n   むしろこれが脆弱性の原因。\n\nC. サーバー認証ができない → ❌ PAPの主要な問題ではない\n   相互認証の欠如は別の問題。\n   平文パスワードがより深刻。\n\nA. 暗号化が弱い → ❌ そもそも暗号化しない\n   弱い暗号ではなく、暗号化自体がない。\n   CHAPはチャレンジ/レスポンスで対策。\n\n【定義】\nPAP（Password Authentication Protocol）は最もシンプルな認証。ユーザー名とパスワードを平文で送信。CHAPはチャレンジ/レスポンス方式で安全。\n\n【覚え方のコツ】\n「PAP = Plain（平文）Authentication」\nPの頭文字が同じ → 平文で危険。",
     "explanation_en": "PAP sends passwords in plaintext, making it vulnerable to sniffing. CHAP uses challenge-response to avoid sending passwords. Always prefer CHAP or EAP over PAP.",
     "tags_jp": [
       "認証プロトコル",
@@ -2498,8 +2498,8 @@
     "options": [
       {
         "label": "A",
-        "text_jp": "ユーザーを偽サイトに誘導",
-        "text_en": "Redirect users to fake websites"
+        "text_jp": "パスワードの解読",
+        "text_en": "Password decryption"
       },
       {
         "label": "B",
@@ -2508,8 +2508,8 @@
       },
       {
         "label": "C",
-        "text_jp": "パスワードの解読",
-        "text_en": "Password decryption"
+        "text_jp": "ユーザーを偽サイトに誘導",
+        "text_en": "Redirect users to fake websites"
       },
       {
         "label": "D",
@@ -2517,8 +2517,8 @@
         "text_en": "File encryption"
       }
     ],
-    "answer": "A",
-    "explanation_jp": "【用語】DNSポイズニング/スプーフィング\n\n【各選択肢の解説】\nA. ユーザーを偽サイトに誘導 → ✅ 正解：主な攻撃目的\n   DNSキャッシュに偽のIPアドレスを注入。\n   正規ドメイン名 → 攻撃者のサーバーIP。\n   フィッシング、マルウェア配布に悪用。\n\nB. サーバーのクラッシュ → ❌ DoS攻撃の結果\n   DNSポイズニングは可用性攻撃ではない。\n   リダイレクトが主目的。\n\nC. パスワードの解読 → ❌ 直接の影響ではない\n   偽サイトでパスワードを「入力させる」ことは可能。\n   解読（クラック）とは異なる。\n\nD. ファイルの暗号化 → ❌ ランサムウェアの動作\n   DNSポイズニングとは無関係。\n   ランサムウェア配布の踏み台にはなりうる。\n\n【定義】\nDNSリゾルバのキャッシュに偽のDNSレコードを挿入する攻撃。ユーザーが正規ドメインにアクセスしても攻撃者のサーバーに誘導される。\n\n【覚え方のコツ】\n「DNS = Domain Name → IP」\n「ポイズン（毒）= 嘘のIPを教える」\n道案内（DNS）に嘘を混ぜて違う場所に誘導。",
+    "answer": "C",
+    "explanation_jp": "【用語】DNSポイズニング/スプーフィング\n\n【各選択肢の解説】\nC. ユーザーを偽サイトに誘導 → ✅ 正解：主な攻撃目的\n   DNSキャッシュに偽のIPアドレスを注入。\n   正規ドメイン名 → 攻撃者のサーバーIP。\n   フィッシング、マルウェア配布に悪用。\n\nB. サーバーのクラッシュ → ❌ DoS攻撃の結果\n   DNSポイズニングは可用性攻撃ではない。\n   リダイレクトが主目的。\n\nA. パスワードの解読 → ❌ 直接の影響ではない\n   偽サイトでパスワードを「入力させる」ことは可能。\n   解読（クラック）とは異なる。\n\nD. ファイルの暗号化 → ❌ ランサムウェアの動作\n   DNSポイズニングとは無関係。\n   ランサムウェア配布の踏み台にはなりうる。\n\n【定義】\nDNSリゾルバのキャッシュに偽のDNSレコードを挿入する攻撃。ユーザーが正規ドメインにアクセスしても攻撃者のサーバーに誘導される。\n\n【覚え方のコツ】\n「DNS = Domain Name → IP」\n「ポイズン（毒）= 嘘のIPを教える」\n道案内（DNS）に嘘を混ぜて違う場所に誘導。",
     "explanation_en": "DNS cache poisoning inserts fake records to redirect users to malicious websites. Used for phishing and malware distribution. DNSSEC helps prevent this attack.",
     "tags_jp": [
       "DNS",
@@ -2541,8 +2541,8 @@
     "options": [
       {
         "label": "A",
-        "text_jp": "制御プレーンとデータプレーンの分離",
-        "text_en": "Separation of control and data planes"
+        "text_jp": "帯域幅の増加",
+        "text_en": "Increased bandwidth"
       },
       {
         "label": "B",
@@ -2556,12 +2556,12 @@
       },
       {
         "label": "D",
-        "text_jp": "帯域幅の増加",
-        "text_en": "Increased bandwidth"
+        "text_jp": "制御プレーンとデータプレーンの分離",
+        "text_en": "Separation of control and data planes"
       }
     ],
-    "answer": "A",
-    "explanation_jp": "【用語】SDN（Software-Defined Networking）\n\n【各選択肢の解説】\nA. 制御プレーンとデータプレーンの分離 → ✅ 正解：SDNの核心\n   制御プレーン（どこに送るか決定）を集中管理。\n   データプレーン（実際のパケット転送）は各スイッチ。\n   プログラマブルなネットワーク管理が可能。\n\nB. 物理ケーブルの不要化 → ❌ 誤り\n   SDNでも物理インフラは必要。\n   論理的な制御を分離するだけ。\n\nC. 暗号化の自動化 → ❌ SDNの主目的ではない\n   セキュリティ機能の追加は可能だが本質ではない。\n   ネットワーク管理の柔軟性が主目的。\n\nD. 帯域幅の増加 → ❌ 直接の効果ではない\n   効率的なルーティングで改善可能だが、帯域自体は増えない。\n   帯域増加は物理インフラに依存。\n\n【定義】\nネットワークの制御機能をハードウェアから分離し、ソフトウェアで集中管理するアーキテクチャ。柔軟で迅速なネットワーク構成変更が可能。\n\n【覚え方のコツ】\n「SDN = Software（ソフトウェア）でネットワークを定義」\n頭脳（制御）と体（転送）を分けて、頭脳を集中管理。",
+    "answer": "D",
+    "explanation_jp": "【用語】SDN（Software-Defined Networking）\n\n【各選択肢の解説】\nD. 制御プレーンとデータプレーンの分離 → ✅ 正解：SDNの核心\n   制御プレーン（どこに送るか決定）を集中管理。\n   データプレーン（実際のパケット転送）は各スイッチ。\n   プログラマブルなネットワーク管理が可能。\n\nB. 物理ケーブルの不要化 → ❌ 誤り\n   SDNでも物理インフラは必要。\n   論理的な制御を分離するだけ。\n\nC. 暗号化の自動化 → ❌ SDNの主目的ではない\n   セキュリティ機能の追加は可能だが本質ではない。\n   ネットワーク管理の柔軟性が主目的。\n\nA. 帯域幅の増加 → ❌ 直接の効果ではない\n   効率的なルーティングで改善可能だが、帯域自体は増えない。\n   帯域増加は物理インフラに依存。\n\n【定義】\nネットワークの制御機能をハードウェアから分離し、ソフトウェアで集中管理するアーキテクチャ。柔軟で迅速なネットワーク構成変更が可能。\n\n【覚え方のコツ】\n「SDN = Software（ソフトウェア）でネットワークを定義」\n頭脳（制御）と体（転送）を分けて、頭脳を集中管理。",
     "explanation_en": "SDN separates the control plane (routing decisions) from the data plane (packet forwarding). This enables centralized, programmable network management. OpenFlow is a common SDN protocol.",
     "tags_jp": [
       "SDN",
@@ -2627,13 +2627,13 @@
     "options": [
       {
         "label": "A",
-        "text_jp": "SPIT（Spam over Internet Telephony）",
-        "text_en": "SPIT (Spam over Internet Telephony)"
+        "text_jp": "フィッシング",
+        "text_en": "Phishing"
       },
       {
         "label": "B",
-        "text_jp": "フィッシング",
-        "text_en": "Phishing"
+        "text_jp": "SPIT（Spam over Internet Telephony）",
+        "text_en": "SPIT (Spam over Internet Telephony)"
       },
       {
         "label": "C",
@@ -2646,8 +2646,8 @@
         "text_en": "Ransomware"
       }
     ],
-    "answer": "A",
-    "explanation_jp": "【用語】SPIT\n\n【各選択肢の解説】\nA. SPIT → ✅ 正解：VoIPスパム\n   Spam over Internet Telephony。\n   大量の自動音声メッセージをVoIP電話に送信。\n   従来のテレマーケティングのVoIP版。\n\nB. フィッシング → ❌ メールやWebでの詐欺\n   偽サイトに誘導して情報を盗む。\n   VoIP特有ではない（Vishingは電話詐欺）。\n\nC. スパイウェア → ❌ マルウェアの一種\n   ユーザーの行動を監視・収集。\n   VoIPとは直接関係ない。\n\nD. ランサムウェア → ❌ 身代金要求型マルウェア\n   ファイルを暗号化して金銭を要求。\n   VoIP特有ではない。\n\n【定義】\nVoIP（Voice over IP）システムに対する大量の迷惑通話。従来のスパムメールと同様に、自動化されたツールで大量発信される。\n\n【覚え方のコツ】\n「SPIT = SPam over Internet Telephony」\nSpamの頭文字S + ITelephonyの頭2文字 = SPIT（唾）。\n唾を吐くような迷惑行為。",
+    "answer": "B",
+    "explanation_jp": "【用語】SPIT\n\n【各選択肢の解説】\nB. SPIT → ✅ 正解：VoIPスパム\n   Spam over Internet Telephony。\n   大量の自動音声メッセージをVoIP電話に送信。\n   従来のテレマーケティングのVoIP版。\n\nA. フィッシング → ❌ メールやWebでの詐欺\n   偽サイトに誘導して情報を盗む。\n   VoIP特有ではない（Vishingは電話詐欺）。\n\nC. スパイウェア → ❌ マルウェアの一種\n   ユーザーの行動を監視・収集。\n   VoIPとは直接関係ない。\n\nD. ランサムウェア → ❌ 身代金要求型マルウェア\n   ファイルを暗号化して金銭を要求。\n   VoIP特有ではない。\n\n【定義】\nVoIP（Voice over IP）システムに対する大量の迷惑通話。従来のスパムメールと同様に、自動化されたツールで大量発信される。\n\n【覚え方のコツ】\n「SPIT = SPam over Internet Telephony」\nSpamの頭文字S + ITelephonyの頭2文字 = SPIT（唾）。\n唾を吐くような迷惑行為。",
     "explanation_en": "SPIT is Spam over Internet Telephony - mass unsolicited voice calls via VoIP. Similar to email spam but for voice systems. Vishing (voice phishing) is a related but different attack.",
     "tags_jp": [
       "VoIP",
@@ -2670,8 +2670,8 @@
     "options": [
       {
         "label": "A",
-        "text_jp": "スニッフィングで容易に特定可能",
-        "text_en": "Easily identified through sniffing"
+        "text_jp": "認証が無効になる",
+        "text_en": "Authentication is disabled"
       },
       {
         "label": "B",
@@ -2685,12 +2685,12 @@
       },
       {
         "label": "D",
-        "text_jp": "認証が無効になる",
-        "text_en": "Authentication is disabled"
+        "text_jp": "スニッフィングで容易に特定可能",
+        "text_en": "Easily identified through sniffing"
       }
     ],
-    "answer": "A",
-    "explanation_jp": "【用語】SSIDブロードキャスト無効化\n\n【各選択肢の解説】\nA. スニッフィングで容易に特定可能 → ✅ 正解：隠蔽の限界\n   SSIDはプローブ要求/応答、アソシエーションフレームに含まれる。\n   無線スニッファーで簡単に発見。\n   「隠蔽によるセキュリティ」は効果的でない。\n\nB. 暗号化が解除される → ❌ 誤り\n   SSID非表示と暗号化は独立した設定。\n   WPA2等の暗号化には影響しない。\n\nC. 接続速度が低下する → ❌ 誤り\n   SSIDの表示/非表示は速度に影響しない。\n   ただし、クライアントの検索が増える可能性はある。\n\nD. 認証が無効になる → ❌ 誤り\n   認証設定とは別の機能。\n   SSID非表示でも認証は有効。\n\n【定義】\nSSID（Service Set Identifier）の非表示は、ネットワーク名をビーコンフレームから除外するが、他のフレームには含まれるため、専用ツールで発見可能。\n\n【覚え方のコツ】\n「SSIDを隠す = 看板を外しただけ」\n店の看板（SSID）を外しても、客（パケット）が出入りすれば場所はバレる。",
+    "answer": "D",
+    "explanation_jp": "【用語】SSIDブロードキャスト無効化\n\n【各選択肢の解説】\nD. スニッフィングで容易に特定可能 → ✅ 正解：隠蔽の限界\n   SSIDはプローブ要求/応答、アソシエーションフレームに含まれる。\n   無線スニッファーで簡単に発見。\n   「隠蔽によるセキュリティ」は効果的でない。\n\nB. 暗号化が解除される → ❌ 誤り\n   SSID非表示と暗号化は独立した設定。\n   WPA2等の暗号化には影響しない。\n\nC. 接続速度が低下する → ❌ 誤り\n   SSIDの表示/非表示は速度に影響しない。\n   ただし、クライアントの検索が増える可能性はある。\n\nA. 認証が無効になる → ❌ 誤り\n   認証設定とは別の機能。\n   SSID非表示でも認証は有効。\n\n【定義】\nSSID（Service Set Identifier）の非表示は、ネットワーク名をビーコンフレームから除外するが、他のフレームには含まれるため、専用ツールで発見可能。\n\n【覚え方のコツ】\n「SSIDを隠す = 看板を外しただけ」\n店の看板（SSID）を外しても、客（パケット）が出入りすれば場所はバレる。",
     "explanation_en": "Hidden SSIDs can still be found through wireless sniffing as they appear in probe requests/responses and association frames. It's 'security through obscurity' - not a real security control.",
     "tags_jp": [
       "無線セキュリティ",
@@ -2713,8 +2713,8 @@
     "options": [
       {
         "label": "A",
-        "text_jp": "ランダムな時間待機後に再送信",
-        "text_en": "Wait random time then retransmit"
+        "text_jp": "パケットを破棄",
+        "text_en": "Discard the packet"
       },
       {
         "label": "B",
@@ -2723,8 +2723,8 @@
       },
       {
         "label": "C",
-        "text_jp": "パケットを破棄",
-        "text_en": "Discard the packet"
+        "text_jp": "ランダムな時間待機後に再送信",
+        "text_en": "Wait random time then retransmit"
       },
       {
         "label": "D",
@@ -2732,8 +2732,8 @@
         "text_en": "Notify administrator"
       }
     ],
-    "answer": "A",
-    "explanation_jp": "【用語】CSMA/CD\n\n【各選択肢の解説】\nA. ランダムな時間待機後に再送信 → ✅ 正解：バックオフアルゴリズム\n   衝突検出 → JAM信号送信 → ランダムバックオフ → 再送信。\n   各ホストが異なる待機時間を設定し、再衝突を回避。\n   指数バックオフ：衝突ごとに待機時間範囲が倍増。\n\nB. 即座に再送信 → ❌ 再び衝突する\n   同時に再送信すれば再衝突は必至。\n   ランダム化が重要。\n\nC. パケットを破棄 → ❌ 再送信する\n   衝突したパケットは破棄だが、上位層が再送信を要求。\n   CSMA/CD自体も再試行する。\n\nD. 管理者に通知 → ❌ 自動処理\n   衝突は通常の動作の一部。\n   人間の介入なしに処理される。\n\n【定義】\nCSMA/CD（Carrier Sense Multiple Access with Collision Detection）：送信前に回線を確認し、衝突時はランダム待機後に再送信するイーサネットのアクセス方式。\n\n【覚え方のコツ】\n「CSMA/CD = 衝突したら（Collision Detection）ランダムに待つ」\n交差点で衝突したら、それぞれランダムに待ってから再出発。",
+    "answer": "C",
+    "explanation_jp": "【用語】CSMA/CD\n\n【各選択肢の解説】\nC. ランダムな時間待機後に再送信 → ✅ 正解：バックオフアルゴリズム\n   衝突検出 → JAM信号送信 → ランダムバックオフ → 再送信。\n   各ホストが異なる待機時間を設定し、再衝突を回避。\n   指数バックオフ：衝突ごとに待機時間範囲が倍増。\n\nB. 即座に再送信 → ❌ 再び衝突する\n   同時に再送信すれば再衝突は必至。\n   ランダム化が重要。\n\nA. パケットを破棄 → ❌ 再送信する\n   衝突したパケットは破棄だが、上位層が再送信を要求。\n   CSMA/CD自体も再試行する。\n\nD. 管理者に通知 → ❌ 自動処理\n   衝突は通常の動作の一部。\n   人間の介入なしに処理される。\n\n【定義】\nCSMA/CD（Carrier Sense Multiple Access with Collision Detection）：送信前に回線を確認し、衝突時はランダム待機後に再送信するイーサネットのアクセス方式。\n\n【覚え方のコツ】\n「CSMA/CD = 衝突したら（Collision Detection）ランダムに待つ」\n交差点で衝突したら、それぞれランダムに待ってから再出発。",
     "explanation_en": "CSMA/CD uses random backoff after collision: detect collision → send JAM signal → wait random time → retransmit. Exponential backoff doubles the wait range after each collision.",
     "tags_jp": [
       "ネットワーク基礎",
@@ -2843,13 +2843,13 @@
     "options": [
       {
         "label": "A",
-        "text_jp": "任意アクセス制御（DAC）",
-        "text_en": "Discretionary Access Control (DAC)"
+        "text_jp": "強制アクセス制御（MAC）",
+        "text_en": "Mandatory Access Control (MAC)"
       },
       {
         "label": "B",
-        "text_jp": "強制アクセス制御（MAC）",
-        "text_en": "Mandatory Access Control (MAC)"
+        "text_jp": "任意アクセス制御（DAC）",
+        "text_en": "Discretionary Access Control (DAC)"
       },
       {
         "label": "C",
@@ -2862,8 +2862,8 @@
         "text_en": "Attribute-Based Access Control (ABAC)"
       }
     ],
-    "answer": "A",
-    "explanation_jp": "【用語】DAC/MAC/RBAC/ABAC\n\n【各選択肢の解説】\nA. 任意アクセス制御（DAC）→ ✅ 正解：オーナー裁量型\n   データオーナーが自由にアクセス権を設定。\n   Windows/LinuxのファイルパーミッションはDAC。\n   柔軟だがトロイの木馬に脆弱。\n\nB. 強制アクセス制御（MAC）→ ❌ システム強制型\n   セキュリティラベルに基づき、システムがアクセスを制御。\n   ユーザーは権限を変更できない。軍事/政府向け。\n\nC. ロールベースアクセス制御（RBAC）→ ❌ 役割ベース\n   職務（ロール）に権限を付与、ユーザーはロールに割り当て。\n   管理が容易だがオーナー裁量ではない。\n\nD. 属性ベースアクセス制御（ABAC）→ ❌ 属性ベース\n   ユーザー・リソース・環境の属性で動的に判断。\n   最も柔軟だが複雑。\n\n【定義】\nDAC（Discretionary Access Control）：リソースのオーナーがアクセス権を決定。ACL（アクセス制御リスト）で実装。最も一般的だが機密性保証は限定的。\n\n【覚え方のコツ】\n「DAC = Discretionary（任意）= オーナーの裁量」\n「MAC = Mandatory（強制）= システムが強制」",
+    "answer": "B",
+    "explanation_jp": "【用語】DAC/MAC/RBAC/ABAC\n\n【各選択肢の解説】\nB. 任意アクセス制御（DAC）→ ✅ 正解：オーナー裁量型\n   データオーナーが自由にアクセス権を設定。\n   Windows/LinuxのファイルパーミッションはDAC。\n   柔軟だがトロイの木馬に脆弱。\n\nA. 強制アクセス制御（MAC）→ ❌ システム強制型\n   セキュリティラベルに基づき、システムがアクセスを制御。\n   ユーザーは権限を変更できない。軍事/政府向け。\n\nC. ロールベースアクセス制御（RBAC）→ ❌ 役割ベース\n   職務（ロール）に権限を付与、ユーザーはロールに割り当て。\n   管理が容易だがオーナー裁量ではない。\n\nD. 属性ベースアクセス制御（ABAC）→ ❌ 属性ベース\n   ユーザー・リソース・環境の属性で動的に判断。\n   最も柔軟だが複雑。\n\n【定義】\nDAC（Discretionary Access Control）：リソースのオーナーがアクセス権を決定。ACL（アクセス制御リスト）で実装。最も一般的だが機密性保証は限定的。\n\n【覚え方のコツ】\n「DAC = Discretionary（任意）= オーナーの裁量」\n「MAC = Mandatory（強制）= システムが強制」",
     "explanation_en": "DAC: Owner decides. MAC: System enforces based on labels. RBAC: Permissions assigned to roles. ABAC: Dynamic decisions based on attributes.",
     "tags_jp": [
       "アクセス制御",
@@ -2885,13 +2885,13 @@
     "options": [
       {
         "label": "A",
-        "text_jp": "CER（クロスオーバーエラー率）",
-        "text_en": "CER (Crossover Error Rate)"
+        "text_jp": "FRR（本人拒否率）",
+        "text_en": "FRR (False Rejection Rate)"
       },
       {
         "label": "B",
-        "text_jp": "FRR（本人拒否率）",
-        "text_en": "FRR (False Rejection Rate)"
+        "text_jp": "CER（クロスオーバーエラー率）",
+        "text_en": "CER (Crossover Error Rate)"
       },
       {
         "label": "C",
@@ -2904,8 +2904,8 @@
         "text_en": "ROC Curve"
       }
     ],
-    "answer": "A",
-    "explanation_jp": "【用語】CER/FRR/FAR\n\n【各選択肢の解説】\nA. CER → ✅ 正解：システム精度の比較指標\n   FAR = FRRとなるポイント。\n   CERが低いほど精度が高い。\n   異なるシステムを客観的に比較可能。\n\nB. FRR（Type 1エラー）→ ❌ 利便性の指標\n   正当ユーザーを拒否する率。\n   高いと利便性が低下。\n\nC. FAR（Type 2エラー）→ ❌ セキュリティの指標\n   不正ユーザーを受け入れる率。\n   高いとセキュリティが低下。\n\nD. ROC曲線 → ❌ グラフ表現\n   FRRとFARの関係を可視化した曲線。\n   単一数値ではないため比較が難しい。\n\n【定義】\nCER（Crossover Error Rate）：FRR（本人拒否率）とFAR（他人受入率）が等しくなる点。EER（Equal Error Rate）とも呼ばれる。低いほど高精度。\n\n【覚え方のコツ】\n「CER = Crossover = 交差点 = FARとFRRが交わるところ」\n低いところで交わる（CERが低い）ほど優秀なシステム。",
+    "answer": "B",
+    "explanation_jp": "【用語】CER/FRR/FAR\n\n【各選択肢の解説】\nB. CER → ✅ 正解：システム精度の比較指標\n   FAR = FRRとなるポイント。\n   CERが低いほど精度が高い。\n   異なるシステムを客観的に比較可能。\n\nA. FRR（Type 1エラー）→ ❌ 利便性の指標\n   正当ユーザーを拒否する率。\n   高いと利便性が低下。\n\nC. FAR（Type 2エラー）→ ❌ セキュリティの指標\n   不正ユーザーを受け入れる率。\n   高いとセキュリティが低下。\n\nD. ROC曲線 → ❌ グラフ表現\n   FRRとFARの関係を可視化した曲線。\n   単一数値ではないため比較が難しい。\n\n【定義】\nCER（Crossover Error Rate）：FRR（本人拒否率）とFAR（他人受入率）が等しくなる点。EER（Equal Error Rate）とも呼ばれる。低いほど高精度。\n\n【覚え方のコツ】\n「CER = Crossover = 交差点 = FARとFRRが交わるところ」\n低いところで交わる（CERが低い）ほど優秀なシステム。",
     "explanation_en": "CER (or EER) is where FAR equals FRR - the standard comparison metric. Lower CER means more accurate system. FRR affects usability, FAR affects security.",
     "tags_jp": [
       "バイオメトリクス",
@@ -2971,8 +2971,8 @@
     "options": [
       {
         "label": "A",
-        "text_jp": "特権クリープ（Privilege Creep）",
-        "text_en": "Privilege Creep"
+        "text_jp": "ロール爆発",
+        "text_en": "Role Explosion"
       },
       {
         "label": "B",
@@ -2981,8 +2981,8 @@
       },
       {
         "label": "C",
-        "text_jp": "ロール爆発",
-        "text_en": "Role Explosion"
+        "text_jp": "特権クリープ（Privilege Creep）",
+        "text_en": "Privilege Creep"
       },
       {
         "label": "D",
@@ -2990,8 +2990,8 @@
         "text_en": "Access Inflation"
       }
     ],
-    "answer": "A",
-    "explanation_jp": "【用語】特権クリープ（Privilege Creep）\n\n【各選択肢の解説】\nA. 特権クリープ → ✅ 正解：権限の蓄積問題\n   異動時に古い権限が削除されず蓄積。\n   時間とともに過剰な権限を持つ。\n   対策：定期的なアカウントレビュー、再認定。\n\nB. 権限エスカレーション → ❌ 攻撃手法\n   脆弱性を悪用して権限を昇格させる攻撃。\n   管理上の問題ではなく、攻撃。\n\nC. ロール爆発 → ❌ RBACの設計問題\n   ロールが細分化しすぎて管理困難になる。\n   ロール数の増加問題。\n\nD. アクセス膨張 → ❌ 一般用語\n   CISSPで定義された用語ではない。\n   特権クリープが正式名称。\n\n【定義】\n従業員が部署異動や昇進を繰り返すうちに、古い権限が削除されずに蓄積し、必要以上の権限を持つ状態。最小権限の原則に違反。\n\n【覚え方のコツ】\n「Creep（忍び寄る）= 権限がじわじわ増える」\n異動のたびに権限が忍び寄るように増加。",
+    "answer": "C",
+    "explanation_jp": "【用語】特権クリープ（Privilege Creep）\n\n【各選択肢の解説】\nC. 特権クリープ → ✅ 正解：権限の蓄積問題\n   異動時に古い権限が削除されず蓄積。\n   時間とともに過剰な権限を持つ。\n   対策：定期的なアカウントレビュー、再認定。\n\nB. 権限エスカレーション → ❌ 攻撃手法\n   脆弱性を悪用して権限を昇格させる攻撃。\n   管理上の問題ではなく、攻撃。\n\nA. ロール爆発 → ❌ RBACの設計問題\n   ロールが細分化しすぎて管理困難になる。\n   ロール数の増加問題。\n\nD. アクセス膨張 → ❌ 一般用語\n   CISSPで定義された用語ではない。\n   特権クリープが正式名称。\n\n【定義】\n従業員が部署異動や昇進を繰り返すうちに、古い権限が削除されずに蓄積し、必要以上の権限を持つ状態。最小権限の原則に違反。\n\n【覚え方のコツ】\n「Creep（忍び寄る）= 権限がじわじわ増える」\n異動のたびに権限が忍び寄るように増加。",
     "explanation_en": "Privilege creep: Permissions accumulate as employees change roles without old permissions being revoked. Prevented by regular access reviews and re-certification.",
     "tags_jp": [
       "アイデンティティ管理",
@@ -3056,8 +3056,8 @@
     "options": [
       {
         "label": "A",
-        "text_jp": "レインボーテーブル攻撃",
-        "text_en": "Rainbow Table Attack"
+        "text_jp": "総当たり攻撃",
+        "text_en": "Brute Force Attack"
       },
       {
         "label": "B",
@@ -3066,8 +3066,8 @@
       },
       {
         "label": "C",
-        "text_jp": "総当たり攻撃",
-        "text_en": "Brute Force Attack"
+        "text_jp": "レインボーテーブル攻撃",
+        "text_en": "Rainbow Table Attack"
       },
       {
         "label": "D",
@@ -3075,8 +3075,8 @@
         "text_en": "Pass the Hash Attack"
       }
     ],
-    "answer": "A",
-    "explanation_jp": "【用語】パスワード攻撃手法\n\n【各選択肢の解説】\nA. レインボーテーブル攻撃 → ✅ 正解：事前計算型攻撃\n   一般的なパスワードのハッシュを事前に計算・保存。\n   盗んだハッシュと照合して元のパスワードを特定。\n   対策：ソルト（ランダム値をハッシュ前に追加）。\n\nB. 辞書攻撃 → ❌ 単語リストを使用\n   辞書の単語やその変形を試行。\n   事前計算テーブルは使用しない。\n\nC. 総当たり攻撃 → ❌ 全組み合わせを試行\n   すべての文字の組み合わせを順番に試す。\n   最も時間がかかるが確実。\n\nD. Pass the Hash攻撃 → ❌ ハッシュを直接使用\n   ハッシュを解読せずに、そのまま認証に使用。\n   NTLMの脆弱性を悪用。\n\n【定義】\nレインボーテーブル：よく使われるパスワードとそのハッシュの対応表。メモリと引き換えに計算時間を短縮する時空間トレードオフ技術。\n\n【覚え方のコツ】\n「虹（Rainbow）のように色々なハッシュを一覧にする」\n事前に全部計算して表にまとめておく。",
+    "answer": "C",
+    "explanation_jp": "【用語】パスワード攻撃手法\n\n【各選択肢の解説】\nC. レインボーテーブル攻撃 → ✅ 正解：事前計算型攻撃\n   一般的なパスワードのハッシュを事前に計算・保存。\n   盗んだハッシュと照合して元のパスワードを特定。\n   対策：ソルト（ランダム値をハッシュ前に追加）。\n\nB. 辞書攻撃 → ❌ 単語リストを使用\n   辞書の単語やその変形を試行。\n   事前計算テーブルは使用しない。\n\nA. 総当たり攻撃 → ❌ 全組み合わせを試行\n   すべての文字の組み合わせを順番に試す。\n   最も時間がかかるが確実。\n\nD. Pass the Hash攻撃 → ❌ ハッシュを直接使用\n   ハッシュを解読せずに、そのまま認証に使用。\n   NTLMの脆弱性を悪用。\n\n【定義】\nレインボーテーブル：よく使われるパスワードとそのハッシュの対応表。メモリと引き換えに計算時間を短縮する時空間トレードオフ技術。\n\n【覚え方のコツ】\n「虹（Rainbow）のように色々なハッシュを一覧にする」\n事前に全部計算して表にまとめておく。",
     "explanation_en": "Rainbow table uses precomputed hashes. Dictionary attack uses word lists. Brute force tries all combinations. Pass the Hash reuses the hash directly without cracking.",
     "tags_jp": [
       "攻撃手法",
@@ -3099,13 +3099,13 @@
     "options": [
       {
         "label": "A",
-        "text_jp": "IdP（Identity Provider）",
-        "text_en": "IdP (Identity Provider)"
+        "text_jp": "SP（Service Provider）",
+        "text_en": "SP (Service Provider)"
       },
       {
         "label": "B",
-        "text_jp": "SP（Service Provider）",
-        "text_en": "SP (Service Provider)"
+        "text_jp": "IdP（Identity Provider）",
+        "text_en": "IdP (Identity Provider)"
       },
       {
         "label": "C",
@@ -3118,8 +3118,8 @@
         "text_en": "CA (Certificate Authority)"
       }
     ],
-    "answer": "A",
-    "explanation_jp": "【用語】SAML / IdP / SP\n\n【各選択肢の解説】\nA. IdP（Identity Provider）→ ✅ 正解：認証を担当\n   ユーザーの身元を確認し、認証アサーションを発行。\n   例：Okta、Azure AD、Google Identity。\n\nB. SP（Service Provider）→ ❌ サービス提供側\n   IdPを信頼し、認証アサーションを受け入れる。\n   実際のアプリケーション/サービスを提供。\n\nC. RP（Relying Party）→ ❌ OIDCでの用語\n   SPと同様の役割だが、OIDCで使用される用語。\n   SAMLではSPと呼ぶ。\n\nD. CA（Certificate Authority）→ ❌ 証明書発行機関\n   PKIで証明書を発行。\n   SAMLのフェデレーションとは別概念。\n\n【定義】\nSAML（Security Assertion Markup Language）：XMLベースのフェデレーション標準。IdPが認証を行い、SPがサービスを提供。アサーションで認証・認可・属性情報を交換。\n\n【覚え方のコツ】\n「IdP = Identity（身元）Provider（提供者）= 身元を証明する人」\n「SP = Service Provider = サービスを提供する人」",
+    "answer": "B",
+    "explanation_jp": "【用語】SAML / IdP / SP\n\n【各選択肢の解説】\nB. IdP（Identity Provider）→ ✅ 正解：認証を担当\n   ユーザーの身元を確認し、認証アサーションを発行。\n   例：Okta、Azure AD、Google Identity。\n\nA. SP（Service Provider）→ ❌ サービス提供側\n   IdPを信頼し、認証アサーションを受け入れる。\n   実際のアプリケーション/サービスを提供。\n\nC. RP（Relying Party）→ ❌ OIDCでの用語\n   SPと同様の役割だが、OIDCで使用される用語。\n   SAMLではSPと呼ぶ。\n\nD. CA（Certificate Authority）→ ❌ 証明書発行機関\n   PKIで証明書を発行。\n   SAMLのフェデレーションとは別概念。\n\n【定義】\nSAML（Security Assertion Markup Language）：XMLベースのフェデレーション標準。IdPが認証を行い、SPがサービスを提供。アサーションで認証・認可・属性情報を交換。\n\n【覚え方のコツ】\n「IdP = Identity（身元）Provider（提供者）= 身元を証明する人」\n「SP = Service Provider = サービスを提供する人」",
     "explanation_en": "IdP (Identity Provider) performs authentication and issues assertions. SP (Service Provider) provides services and trusts the IdP. SAML uses XML for assertions.",
     "tags_jp": [
       "SAML",
@@ -3185,13 +3185,13 @@
     "options": [
       {
         "label": "A",
-        "text_jp": "識別→認証→認可→アカウンタビリティ",
-        "text_en": "Identification→Authentication→Authorization→Accountability"
+        "text_jp": "認証→識別→認可→アカウンタビリティ",
+        "text_en": "Authentication→Identification→Authorization→Accountability"
       },
       {
         "label": "B",
-        "text_jp": "認証→識別→認可→アカウンタビリティ",
-        "text_en": "Authentication→Identification→Authorization→Accountability"
+        "text_jp": "識別→認証→認可→アカウンタビリティ",
+        "text_en": "Identification→Authentication→Authorization→Accountability"
       },
       {
         "label": "C",
@@ -3204,8 +3204,8 @@
         "text_en": "Authorization→Authentication→Identification→Accountability"
       }
     ],
-    "answer": "A",
-    "explanation_jp": "【用語】I-AAA（識別・認証・認可・アカウンタビリティ）\n\n【各選択肢の解説】\nA. 識別→認証→認可→アカウンタビリティ → ✅ 正解：正しい順序\n   1. 識別（Identification）：「私は〇〇です」と主張\n   2. 認証（Authentication）：主張を証明\n   3. 認可（Authorization）：何ができるか決定\n   4. アカウンタビリティ：行動を追跡・記録\n\nB. 認証→識別... → ❌ 順序が逆\n   認証の前に、まず誰であるかを識別する必要がある。\n\nC. 識別→認可→認証... → ❌ 認証が先\n   本人確認（認証）の前に権限（認可）は与えられない。\n\nD. 認可→認証→識別... → ❌ 全く逆\n   論理的に意味をなさない順序。\n\n【定義】\nアクセス制御の4段階：識別（ID主張）→ 認証（証明）→ 認可（権限付与）→ アカウンタビリティ（ログ記録）。この順序で処理される。\n\n【覚え方のコツ】\n「私は田中です（識別）→ パスワードで証明（認証）→ 読み取り権限付与（認可）→ ログ記録（アカウンタビリティ）」",
+    "answer": "B",
+    "explanation_jp": "【用語】I-AAA（識別・認証・認可・アカウンタビリティ）\n\n【各選択肢の解説】\nB. 識別→認証→認可→アカウンタビリティ → ✅ 正解：正しい順序\n   1. 識別（Identification）：「私は〇〇です」と主張\n   2. 認証（Authentication）：主張を証明\n   3. 認可（Authorization）：何ができるか決定\n   4. アカウンタビリティ：行動を追跡・記録\n\nA. 認証→識別... → ❌ 順序が逆\n   認証の前に、まず誰であるかを識別する必要がある。\n\nC. 識別→認可→認証... → ❌ 認証が先\n   本人確認（認証）の前に権限（認可）は与えられない。\n\nD. 認可→認証→識別... → ❌ 全く逆\n   論理的に意味をなさない順序。\n\n【定義】\nアクセス制御の4段階：識別（ID主張）→ 認証（証明）→ 認可（権限付与）→ アカウンタビリティ（ログ記録）。この順序で処理される。\n\n【覚え方のコツ】\n「私は田中です（識別）→ パスワードで証明（認証）→ 読み取り権限付与（認可）→ ログ記録（アカウンタビリティ）」",
     "explanation_en": "I-AAA order: Identification (who are you) → Authentication (prove it) → Authorization (what can you do) → Accountability (track actions).",
     "tags_jp": [
       "IAM基礎",
@@ -3228,13 +3228,13 @@
     "options": [
       {
         "label": "A",
-        "text_jp": "違反報告前の許容エラー閾値",
-        "text_en": "Threshold of errors allowed before violation is reported"
+        "text_jp": "パスワードの最小文字数",
+        "text_en": "Minimum password length"
       },
       {
         "label": "B",
-        "text_jp": "パスワードの最小文字数",
-        "text_en": "Minimum password length"
+        "text_jp": "違反報告前の許容エラー閾値",
+        "text_en": "Threshold of errors allowed before violation is reported"
       },
       {
         "label": "C",
@@ -3247,8 +3247,8 @@
         "text_en": "Session timeout duration"
       }
     ],
-    "answer": "A",
-    "explanation_jp": "【用語】クリッピングレベル\n\n【各選択肢の解説】\nA. 違反報告前の許容エラー閾値 → ✅ 正解\n   例：「3回の失敗まではログのみ、4回目でアラート」\n   一般ユーザーのタイプミスと攻撃を区別。\n   ノイズを減らし、真の脅威に集中。\n\nB. パスワードの最小文字数 → ❌ パスワードポリシー\n   パスワード長の要件。\n   クリッピングレベルとは別概念。\n\nC. ログファイルの最大サイズ → ❌ ログローテーション設定\n   ログ管理の設定値。\n   違反検出とは無関係。\n\nD. セッションのタイムアウト時間 → ❌ セッション管理\n   非アクティブ時のセッション終了時間。\n   監査とは別の概念。\n\n【定義】\nクリッピングレベル：セキュリティ違反として報告する前に許容されるエラー回数の閾値。アラート疲れを防ぎ、真の脅威検出に集中するために設定。\n\n【覚え方のコツ】\n「Clip（切り取る）= 閾値以下は切り捨てる」\n一定回数以下のエラーは「切り捨てて」報告しない。",
+    "answer": "B",
+    "explanation_jp": "【用語】クリッピングレベル\n\n【各選択肢の解説】\nB. 違反報告前の許容エラー閾値 → ✅ 正解\n   例：「3回の失敗まではログのみ、4回目でアラート」\n   一般ユーザーのタイプミスと攻撃を区別。\n   ノイズを減らし、真の脅威に集中。\n\nA. パスワードの最小文字数 → ❌ パスワードポリシー\n   パスワード長の要件。\n   クリッピングレベルとは別概念。\n\nC. ログファイルの最大サイズ → ❌ ログローテーション設定\n   ログ管理の設定値。\n   違反検出とは無関係。\n\nD. セッションのタイムアウト時間 → ❌ セッション管理\n   非アクティブ時のセッション終了時間。\n   監査とは別の概念。\n\n【定義】\nクリッピングレベル：セキュリティ違反として報告する前に許容されるエラー回数の閾値。アラート疲れを防ぎ、真の脅威検出に集中するために設定。\n\n【覚え方のコツ】\n「Clip（切り取る）= 閾値以下は切り捨てる」\n一定回数以下のエラーは「切り捨てて」報告しない。",
     "explanation_en": "Clipping level is the threshold for errors before reporting a violation. Example: 3 failed logins logged only, 4th triggers alert. Reduces noise from normal user errors.",
     "tags_jp": [
       "監査",
@@ -3271,13 +3271,13 @@
     "options": [
       {
         "label": "A",
-        "text_jp": "TGT（Ticket Granting Ticket）",
-        "text_en": "TGT (Ticket Granting Ticket)"
+        "text_jp": "サービスチケット",
+        "text_en": "Service Ticket"
       },
       {
         "label": "B",
-        "text_jp": "サービスチケット",
-        "text_en": "Service Ticket"
+        "text_jp": "TGT（Ticket Granting Ticket）",
+        "text_en": "TGT (Ticket Granting Ticket)"
       },
       {
         "label": "C",
@@ -3290,8 +3290,8 @@
         "text_en": "Session Key"
       }
     ],
-    "answer": "A",
-    "explanation_jp": "【用語】Kerberosチケット\n\n【各選択肢の解説】\nA. TGT（Ticket Granting Ticket）→ ✅ 正解：初期認証後に発行\n   AS（Authentication Server）がユーザー認証後に発行。\n   TGTを使ってサービスチケットを取得。\n   「チケットを取得するためのチケット」。\n\nB. サービスチケット → ❌ TGTの後に取得\n   TGTをTGS（Ticket Granting Server）に提示して取得。\n   特定のサービスへのアクセスに使用。\n\nC. アクセストークン → ❌ OAuth用語\n   Kerberosではなく、OAuthで使用される。\n   APIアクセス権限を表す。\n\nD. セッションキー → ❌ チケットではない\n   チケットに含まれる対称鍵。\n   通信の暗号化に使用。\n\n【定義】\nKerberos認証フロー：1) ユーザー→AS：認証要求、2) AS→ユーザー：TGT発行、3) ユーザー→TGS：TGT提示しサービスチケット要求、4) TGS→ユーザー：サービスチケット発行。\n\n【覚え方のコツ】\n「TGT = Ticket Granting Ticket = チケット発行チケット」\n遊園地の総合パス → 個別のアトラクション券を発行してもらえる。",
+    "answer": "B",
+    "explanation_jp": "【用語】Kerberosチケット\n\n【各選択肢の解説】\nB. TGT（Ticket Granting Ticket）→ ✅ 正解：初期認証後に発行\n   AS（Authentication Server）がユーザー認証後に発行。\n   TGTを使ってサービスチケットを取得。\n   「チケットを取得するためのチケット」。\n\nA. サービスチケット → ❌ TGTの後に取得\n   TGTをTGS（Ticket Granting Server）に提示して取得。\n   特定のサービスへのアクセスに使用。\n\nC. アクセストークン → ❌ OAuth用語\n   Kerberosではなく、OAuthで使用される。\n   APIアクセス権限を表す。\n\nD. セッションキー → ❌ チケットではない\n   チケットに含まれる対称鍵。\n   通信の暗号化に使用。\n\n【定義】\nKerberos認証フロー：1) ユーザー→AS：認証要求、2) AS→ユーザー：TGT発行、3) ユーザー→TGS：TGT提示しサービスチケット要求、4) TGS→ユーザー：サービスチケット発行。\n\n【覚え方のコツ】\n「TGT = Ticket Granting Ticket = チケット発行チケット」\n遊園地の総合パス → 個別のアトラクション券を発行してもらえる。",
     "explanation_en": "TGT is issued after initial authentication by AS. User presents TGT to TGS to get service tickets for specific resources. TGT is like a 'master ticket' for obtaining other tickets.",
     "tags_jp": [
       "Kerberos",
@@ -3357,13 +3357,13 @@
     "options": [
       {
         "label": "A",
-        "text_jp": "アクセス制御ポリシーの記述と交換",
-        "text_en": "Describing and exchanging access control policies"
+        "text_jp": "ユーザー認証の実行",
+        "text_en": "Performing user authentication"
       },
       {
         "label": "B",
-        "text_jp": "ユーザー認証の実行",
-        "text_en": "Performing user authentication"
+        "text_jp": "アクセス制御ポリシーの記述と交換",
+        "text_en": "Describing and exchanging access control policies"
       },
       {
         "label": "C",
@@ -3376,8 +3376,8 @@
         "text_en": "Centralized log management"
       }
     ],
-    "answer": "A",
-    "explanation_jp": "【用語】XACML\n\n【各選択肢の解説】\nA. アクセス制御ポリシーの記述と交換 → ✅ 正解：XACML の主目的\n   eXtensible Access Control Markup Language。\n   XMLベースでアクセス制御ポリシーを記述。\n   ABACの実装に使用。PDP/PEP/PAP/PIPコンポーネント。\n\nB. ユーザー認証の実行 → ❌ 認証は範囲外\n   XACMLは認可（Authorization）を扱う。\n   認証はSAML、OIDC等が担当。\n\nC. 暗号化キーの管理 → ❌ PKI/KMSの役割\n   XACMLは暗号化を扱わない。\n   アクセス可否の決定に特化。\n\nD. ログの集中管理 → ❌ SIEMの役割\n   XACMLはポリシー定義に特化。\n   ログ管理は別システム。\n\n【定義】\nXACML（eXtensible Access Control Markup Language）：OASISが策定したアクセス制御ポリシーの標準。属性ベースアクセス制御（ABAC）の実装に使用。\n\n【覚え方のコツ】\n「XACML = eXtensible Access Control = 拡張可能なアクセス制御」\nXML形式でアクセス制御ルールを「記述」する言語。",
+    "answer": "B",
+    "explanation_jp": "【用語】XACML\n\n【各選択肢の解説】\nB. アクセス制御ポリシーの記述と交換 → ✅ 正解：XACML の主目的\n   eXtensible Access Control Markup Language。\n   XMLベースでアクセス制御ポリシーを記述。\n   ABACの実装に使用。PDP/PEP/PAP/PIPコンポーネント。\n\nA. ユーザー認証の実行 → ❌ 認証は範囲外\n   XACMLは認可（Authorization）を扱う。\n   認証はSAML、OIDC等が担当。\n\nC. 暗号化キーの管理 → ❌ PKI/KMSの役割\n   XACMLは暗号化を扱わない。\n   アクセス可否の決定に特化。\n\nD. ログの集中管理 → ❌ SIEMの役割\n   XACMLはポリシー定義に特化。\n   ログ管理は別システム。\n\n【定義】\nXACML（eXtensible Access Control Markup Language）：OASISが策定したアクセス制御ポリシーの標準。属性ベースアクセス制御（ABAC）の実装に使用。\n\n【覚え方のコツ】\n「XACML = eXtensible Access Control = 拡張可能なアクセス制御」\nXML形式でアクセス制御ルールを「記述」する言語。",
     "explanation_en": "XACML is an XML-based language for describing access control policies. Used to implement ABAC. Components: PDP (decision), PEP (enforcement), PAP (administration), PIP (information).",
     "tags_jp": [
       "XACML",
@@ -3400,8 +3400,8 @@
     "options": [
       {
         "label": "A",
-        "text_jp": "ブラックボックステスト",
-        "text_en": "Black Box Testing"
+        "text_jp": "クリスタルボックステスト",
+        "text_en": "Crystal Box Testing"
       },
       {
         "label": "B",
@@ -3415,12 +3415,12 @@
       },
       {
         "label": "D",
-        "text_jp": "クリスタルボックステスト",
-        "text_en": "Crystal Box Testing"
+        "text_jp": "ブラックボックステスト",
+        "text_en": "Black Box Testing"
       }
     ],
-    "answer": "A",
-    "explanation_jp": "【用語】ペネトレーションテストの種類\n\n【各選択肢の解説】\nA. ブラックボックステスト → ✅ 正解：情報なし\n   テスターは外部攻撃者と同じ立場。\n   IPアドレスや会社名のみ提供。\n   最も現実的だが時間がかかる。\n\nB. ホワイトボックステスト → ❌ 全情報提供\n   ソースコード、ネットワーク図、認証情報等すべて。\n   効率的だが、内部者の視点。\n   クリスタルボックスとも呼ばれる。\n\nC. グレーボックステスト → ❌ 部分的な情報\n   一部のドキュメントやユーザーアカウント等。\n   ブラックとホワイトの中間。\n   内部関係者の攻撃をシミュレート。\n\nD. クリスタルボックステスト → ❌ ホワイトボックスの別名\n   全情報提供のテスト。\n   「透明（クリスタル）」で中身が見える。\n\n【定義】\nブラックボックス（外部視点）、グレーボックス（内部関係者視点）、ホワイトボックス（完全知識）。テスト目的と対象脅威に応じて選択。\n\n【覚え方のコツ】\n「Black（黒）= 何も見えない = 情報なし」\n「White（白）= 全部見える = 全情報」\n「Gray（灰色）= 中間」",
+    "answer": "D",
+    "explanation_jp": "【用語】ペネトレーションテストの種類\n\n【各選択肢の解説】\nD. ブラックボックステスト → ✅ 正解：情報なし\n   テスターは外部攻撃者と同じ立場。\n   IPアドレスや会社名のみ提供。\n   最も現実的だが時間がかかる。\n\nB. ホワイトボックステスト → ❌ 全情報提供\n   ソースコード、ネットワーク図、認証情報等すべて。\n   効率的だが、内部者の視点。\n   クリスタルボックスとも呼ばれる。\n\nC. グレーボックステスト → ❌ 部分的な情報\n   一部のドキュメントやユーザーアカウント等。\n   ブラックとホワイトの中間。\n   内部関係者の攻撃をシミュレート。\n\nA. クリスタルボックステスト → ❌ ホワイトボックスの別名\n   全情報提供のテスト。\n   「透明（クリスタル）」で中身が見える。\n\n【定義】\nブラックボックス（外部視点）、グレーボックス（内部関係者視点）、ホワイトボックス（完全知識）。テスト目的と対象脅威に応じて選択。\n\n【覚え方のコツ】\n「Black（黒）= 何も見えない = 情報なし」\n「White（白）= 全部見える = 全情報」\n「Gray（灰色）= 中間」",
     "explanation_en": "Black box: No information (external attacker). White box: Full information (crystal box). Gray box: Partial information (insider threat). Choose based on threat model.",
     "tags_jp": [
       "ペネトレーションテスト",
@@ -3443,8 +3443,8 @@
     "options": [
       {
         "label": "A",
-        "text_jp": "ファイアウォールがパケットをドロップ",
-        "text_en": "Firewall is dropping packets"
+        "text_jp": "サービスが停止している",
+        "text_en": "Service is stopped"
       },
       {
         "label": "B",
@@ -3458,12 +3458,12 @@
       },
       {
         "label": "D",
-        "text_jp": "サービスが停止している",
-        "text_en": "Service is stopped"
+        "text_jp": "ファイアウォールがパケットをドロップ",
+        "text_en": "Firewall is dropping packets"
       }
     ],
-    "answer": "A",
-    "explanation_jp": "【用語】ポートスキャンの結果\n\n【各選択肢の解説】\nA. ファイアウォールがパケットをドロップ → ✅ 正解：Filtered\n   応答がない = ファイアウォールがパケットを破棄。\n   ポートの状態（開/閉）が確認できない。\n   ステルス状態を維持。\n\nB. サービスが接続を受け入れている → ❌ Open状態\n   SYN/ACKが返ってきた場合。\n   サービスがリッスン中。\n\nC. ポートが閉じている → ❌ Closed状態\n   RST（リセット）パケットが返ってきた場合。\n   サービスは起動していないが、ホストは存在。\n\nD. サービスが停止している → ❌ Closedと同義\n   Closed状態でRSTが返る。\n   Filteredとは異なる。\n\n【定義】\nポートスキャン結果：Open（サービス稼働中）、Closed（サービスなしだがホスト存在）、Filtered（応答なし、FWがドロップ）。\n\n【覚え方のコツ】\n「Filtered（フィルタ）= ファイアウォールがフィルタリング」\n水のフィルターのように、パケットを通さず落とす。",
+    "answer": "D",
+    "explanation_jp": "【用語】ポートスキャンの結果\n\n【各選択肢の解説】\nD. ファイアウォールがパケットをドロップ → ✅ 正解：Filtered\n   応答がない = ファイアウォールがパケットを破棄。\n   ポートの状態（開/閉）が確認できない。\n   ステルス状態を維持。\n\nB. サービスが接続を受け入れている → ❌ Open状態\n   SYN/ACKが返ってきた場合。\n   サービスがリッスン中。\n\nC. ポートが閉じている → ❌ Closed状態\n   RST（リセット）パケットが返ってきた場合。\n   サービスは起動していないが、ホストは存在。\n\nA. サービスが停止している → ❌ Closedと同義\n   Closed状態でRSTが返る。\n   Filteredとは異なる。\n\n【定義】\nポートスキャン結果：Open（サービス稼働中）、Closed（サービスなしだがホスト存在）、Filtered（応答なし、FWがドロップ）。\n\n【覚え方のコツ】\n「Filtered（フィルタ）= ファイアウォールがフィルタリング」\n水のフィルターのように、パケットを通さず落とす。",
     "explanation_en": "Filtered: No response, firewall dropping packets. Open: SYN/ACK received, service listening. Closed: RST received, no service but host exists.",
     "tags_jp": [
       "ポートスキャン",
@@ -3486,8 +3486,8 @@
     "options": [
       {
         "label": "A",
-        "text_jp": "Type 1=時点評価、Type 2=期間評価",
-        "text_en": "Type 1=point-in-time, Type 2=period of time"
+        "text_jp": "Type 1=公開、Type 2=非公開",
+        "text_en": "Type 1=public, Type 2=private"
       },
       {
         "label": "B",
@@ -3501,12 +3501,12 @@
       },
       {
         "label": "D",
-        "text_jp": "Type 1=公開、Type 2=非公開",
-        "text_en": "Type 1=public, Type 2=private"
+        "text_jp": "Type 1=時点評価、Type 2=期間評価",
+        "text_en": "Type 1=point-in-time, Type 2=period of time"
       }
     ],
-    "answer": "A",
-    "explanation_jp": "【用語】SOCレポート（Type 1/Type 2）\n\n【各選択肢の解説】\nA. Type 1=時点評価、Type 2=期間評価 → ✅ 正解\n   Type 1：特定日時点での設計の適切性を評価。\n   Type 2：通常6-12ヶ月間の運用有効性を評価。\n   Type 2の方が信頼性が高い（実際の運用を確認）。\n\nB. Type 1=財務、Type 2=セキュリティ → ❌ 別の分類\n   SOC 1=財務報告関連、SOC 2=Trust Services Criteria。\n   Type 1/2とは別の軸。\n\nC. Type 1=内部、Type 2=外部 → ❌ 誤り\n   両方とも外部監査人が実施。\n   内部/外部の区分ではない。\n\nD. Type 1=公開、Type 2=非公開 → ❌ 誤り\n   公開はSOC 3レポート。\n   SOC 1/2は通常NDA下で提供。\n\n【定義】\nSOC（System and Organization Controls）レポート：サービス組織の内部統制を評価。Type 1は設計の適切性、Type 2は運用の有効性（6-12ヶ月）を評価。\n\n【覚え方のコツ】\n「Type 1 = 1点（時点）の評価」\n「Type 2 = 2ヶ月以上（期間）の評価」",
+    "answer": "D",
+    "explanation_jp": "【用語】SOCレポート（Type 1/Type 2）\n\n【各選択肢の解説】\nD. Type 1=時点評価、Type 2=期間評価 → ✅ 正解\n   Type 1：特定日時点での設計の適切性を評価。\n   Type 2：通常6-12ヶ月間の運用有効性を評価。\n   Type 2の方が信頼性が高い（実際の運用を確認）。\n\nB. Type 1=財務、Type 2=セキュリティ → ❌ 別の分類\n   SOC 1=財務報告関連、SOC 2=Trust Services Criteria。\n   Type 1/2とは別の軸。\n\nC. Type 1=内部、Type 2=外部 → ❌ 誤り\n   両方とも外部監査人が実施。\n   内部/外部の区分ではない。\n\nA. Type 1=公開、Type 2=非公開 → ❌ 誤り\n   公開はSOC 3レポート。\n   SOC 1/2は通常NDA下で提供。\n\n【定義】\nSOC（System and Organization Controls）レポート：サービス組織の内部統制を評価。Type 1は設計の適切性、Type 2は運用の有効性（6-12ヶ月）を評価。\n\n【覚え方のコツ】\n「Type 1 = 1点（時点）の評価」\n「Type 2 = 2ヶ月以上（期間）の評価」",
     "explanation_en": "Type 1: Point-in-time design assessment. Type 2: Operating effectiveness over a period (6-12 months). SOC 1 is for financial reporting, SOC 2 is for Trust Services Criteria.",
     "tags_jp": [
       "SOC",
@@ -3529,8 +3529,8 @@
     "options": [
       {
         "label": "A",
-        "text_jp": "無効な入力でクラッシュや脆弱性を発見",
-        "text_en": "Find crashes and vulnerabilities with invalid input"
+        "text_jp": "ドキュメントを生成",
+        "text_en": "Generate documentation"
       },
       {
         "label": "B",
@@ -3544,12 +3544,12 @@
       },
       {
         "label": "D",
-        "text_jp": "ドキュメントを生成",
-        "text_en": "Generate documentation"
+        "text_jp": "無効な入力でクラッシュや脆弱性を発見",
+        "text_en": "Find crashes and vulnerabilities with invalid input"
       }
     ],
-    "answer": "A",
-    "explanation_jp": "【用語】ファジング（Fuzzing）\n\n【各選択肢の解説】\nA. 無効な入力でクラッシュや脆弱性を発見 → ✅ 正解\n   ランダム、無効、予期しないデータを入力。\n   バッファオーバーフロー、メモリリーク等を検出。\n   自動化された脆弱性発見手法。\n\nB. コードの可読性を向上 → ❌ コードレビューの目的\n   ファジングは脆弱性発見に特化。\n   コード品質改善は副次的効果。\n\nC. パフォーマンスを最適化 → ❌ プロファイリングの目的\n   ファジングは性能ではなくセキュリティ。\n   負荷テストとは異なる。\n\nD. ドキュメントを生成 → ❌ 無関係\n   ファジングはテスト手法。\n   ドキュメント生成機能はない。\n\n【定義】\nファジング：アプリケーションにランダムまたは無効なデータを大量に入力し、クラッシュ、メモリリーク、入力検証の欠陥等を自動的に発見するテスト手法。\n\n【覚え方のコツ】\n「Fuzz（毛羽立ち）= ランダムでぼやけた入力」\nノイズだらけの入力でシステムの弱点を暴く。",
+    "answer": "D",
+    "explanation_jp": "【用語】ファジング（Fuzzing）\n\n【各選択肢の解説】\nD. 無効な入力でクラッシュや脆弱性を発見 → ✅ 正解\n   ランダム、無効、予期しないデータを入力。\n   バッファオーバーフロー、メモリリーク等を検出。\n   自動化された脆弱性発見手法。\n\nB. コードの可読性を向上 → ❌ コードレビューの目的\n   ファジングは脆弱性発見に特化。\n   コード品質改善は副次的効果。\n\nC. パフォーマンスを最適化 → ❌ プロファイリングの目的\n   ファジングは性能ではなくセキュリティ。\n   負荷テストとは異なる。\n\nA. ドキュメントを生成 → ❌ 無関係\n   ファジングはテスト手法。\n   ドキュメント生成機能はない。\n\n【定義】\nファジング：アプリケーションにランダムまたは無効なデータを大量に入力し、クラッシュ、メモリリーク、入力検証の欠陥等を自動的に発見するテスト手法。\n\n【覚え方のコツ】\n「Fuzz（毛羽立ち）= ランダムでぼやけた入力」\nノイズだらけの入力でシステムの弱点を暴く。",
     "explanation_en": "Fuzzing sends random/invalid input to find crashes, buffer overflows, memory leaks. Mutation fuzzing modifies existing data; generational fuzzing creates from models.",
     "tags_jp": [
       "ファジング",
@@ -3615,8 +3615,8 @@
     "options": [
       {
         "label": "A",
-        "text_jp": "問題がないのに問題ありと判定（誤検知）",
-        "text_en": "Reporting a problem when none exists"
+        "text_jp": "正しく問題を検出",
+        "text_en": "Correctly detecting a problem"
       },
       {
         "label": "B",
@@ -3625,8 +3625,8 @@
       },
       {
         "label": "C",
-        "text_jp": "正しく問題を検出",
-        "text_en": "Correctly detecting a problem"
+        "text_jp": "問題がないのに問題ありと判定（誤検知）",
+        "text_en": "Reporting a problem when none exists"
       },
       {
         "label": "D",
@@ -3634,8 +3634,8 @@
         "text_en": "Correctly identifying no problem"
       }
     ],
-    "answer": "A",
-    "explanation_jp": "【用語】フォールスポジティブ/フォールスネガティブ\n\n【各選択肢の解説】\nA. 問題がないのに問題ありと判定 → ✅ 正解：False Positive\n   狼少年のような状態。\n   アラート疲れの原因。\n   チューニングで削減。\n\nB. 問題があるのに見逃し → ❌ False Negative\n   より深刻な問題。\n   実際の脅威を検出できない。\n\nC. 正しく問題を検出 → ❌ True Positive\n   正常な検出。\n   セキュリティツールの目標。\n\nD. 正しく問題なしと判定 → ❌ True Negative\n   正常な状態。\n   問題ないものを問題なしと判定。\n\n【定義】\nFalse Positive：実際には問題ないものを誤って問題ありと検出。False Negative：実際の問題を見逃す。FPはリソース浪費、FNはセキュリティリスク。\n\n【覚え方のコツ】\n「Positive（陽性）= 問題ありと判定」\n「False（偽）+ Positive = 偽の陽性 = 本当は問題ないのに陽性」\n検査で偽の陽性反応が出たようなもの。",
+    "answer": "C",
+    "explanation_jp": "【用語】フォールスポジティブ/フォールスネガティブ\n\n【各選択肢の解説】\nC. 問題がないのに問題ありと判定 → ✅ 正解：False Positive\n   狼少年のような状態。\n   アラート疲れの原因。\n   チューニングで削減。\n\nB. 問題があるのに見逃し → ❌ False Negative\n   より深刻な問題。\n   実際の脅威を検出できない。\n\nA. 正しく問題を検出 → ❌ True Positive\n   正常な検出。\n   セキュリティツールの目標。\n\nD. 正しく問題なしと判定 → ❌ True Negative\n   正常な状態。\n   問題ないものを問題なしと判定。\n\n【定義】\nFalse Positive：実際には問題ないものを誤って問題ありと検出。False Negative：実際の問題を見逃す。FPはリソース浪費、FNはセキュリティリスク。\n\n【覚え方のコツ】\n「Positive（陽性）= 問題ありと判定」\n「False（偽）+ Positive = 偽の陽性 = 本当は問題ないのに陽性」\n検査で偽の陽性反応が出たようなもの。",
     "explanation_en": "False Positive: Alert when no issue exists (crying wolf). False Negative: Missing real issue (dangerous). Goal is high True Positive rate with low False Positive/Negative.",
     "tags_jp": [
       "誤検知",
@@ -3658,13 +3658,13 @@
     "options": [
       {
         "label": "A",
-        "text_jp": "6ステップの最も厳格なコードレビュー",
-        "text_en": "Most rigorous code review with 6 steps"
+        "text_jp": "自動化されたセキュリティスキャン",
+        "text_en": "Automated security scanning"
       },
       {
         "label": "B",
-        "text_jp": "自動化されたセキュリティスキャン",
-        "text_en": "Automated security scanning"
+        "text_jp": "6ステップの最も厳格なコードレビュー",
+        "text_en": "Most rigorous code review with 6 steps"
       },
       {
         "label": "C",
@@ -3677,8 +3677,8 @@
         "text_en": "User acceptance testing"
       }
     ],
-    "answer": "A",
-    "explanation_jp": "【用語】Fagan検査（Fagan Inspection）\n\n【各選択肢の解説】\nA. 6ステップの最も厳格なコードレビュー → ✅ 正解\n   1. 計画（Planning）\n   2. 概要説明（Overview）\n   3. 準備（Preparation）\n   4. 検査会議（Inspection Meeting）\n   5. 修正（Rework）\n   6. フォローアップ（Follow-up）\n\nB. 自動化されたセキュリティスキャン → ❌ SAST等\n   Fagan検査は人間による詳細なレビュー。\n   自動化ではない。\n\nC. ペアプログラミング形式 → ❌ Over-the-shoulder\n   カジュアルなレビュー形式。\n   Fagan検査ほど厳格ではない。\n\nD. ユーザーによる受け入れテスト → ❌ UATは別プロセス\n   ユーザーが要件を満たすか確認。\n   コードレビューではない。\n\n【定義】\nMichael Fagan が開発した最も厳格で形式的なコードレビュー手法。6つのステップで構成され、欠陥を早期に発見してコスト削減を図る。\n\n【覚え方のコツ】\n「Fagan = 6（6ステップ）」\nFの形が6に似ている（こじつけ）。または「Fagan = Formal = 最も形式的」。",
+    "answer": "B",
+    "explanation_jp": "【用語】Fagan検査（Fagan Inspection）\n\n【各選択肢の解説】\nB. 6ステップの最も厳格なコードレビュー → ✅ 正解\n   1. 計画（Planning）\n   2. 概要説明（Overview）\n   3. 準備（Preparation）\n   4. 検査会議（Inspection Meeting）\n   5. 修正（Rework）\n   6. フォローアップ（Follow-up）\n\nA. 自動化されたセキュリティスキャン → ❌ SAST等\n   Fagan検査は人間による詳細なレビュー。\n   自動化ではない。\n\nC. ペアプログラミング形式 → ❌ Over-the-shoulder\n   カジュアルなレビュー形式。\n   Fagan検査ほど厳格ではない。\n\nD. ユーザーによる受け入れテスト → ❌ UATは別プロセス\n   ユーザーが要件を満たすか確認。\n   コードレビューではない。\n\n【定義】\nMichael Fagan が開発した最も厳格で形式的なコードレビュー手法。6つのステップで構成され、欠陥を早期に発見してコスト削減を図る。\n\n【覚え方のコツ】\n「Fagan = 6（6ステップ）」\nFの形が6に似ている（こじつけ）。または「Fagan = Formal = 最も形式的」。",
     "explanation_en": "Fagan Inspection: 6 steps - Planning, Overview, Preparation, Inspection Meeting, Rework, Follow-up. Most formal code review method. Developed by Michael Fagan at IBM.",
     "tags_jp": [
       "コードレビュー",
@@ -3701,8 +3701,8 @@
     "options": [
       {
         "label": "A",
-        "text_jp": "脆弱性に標準化された識別子を付与する辞書",
-        "text_en": "Dictionary assigning standardized identifiers to vulnerabilities"
+        "text_jp": "暗号化アルゴリズムの評価基準",
+        "text_en": "Encryption algorithm evaluation standard"
       },
       {
         "label": "B",
@@ -3716,12 +3716,12 @@
       },
       {
         "label": "D",
-        "text_jp": "暗号化アルゴリズムの評価基準",
-        "text_en": "Encryption algorithm evaluation standard"
+        "text_jp": "脆弱性に標準化された識別子を付与する辞書",
+        "text_en": "Dictionary assigning standardized identifiers to vulnerabilities"
       }
     ],
-    "answer": "A",
-    "explanation_jp": "【用語】CVE（Common Vulnerabilities and Exposures）\n\n【各選択肢の解説】\nA. 脆弱性に標準化された識別子を付与する辞書 → ✅ 正解\n   例：CVE-2021-44228（Log4Shell）\n   MITREが管理する脆弱性の標準命名規則。\n   脆弱性を一意に識別・追跡。\n\nB. 脆弱性の深刻度スコア → ❌ CVSS\n   Common Vulnerability Scoring System。\n   0-10のスコアで深刻度を評価。\n   CVEとは別の指標。\n\nC. ソフトウェアのバージョン管理システム → ❌ CPE\n   Common Platform Enumeration。\n   ソフトウェア/ハードウェアの識別子。\n\nD. 暗号化アルゴリズムの評価基準 → ❌ FIPS等\n   脆弱性とは無関係。\n   暗号規格の評価基準。\n\n【定義】\nCVE（Common Vulnerabilities and Exposures）：公開された脆弱性に標準化された識別子（CVE-YYYY-NNNNN）を付与するリスト。セキュリティ情報の共通言語として機能。\n\n【覚え方のコツ】\n「CVE = 脆弱性の名札」\nすべての脆弱性に共通の名前をつけることで、誰でも同じ脆弱性を指せる。",
+    "answer": "D",
+    "explanation_jp": "【用語】CVE（Common Vulnerabilities and Exposures）\n\n【各選択肢の解説】\nD. 脆弱性に標準化された識別子を付与する辞書 → ✅ 正解\n   例：CVE-2021-44228（Log4Shell）\n   MITREが管理する脆弱性の標準命名規則。\n   脆弱性を一意に識別・追跡。\n\nB. 脆弱性の深刻度スコア → ❌ CVSS\n   Common Vulnerability Scoring System。\n   0-10のスコアで深刻度を評価。\n   CVEとは別の指標。\n\nC. ソフトウェアのバージョン管理システム → ❌ CPE\n   Common Platform Enumeration。\n   ソフトウェア/ハードウェアの識別子。\n\nA. 暗号化アルゴリズムの評価基準 → ❌ FIPS等\n   脆弱性とは無関係。\n   暗号規格の評価基準。\n\n【定義】\nCVE（Common Vulnerabilities and Exposures）：公開された脆弱性に標準化された識別子（CVE-YYYY-NNNNN）を付与するリスト。セキュリティ情報の共通言語として機能。\n\n【覚え方のコツ】\n「CVE = 脆弱性の名札」\nすべての脆弱性に共通の名前をつけることで、誰でも同じ脆弱性を指せる。",
     "explanation_en": "CVE assigns unique identifiers to vulnerabilities (CVE-YYYY-NNNNN). CVSS scores severity (0-10). CPE identifies software/hardware. All work together for vulnerability management.",
     "tags_jp": [
       "CVE",
@@ -3830,8 +3830,8 @@
     "options": [
       {
         "label": "A",
-        "text_jp": "複数システム間のログのタイムスタンプを同期",
-        "text_en": "Synchronize log timestamps across multiple systems"
+        "text_jp": "ログを自動削除する",
+        "text_en": "Automatically delete logs"
       },
       {
         "label": "B",
@@ -3845,12 +3845,12 @@
       },
       {
         "label": "D",
-        "text_jp": "ログを自動削除する",
-        "text_en": "Automatically delete logs"
+        "text_jp": "複数システム間のログのタイムスタンプを同期",
+        "text_en": "Synchronize log timestamps across multiple systems"
       }
     ],
-    "answer": "A",
-    "explanation_jp": "【用語】NTP（Network Time Protocol）\n\n【各選択肢の解説】\nA. 複数システム間のログのタイムスタンプを同期 → ✅ 正解\n   正確な時刻同期でログの相関分析が可能。\n   インシデント調査時にイベントの順序を特定。\n   フォレンジックの証拠能力を確保。\n\nB. ログを暗号化する → ❌ 暗号化とは無関係\n   NTPは時刻同期専用。\n   ログ暗号化は別の機能。\n\nC. ログを圧縮する → ❌ 圧縮機能なし\n   ログ管理ツールやSIEMが担当。\n   NTPは時刻のみ。\n\nD. ログを自動削除する → ❌ 削除機能なし\n   ログローテーションツールが担当。\n   NTPはログ自体を扱わない。\n\n【定義】\nNTP（Network Time Protocol）：ネットワーク上のデバイス間で時刻を同期。セキュリティログの相関分析、インシデント調査、法的証拠の整合性に不可欠。\n\n【覚え方のコツ】\n「NTP = Network Time = ネットワークの時計合わせ」\n全員の時計を合わせないと「いつ起きたか」がわからない。",
+    "answer": "D",
+    "explanation_jp": "【用語】NTP（Network Time Protocol）\n\n【各選択肢の解説】\nD. 複数システム間のログのタイムスタンプを同期 → ✅ 正解\n   正確な時刻同期でログの相関分析が可能。\n   インシデント調査時にイベントの順序を特定。\n   フォレンジックの証拠能力を確保。\n\nB. ログを暗号化する → ❌ 暗号化とは無関係\n   NTPは時刻同期専用。\n   ログ暗号化は別の機能。\n\nC. ログを圧縮する → ❌ 圧縮機能なし\n   ログ管理ツールやSIEMが担当。\n   NTPは時刻のみ。\n\nA. ログを自動削除する → ❌ 削除機能なし\n   ログローテーションツールが担当。\n   NTPはログ自体を扱わない。\n\n【定義】\nNTP（Network Time Protocol）：ネットワーク上のデバイス間で時刻を同期。セキュリティログの相関分析、インシデント調査、法的証拠の整合性に不可欠。\n\n【覚え方のコツ】\n「NTP = Network Time = ネットワークの時計合わせ」\n全員の時計を合わせないと「いつ起きたか」がわからない。",
     "explanation_en": "NTP synchronizes time across systems for accurate log correlation. Essential for incident investigation, forensics, and maintaining evidence integrity.",
     "tags_jp": [
       "NTP",
@@ -3873,8 +3873,8 @@
     "options": [
       {
         "label": "A",
-        "text_jp": "Repudiation（否認）",
-        "text_en": "Repudiation"
+        "text_jp": "Replay（リプレイ）",
+        "text_en": "Replay"
       },
       {
         "label": "B",
@@ -3888,12 +3888,12 @@
       },
       {
         "label": "D",
-        "text_jp": "Replay（リプレイ）",
-        "text_en": "Replay"
+        "text_jp": "Repudiation（否認）",
+        "text_en": "Repudiation"
       }
     ],
-    "answer": "A",
-    "explanation_jp": "【用語】STRIDE脅威モデル\n\n【各選択肢の解説】\nA. Repudiation（否認）→ ✅ 正解：STRIDEの「R」\n   「その行動は私ではない」と主張できる脅威。\n   対策：ログ記録、デジタル署名、タイムスタンプ。\n\nB. Ransomware → ❌ 攻撃の種類\n   STRIDEは脅威カテゴリ、特定の攻撃種類ではない。\n   ランサムウェアは可用性への脅威。\n\nC. Reconnaissance → ❌ 攻撃フェーズ\n   攻撃者の情報収集段階。\n   STRIDEのカテゴリではない。\n\nD. Replay → ❌ 攻撃手法\n   正当な通信を再送する攻撃。\n   Spoofingに近い脅威。\n\n【定義】\nSTRIDE：Microsoftの脅威モデリングフレームワーク。\n• S = Spoofing（なりすまし）\n• T = Tampering（改ざん）\n• R = Repudiation（否認）\n• I = Information Disclosure（情報漏洩）\n• D = Denial of Service（DoS）\n• E = Elevation of Privilege（権限昇格）\n\n【覚え方のコツ】\n「STRIDEで脅威を歩いて（Stride=大股で歩く）確認」\n6つの脅威カテゴリを網羅的にチェック。",
+    "answer": "D",
+    "explanation_jp": "【用語】STRIDE脅威モデル\n\n【各選択肢の解説】\nD. Repudiation（否認）→ ✅ 正解：STRIDEの「R」\n   「その行動は私ではない」と主張できる脅威。\n   対策：ログ記録、デジタル署名、タイムスタンプ。\n\nB. Ransomware → ❌ 攻撃の種類\n   STRIDEは脅威カテゴリ、特定の攻撃種類ではない。\n   ランサムウェアは可用性への脅威。\n\nC. Reconnaissance → ❌ 攻撃フェーズ\n   攻撃者の情報収集段階。\n   STRIDEのカテゴリではない。\n\nA. Replay → ❌ 攻撃手法\n   正当な通信を再送する攻撃。\n   Spoofingに近い脅威。\n\n【定義】\nSTRIDE：Microsoftの脅威モデリングフレームワーク。\n• S = Spoofing（なりすまし）\n• T = Tampering（改ざん）\n• R = Repudiation（否認）\n• I = Information Disclosure（情報漏洩）\n• A = Denial of Service（DoS）\n• E = Elevation of Privilege（権限昇格）\n\n【覚え方のコツ】\n「STRIDEで脅威を歩いて（Stride=大股で歩く）確認」\n6つの脅威カテゴリを網羅的にチェック。",
     "explanation_en": "STRIDE: Spoofing, Tampering, Repudiation, Information Disclosure, DoS, Elevation of Privilege. Repudiation = ability to deny actions. Countered by logging and digital signatures.",
     "tags_jp": [
       "STRIDE",
@@ -3916,13 +3916,13 @@
     "options": [
       {
         "label": "A",
-        "text_jp": "シンセティック=人工トラフィック、RUM=実ユーザートラフィック",
-        "text_en": "Synthetic=artificial traffic, RUM=real user traffic"
+        "text_jp": "シンセティック=無料、RUM=有料",
+        "text_en": "Synthetic=free, RUM=paid"
       },
       {
         "label": "B",
-        "text_jp": "シンセティック=無料、RUM=有料",
-        "text_en": "Synthetic=free, RUM=paid"
+        "text_jp": "シンセティック=人工トラフィック、RUM=実ユーザートラフィック",
+        "text_en": "Synthetic=artificial traffic, RUM=real user traffic"
       },
       {
         "label": "C",
@@ -3935,8 +3935,8 @@
         "text_en": "Synthetic=manual, RUM=automatic"
       }
     ],
-    "answer": "A",
-    "explanation_jp": "【用語】シンセティックモニタリング / RUM\n\n【各選択肢の解説】\nA. シンセティック=人工トラフィック、RUM=実ユーザートラフィック → ✅ 正解\n   シンセティック：スクリプトで人工的なリクエストを生成（能動的）。\n   RUM：実際のユーザーアクセスを記録・分析（受動的）。\n   両方を組み合わせて包括的に監視。\n\nB. シンセティック=無料、RUM=有料 → ❌ コストは様々\n   両方とも有料・無料の製品がある。\n   費用面の違いではない。\n\nC. シンセティック=内部のみ、RUM=外部のみ → ❌ 誤り\n   両方とも内部・外部両方で使用可能。\n   使用場所の制限ではない。\n\nD. シンセティック=手動、RUM=自動 → ❌ 両方自動可能\n   シンセティックは自動スクリプト実行。\n   両方とも自動化されている。\n\n【定義】\nシンセティック（Synthetic）：人工的なトラフィックで問題を事前検知。RUM（Real User Monitoring）：実際のユーザー体験を分析。組み合わせで完全な可視性を実現。\n\n【覚え方のコツ】\n「Synthetic = 合成 = 人工的に作ったテスト」\n「RUM = Real User = 本物のユーザー」",
+    "answer": "B",
+    "explanation_jp": "【用語】シンセティックモニタリング / RUM\n\n【各選択肢の解説】\nB. シンセティック=人工トラフィック、RUM=実ユーザートラフィック → ✅ 正解\n   シンセティック：スクリプトで人工的なリクエストを生成（能動的）。\n   RUM：実際のユーザーアクセスを記録・分析（受動的）。\n   両方を組み合わせて包括的に監視。\n\nA. シンセティック=無料、RUM=有料 → ❌ コストは様々\n   両方とも有料・無料の製品がある。\n   費用面の違いではない。\n\nC. シンセティック=内部のみ、RUM=外部のみ → ❌ 誤り\n   両方とも内部・外部両方で使用可能。\n   使用場所の制限ではない。\n\nD. シンセティック=手動、RUM=自動 → ❌ 両方自動可能\n   シンセティックは自動スクリプト実行。\n   両方とも自動化されている。\n\n【定義】\nシンセティック（Synthetic）：人工的なトラフィックで問題を事前検知。RUM（Real User Monitoring）：実際のユーザー体験を分析。組み合わせで完全な可視性を実現。\n\n【覚え方のコツ】\n「Synthetic = 合成 = 人工的に作ったテスト」\n「RUM = Real User = 本物のユーザー」",
     "explanation_en": "Synthetic: Scripted artificial requests (proactive). RUM: Passive analysis of real user traffic. Synthetic detects issues before users; RUM shows actual user experience.",
     "tags_jp": [
       "モニタリング",
@@ -3959,8 +3959,8 @@
     "options": [
       {
         "label": "A",
-        "text_jp": "既知の脆弱性を実際に悪用してテスト",
-        "text_en": "Test by actually exploiting known vulnerabilities"
+        "text_jp": "ログファイルの分析",
+        "text_en": "Analyze log files"
       },
       {
         "label": "B",
@@ -3974,12 +3974,12 @@
       },
       {
         "label": "D",
-        "text_jp": "ログファイルの分析",
-        "text_en": "Analyze log files"
+        "text_jp": "既知の脆弱性を実際に悪用してテスト",
+        "text_en": "Test by actually exploiting known vulnerabilities"
       }
     ],
-    "answer": "A",
-    "explanation_jp": "【用語】Metasploit\n\n【各選択肢の解説】\nA. 既知の脆弱性を実際に悪用してテスト → ✅ 正解\n   エクスプロイトフレームワーク。\n   脆弱性が実際に悪用可能か検証。\n   ペネトレーションテストの標準ツール。\n   事前の許可が必須。\n\nB. ファイアウォールルールの管理 → ❌ 別のツール\n   ファイアウォール管理コンソールが担当。\n   Metasploitは攻撃シミュレーション。\n\nC. パスワードの暗号化 → ❌ 暗号化ツールではない\n   パスワードクラッキング機能はあるが主目的ではない。\n   暗号化ではなく攻撃シミュレーション。\n\nD. ログファイルの分析 → ❌ SIEM等が担当\n   ログ分析は別のツール。\n   Metasploitは攻撃検証用。\n\n【定義】\nMetasploit：オープンソースのペネトレーションテストフレームワーク。既知の脆弱性に対するエクスプロイトを提供し、脆弱性が悪用可能か検証する。\n\n【覚え方のコツ】\n「Meta（上位）+ Sploit（exploit）= エクスプロイトを束ねたツール」\n様々な攻撃手法をまとめたフレームワーク。",
+    "answer": "D",
+    "explanation_jp": "【用語】Metasploit\n\n【各選択肢の解説】\nD. 既知の脆弱性を実際に悪用してテスト → ✅ 正解\n   エクスプロイトフレームワーク。\n   脆弱性が実際に悪用可能か検証。\n   ペネトレーションテストの標準ツール。\n   事前の許可が必須。\n\nB. ファイアウォールルールの管理 → ❌ 別のツール\n   ファイアウォール管理コンソールが担当。\n   Metasploitは攻撃シミュレーション。\n\nC. パスワードの暗号化 → ❌ 暗号化ツールではない\n   パスワードクラッキング機能はあるが主目的ではない。\n   暗号化ではなく攻撃シミュレーション。\n\nA. ログファイルの分析 → ❌ SIEM等が担当\n   ログ分析は別のツール。\n   Metasploitは攻撃検証用。\n\n【定義】\nMetasploit：オープンソースのペネトレーションテストフレームワーク。既知の脆弱性に対するエクスプロイトを提供し、脆弱性が悪用可能か検証する。\n\n【覚え方のコツ】\n「Meta（上位）+ Sploit（exploit）= エクスプロイトを束ねたツール」\n様々な攻撃手法をまとめたフレームワーク。",
     "explanation_en": "Metasploit is an exploit framework for penetration testing. Tests if vulnerabilities are actually exploitable. Requires proper authorization. Part of Kali Linux toolkit.",
     "tags_jp": [
       "Metasploit",
@@ -4002,13 +4002,13 @@
     "options": [
       {
         "label": "A",
-        "text_jp": "テストケースがコード変更を検出できるか評価",
-        "text_en": "Evaluate if test cases can detect code changes"
+        "text_jp": "コードの実行速度を測定",
+        "text_en": "Measure code execution speed"
       },
       {
         "label": "B",
-        "text_jp": "コードの実行速度を測定",
-        "text_en": "Measure code execution speed"
+        "text_jp": "テストケースがコード変更を検出できるか評価",
+        "text_en": "Evaluate if test cases can detect code changes"
       },
       {
         "label": "C",
@@ -4021,8 +4021,8 @@
         "text_en": "Verify user interface"
       }
     ],
-    "answer": "A",
-    "explanation_jp": "【用語】ミューテーションテスト\n\n【各選択肢の解説】\nA. テストケースがコード変更を検出できるか評価 → ✅ 正解\n   コードを意図的に変更（ミュータント作成）。\n   テストがその変更を検出できれば「キル」。\n   検出できなければテストケースが不十分。\n   テストの品質を評価する手法。\n\nB. コードの実行速度を測定 → ❌ パフォーマンステスト\n   ミューテーションはテスト品質評価。\n   速度測定ではない。\n\nC. メモリ使用量を最適化 → ❌ プロファイリング\n   ミューテーションはリソース最適化とは無関係。\n\nD. ユーザーインターフェースを検証 → ❌ UIテスト\n   ミューテーションはコードロジックに焦点。\n   UIとは別の観点。\n\n【定義】\nミューテーションテスト：ソースコードに小さな変更（ミューテーション）を加え、既存のテストがそれを検出できるか評価。テストケースの網羅性・品質を測定。\n\n【覚え方のコツ】\n「Mutation（突然変異）= コードを変異させてテストを試す」\n変異させても気づかないテストは役立たない。",
+    "answer": "B",
+    "explanation_jp": "【用語】ミューテーションテスト\n\n【各選択肢の解説】\nB. テストケースがコード変更を検出できるか評価 → ✅ 正解\n   コードを意図的に変更（ミュータント作成）。\n   テストがその変更を検出できれば「キル」。\n   検出できなければテストケースが不十分。\n   テストの品質を評価する手法。\n\nA. コードの実行速度を測定 → ❌ パフォーマンステスト\n   ミューテーションはテスト品質評価。\n   速度測定ではない。\n\nC. メモリ使用量を最適化 → ❌ プロファイリング\n   ミューテーションはリソース最適化とは無関係。\n\nD. ユーザーインターフェースを検証 → ❌ UIテスト\n   ミューテーションはコードロジックに焦点。\n   UIとは別の観点。\n\n【定義】\nミューテーションテスト：ソースコードに小さな変更（ミューテーション）を加え、既存のテストがそれを検出できるか評価。テストケースの網羅性・品質を測定。\n\n【覚え方のコツ】\n「Mutation（突然変異）= コードを変異させてテストを試す」\n変異させても気づかないテストは役立たない。",
     "explanation_en": "Mutation testing deliberately changes code (creates mutants) to see if tests catch the change. If tests pass with mutant, they're insufficient. Measures test quality, not code quality.",
     "tags_jp": [
       "ミューテーションテスト",
@@ -4045,8 +4045,8 @@
     "options": [
       {
         "label": "A",
-        "text_jp": "封じ込め（Containment）",
-        "text_en": "Containment"
+        "text_jp": "教訓（Lessons Learned）",
+        "text_en": "Lessons Learned"
       },
       {
         "label": "B",
@@ -4060,12 +4060,12 @@
       },
       {
         "label": "D",
-        "text_jp": "教訓（Lessons Learned）",
-        "text_en": "Lessons Learned"
+        "text_jp": "封じ込め（Containment）",
+        "text_en": "Containment"
       }
     ],
-    "answer": "A",
-    "explanation_jp": "【用語】インシデント対応プロセス\n\n【各選択肢の解説】\nA. 封じ込め → ✅ 正解：検知後の最初のステップ\n   被害の拡大を防止（ネットワーク切断等）。\n   証拠を保全しながら隔離。\n   急いで根絶すると証拠が消失する恐れ。\n\nB. 根絶 → ❌ 封じ込めの後\n   マルウェア削除、脆弱性パッチ。\n   封じ込めで状況を安定させてから実施。\n\nC. 復旧 → ❌ 根絶の後\n   システムを正常運用に戻す。\n   脅威を完全排除してから。\n\nD. 教訓 → ❌ 最後のステップ\n   インシデント終了後に振り返り。\n   プロセス改善の機会。\n\n【定義】\nインシデント対応6フェーズ：準備→検知→封じ込め→根絶→復旧→教訓。検知後は証拠保全と被害拡大防止のため、まず封じ込めを行う。\n\n【覚え方のコツ】\n「火事だ！→ まず消火（封じ込め）→ 原因調査（根絶）→ 修復（復旧）」\n燃え広がらないようにまず封じ込める。",
+    "answer": "D",
+    "explanation_jp": "【用語】インシデント対応プロセス\n\n【各選択肢の解説】\nD. 封じ込め → ✅ 正解：検知後の最初のステップ\n   被害の拡大を防止（ネットワーク切断等）。\n   証拠を保全しながら隔離。\n   急いで根絶すると証拠が消失する恐れ。\n\nB. 根絶 → ❌ 封じ込めの後\n   マルウェア削除、脆弱性パッチ。\n   封じ込めで状況を安定させてから実施。\n\nC. 復旧 → ❌ 根絶の後\n   システムを正常運用に戻す。\n   脅威を完全排除してから。\n\nA. 教訓 → ❌ 最後のステップ\n   インシデント終了後に振り返り。\n   プロセス改善の機会。\n\n【定義】\nインシデント対応6フェーズ：準備→検知→封じ込め→根絶→復旧→教訓。検知後は証拠保全と被害拡大防止のため、まず封じ込めを行う。\n\n【覚え方のコツ】\n「火事だ！→ まず消火（封じ込め）→ 原因調査（根絶）→ 修復（復旧）」\n燃え広がらないようにまず封じ込める。",
     "explanation_en": "Incident Response: Preparation→Detection→Containment→Eradication→Recovery→Lessons Learned. After detection, contain first to prevent spread and preserve evidence.",
     "tags_jp": [
       "インシデント対応",
@@ -4088,8 +4088,8 @@
     "options": [
       {
         "label": "A",
-        "text_jp": "レジスタ→メモリ→ディスク→アーカイブ",
-        "text_en": "Registers→Memory→Disk→Archives"
+        "text_jp": "アーカイブ→ディスク→メモリ→レジスタ",
+        "text_en": "Archives→Disk→Memory→Registers"
       },
       {
         "label": "B",
@@ -4098,8 +4098,8 @@
       },
       {
         "label": "C",
-        "text_jp": "アーカイブ→ディスク→メモリ→レジスタ",
-        "text_en": "Archives→Disk→Memory→Registers"
+        "text_jp": "レジスタ→メモリ→ディスク→アーカイブ",
+        "text_en": "Registers→Memory→Disk→Archives"
       },
       {
         "label": "D",
@@ -4107,8 +4107,8 @@
         "text_en": "Memory→Registers→Archives→Disk"
       }
     ],
-    "answer": "A",
-    "explanation_jp": "【用語】揮発性の順序（Order of Volatility）\n\n【各選択肢の解説】\nA. レジスタ→メモリ→ディスク→アーカイブ → ✅ 正解\n   最も揮発性の高い（消えやすい）ものから収集。\n   CPUレジスタは瞬時に変化、メモリは電源オフで消失。\n   ディスクは比較的安定、アーカイブは長期保存。\n\nB. ディスク→メモリ... → ❌ 逆順\n   ディスクから始めると揮発性データが消失。\n   貴重な証拠を失う。\n\nC. アーカイブ→ディスク... → ❌ 完全に逆\n   アーカイブは最後に収集しても問題ない。\n   揮発性の高いものが優先。\n\nD. メモリ→レジスタ... → ❌ 順序が違う\n   レジスタはメモリより揮発性が高い。\n   まずレジスタから。\n\n【定義】\nRFC 3227に基づく証拠収集順序。揮発性が高いものから収集することで、重要な証拠の消失を防ぐ。\n\n【覚え方のコツ】\n「揮発しやすい順 = CPUに近い順」\nCPUレジスタ → RAM → HDD/SSD → テープ/バックアップ",
+    "answer": "C",
+    "explanation_jp": "【用語】揮発性の順序（Order of Volatility）\n\n【各選択肢の解説】\nC. レジスタ→メモリ→ディスク→アーカイブ → ✅ 正解\n   最も揮発性の高い（消えやすい）ものから収集。\n   CPUレジスタは瞬時に変化、メモリは電源オフで消失。\n   ディスクは比較的安定、アーカイブは長期保存。\n\nB. ディスク→メモリ... → ❌ 逆順\n   ディスクから始めると揮発性データが消失。\n   貴重な証拠を失う。\n\nA. アーカイブ→ディスク... → ❌ 完全に逆\n   アーカイブは最後に収集しても問題ない。\n   揮発性の高いものが優先。\n\nD. メモリ→レジスタ... → ❌ 順序が違う\n   レジスタはメモリより揮発性が高い。\n   まずレジスタから。\n\n【定義】\nRFA 3227に基づく証拠収集順序。揮発性が高いものから収集することで、重要な証拠の消失を防ぐ。\n\n【覚え方のコツ】\n「揮発しやすい順 = CPUに近い順」\nCPUレジスタ → RAM → HDD/SSD → テープ/バックアップ",
     "explanation_en": "Order of volatility (RFC 3227): Collect most volatile first. CPU registers change constantly, memory lost on power-off, disk stable, archives permanent.",
     "tags_jp": [
       "フォレンジック",
@@ -4131,8 +4131,8 @@
     "options": [
       {
         "label": "A",
-        "text_jp": "最小3台、1台の障害まで耐える",
-        "text_en": "Minimum 3 disks, tolerates 1 disk failure"
+        "text_jp": "最小4台、2台の障害まで耐える",
+        "text_en": "Minimum 4 disks, tolerates 2 disk failures"
       },
       {
         "label": "B",
@@ -4141,8 +4141,8 @@
       },
       {
         "label": "C",
-        "text_jp": "最小4台、2台の障害まで耐える",
-        "text_en": "Minimum 4 disks, tolerates 2 disk failures"
+        "text_jp": "最小3台、1台の障害まで耐える",
+        "text_en": "Minimum 3 disks, tolerates 1 disk failure"
       },
       {
         "label": "D",
@@ -4150,8 +4150,8 @@
         "text_en": "Minimum 3 disks, tolerates 2 disk failures"
       }
     ],
-    "answer": "A",
-    "explanation_jp": "【用語】RAID 0/1/5/6\n\n【各選択肢の解説】\nA. 最小3台、1台の障害まで耐える → ✅ 正解：RAID 5\n   ストライピング + 分散パリティ。\n   パリティが1台分の障害を復元。\n   2台同時障害ではデータ消失。\n\nB. 最小2台、1台の障害... → ❌ RAID 1（ミラーリング）\n   完全コピーで1台障害に耐える。\n   RAID 5より容量効率が悪い。\n\nC. 最小4台、2台の障害... → ❌ RAID 6\n   二重パリティで2台同時障害に対応。\n   最小4台必要。\n\nD. 最小3台、2台の障害... → ❌ 誤り\n   RAID 5は1台までしか耐えられない。\n   2台障害対応はRAID 6。\n\n【定義】\nRAID 5：ストライピング + 分散パリティ。最小3台。容量 = (n-1)ディスク。読み取り性能良好、書き込みはパリティ計算で遅い。1台障害まで。\n\n【覚え方のコツ】\n「RAID 5 = 5本指から1本引いても動く」\nまたは「5のうち1つ（パリティ）で守る = 1台障害OK」",
+    "answer": "C",
+    "explanation_jp": "【用語】RAID 0/1/5/6\n\n【各選択肢の解説】\nC. 最小3台、1台の障害まで耐える → ✅ 正解：RAID 5\n   ストライピング + 分散パリティ。\n   パリティが1台分の障害を復元。\n   2台同時障害ではデータ消失。\n\nB. 最小2台、1台の障害... → ❌ RAID 1（ミラーリング）\n   完全コピーで1台障害に耐える。\n   RAID 5より容量効率が悪い。\n\nA. 最小4台、2台の障害... → ❌ RAID 6\n   二重パリティで2台同時障害に対応。\n   最小4台必要。\n\nD. 最小3台、2台の障害... → ❌ 誤り\n   RAID 5は1台までしか耐えられない。\n   2台障害対応はRAID 6。\n\n【定義】\nRAID 5：ストライピング + 分散パリティ。最小3台。容量 = (n-1)ディスク。読み取り性能良好、書き込みはパリティ計算で遅い。1台障害まで。\n\n【覚え方のコツ】\n「RAID 5 = 5本指から1本引いても動く」\nまたは「5のうち1つ（パリティ）で守る = 1台障害OK」",
     "explanation_en": "RAID 5: Minimum 3 disks, striping with distributed parity, tolerates 1 disk failure. RAID 6 needs 4+ disks and tolerates 2 failures. RAID 1 mirrors 2 disks.",
     "tags_jp": [
       "RAID",
@@ -4174,8 +4174,8 @@
     "options": [
       {
         "label": "A",
-        "text_jp": "許容される最大ダウンタイム",
-        "text_en": "Maximum acceptable downtime"
+        "text_jp": "バックアップの保存期間",
+        "text_en": "Backup retention period"
       },
       {
         "label": "B",
@@ -4184,8 +4184,8 @@
       },
       {
         "label": "C",
-        "text_jp": "バックアップの保存期間",
-        "text_en": "Backup retention period"
+        "text_jp": "許容される最大ダウンタイム",
+        "text_en": "Maximum acceptable downtime"
       },
       {
         "label": "D",
@@ -4193,8 +4193,8 @@
         "text_en": "Testing frequency"
       }
     ],
-    "answer": "A",
-    "explanation_jp": "【用語】RTO / RPO\n\n【各選択肢の解説】\nA. 許容される最大ダウンタイム → ✅ 正解：RTO\n   「障害からどれだけ早く復旧する必要があるか」\n   例：RTO=4時間 → 4時間以内に復旧必須。\n   復旧サイトの種類を決定（ホット/ウォーム/コールド）。\n\nB. 許容される最大データ損失量 → ❌ RPO\n   Recovery Point Objective。\n   「どこまで巻き戻しても許容されるか」\n   バックアップ頻度を決定。\n\nC. バックアップの保存期間 → ❌ 保持ポリシー\n   RTOとは別の概念。\n   法規制やビジネス要件で決定。\n\nD. テストの実施頻度 → ❌ テスト計画\n   RTOはテスト頻度を定義しない。\n   DRテストは別途計画。\n\n【定義】\nRTO：障害発生からシステム復旧までの許容時間。RPO：障害発生から遡って、どの時点までのデータ損失を許容するか。\n\n【覚え方のコツ】\n「RTO = Recovery Time = 復旧にかけられる時間」\n「RPO = Recovery Point = どの時点まで巻き戻すか」",
+    "answer": "C",
+    "explanation_jp": "【用語】RTO / RPO\n\n【各選択肢の解説】\nC. 許容される最大ダウンタイム → ✅ 正解：RTO\n   「障害からどれだけ早く復旧する必要があるか」\n   例：RTO=4時間 → 4時間以内に復旧必須。\n   復旧サイトの種類を決定（ホット/ウォーム/コールド）。\n\nB. 許容される最大データ損失量 → ❌ RPO\n   Recovery Point Objective。\n   「どこまで巻き戻しても許容されるか」\n   バックアップ頻度を決定。\n\nA. バックアップの保存期間 → ❌ 保持ポリシー\n   RTOとは別の概念。\n   法規制やビジネス要件で決定。\n\nD. テストの実施頻度 → ❌ テスト計画\n   RTOはテスト頻度を定義しない。\n   DRテストは別途計画。\n\n【定義】\nRTO：障害発生からシステム復旧までの許容時間。RPO：障害発生から遡って、どの時点までのデータ損失を許容するか。\n\n【覚え方のコツ】\n「RTO = Recovery Time = 復旧にかけられる時間」\n「RPO = Recovery Point = どの時点まで巻き戻すか」",
     "explanation_en": "RTO: Maximum time to restore operations. RPO: Maximum acceptable data loss (determines backup frequency). RTO determines recovery site type (hot/warm/cold).",
     "tags_jp": [
       "BCP/DR",
@@ -4260,8 +4260,8 @@
     "options": [
       {
         "label": "A",
-        "text_jp": "証拠の取扱い履歴を記録し法廷での証拠能力を維持",
-        "text_en": "Record evidence handling history to maintain admissibility in court"
+        "text_jp": "証拠のバックアップを作成",
+        "text_en": "Create backups of evidence"
       },
       {
         "label": "B",
@@ -4270,8 +4270,8 @@
       },
       {
         "label": "C",
-        "text_jp": "証拠のバックアップを作成",
-        "text_en": "Create backups of evidence"
+        "text_jp": "証拠の取扱い履歴を記録し法廷での証拠能力を維持",
+        "text_en": "Record evidence handling history to maintain admissibility in court"
       },
       {
         "label": "D",
@@ -4279,8 +4279,8 @@
         "text_en": "Compress and store evidence"
       }
     ],
-    "answer": "A",
-    "explanation_jp": "【用語】Chain of Custody（保管の連鎖）\n\n【各選択肢の解説】\nA. 証拠の取扱い履歴を記録し法廷での証拠能力を維持 → ✅ 正解\n   誰が、いつ、何を、どのように扱ったかを文書化。\n   改ざんがないことを証明。\n   法廷での許容性（Admissibility）に必須。\n\nB. 証拠を暗号化して保護 → ❌ 別の保護手段\n   暗号化は重要だが、Chain of Custodyとは別概念。\n   取扱い履歴の記録が本質。\n\nC. 証拠のバックアップを作成 → ❌ 証拠保全の一部\n   ビットレベルイメージングは重要だが、Chain of Custodyは「履歴記録」。\n\nD. 証拠の圧縮と保存 → ❌ ストレージ管理\n   Chain of Custodyとは無関係。\n   物理的な保存方法の問題。\n\n【定義】\n法的手続きにおいて証拠の完全性を維持するための記録。収集、保管、分析、提出の各段階で、誰がどのように扱ったかを文書化する。\n\n【覚え方のコツ】\n「Chain（鎖）= 途切れない証拠の鎖」\n一度でも鎖が切れる（記録が途切れる）と証拠能力が疑われる。",
+    "answer": "C",
+    "explanation_jp": "【用語】Chain of Custody（保管の連鎖）\n\n【各選択肢の解説】\nC. 証拠の取扱い履歴を記録し法廷での証拠能力を維持 → ✅ 正解\n   誰が、いつ、何を、どのように扱ったかを文書化。\n   改ざんがないことを証明。\n   法廷での許容性（Admissibility）に必須。\n\nB. 証拠を暗号化して保護 → ❌ 別の保護手段\n   暗号化は重要だが、Chain of Custodyとは別概念。\n   取扱い履歴の記録が本質。\n\nA. 証拠のバックアップを作成 → ❌ 証拠保全の一部\n   ビットレベルイメージングは重要だが、Chain of Custodyは「履歴記録」。\n\nD. 証拠の圧縮と保存 → ❌ ストレージ管理\n   Chain of Custodyとは無関係。\n   物理的な保存方法の問題。\n\n【定義】\n法的手続きにおいて証拠の完全性を維持するための記録。収集、保管、分析、提出の各段階で、誰がどのように扱ったかを文書化する。\n\n【覚え方のコツ】\n「Chain（鎖）= 途切れない証拠の鎖」\n一度でも鎖が切れる（記録が途切れる）と証拠能力が疑われる。",
     "explanation_en": "Chain of Custody documents who handled evidence, when, and how. Essential for legal admissibility. Any break in the chain can invalidate evidence in court.",
     "tags_jp": [
       "フォレンジック",
@@ -4303,8 +4303,8 @@
     "options": [
       {
         "label": "A",
-        "text_jp": "IDS=検知・アラート、IPS=検知・遮断",
-        "text_en": "IDS=detect and alert, IPS=detect and block"
+        "text_jp": "IDS=ハードウェア、IPS=ソフトウェア",
+        "text_en": "IDS=hardware, IPS=software"
       },
       {
         "label": "B",
@@ -4318,12 +4318,12 @@
       },
       {
         "label": "D",
-        "text_jp": "IDS=ハードウェア、IPS=ソフトウェア",
-        "text_en": "IDS=hardware, IPS=software"
+        "text_jp": "IDS=検知・アラート、IPS=検知・遮断",
+        "text_en": "IDS=detect and alert, IPS=detect and block"
       }
     ],
-    "answer": "A",
-    "explanation_jp": "【用語】IDS vs IPS\n\n【各選択肢の解説】\nA. IDS=検知・アラート、IPS=検知・遮断 → ✅ 正解\n   IDS（Intrusion Detection System）：受動的。検知して通知のみ。\n   IPS（Intrusion Prevention System）：能動的。検知して自動遮断。\n   IPSはインライン配置が必須。\n\nB. IDS=ネットワーク、IPS=ホスト → ❌ 誤り\n   両方ともネットワーク型（NIDS/NIPS）とホスト型（HIDS/HIPS）がある。\n   配置場所ではなく動作の違い。\n\nC. IDS=暗号化... → ❌ 誤り\n   両方とも暗号化機能はない。\n   侵入検知/防止が目的。\n\nD. IDS=ハードウェア... → ❌ 誤り\n   両方ともハードウェアでもソフトウェアでも実装可能。\n   形態の違いではない。\n\n【定義】\nIDS：侵入を検知してアラートを発報（受動的）。IPS：侵入を検知して自動的に遮断（能動的）。IPSはトラフィック経路上にインラインで配置。\n\n【覚え方のコツ】\n「D = Detection = 検知だけ」\n「P = Prevention = 防止 = 遮断まで」",
+    "answer": "D",
+    "explanation_jp": "【用語】IDS vs IPS\n\n【各選択肢の解説】\nD. IDS=検知・アラート、IPS=検知・遮断 → ✅ 正解\n   IDS（Intrusion Detection System）：受動的。検知して通知のみ。\n   IPS（Intrusion Prevention System）：能動的。検知して自動遮断。\n   IPSはインライン配置が必須。\n\nB. IDS=ネットワーク、IPS=ホスト → ❌ 誤り\n   両方ともネットワーク型（NIDS/NIPS）とホスト型（HIDS/HIPS）がある。\n   配置場所ではなく動作の違い。\n\nC. IDS=暗号化... → ❌ 誤り\n   両方とも暗号化機能はない。\n   侵入検知/防止が目的。\n\nA. IDS=ハードウェア... → ❌ 誤り\n   両方ともハードウェアでもソフトウェアでも実装可能。\n   形態の違いではない。\n\n【定義】\nIDS：侵入を検知してアラートを発報（受動的）。IPS：侵入を検知して自動的に遮断（能動的）。IPSはトラフィック経路上にインラインで配置。\n\n【覚え方のコツ】\n「A = Detection = 検知だけ」\n「P = Prevention = 防止 = 遮断まで」",
     "explanation_en": "IDS: Passive detection and alerting. IPS: Active detection and blocking. IPS must be inline to block traffic. Both have network and host-based versions.",
     "tags_jp": [
       "IDS",
@@ -4347,8 +4347,8 @@
     "options": [
       {
         "label": "A",
-        "text_jp": "ホット（最短）< ウォーム < コールド（最長）",
-        "text_en": "Hot (shortest) < Warm < Cold (longest)"
+        "text_jp": "ウォーム（最短）< ホット < コールド（最長）",
+        "text_en": "Warm (shortest) < Hot < Cold (longest)"
       },
       {
         "label": "B",
@@ -4357,8 +4357,8 @@
       },
       {
         "label": "C",
-        "text_jp": "ウォーム（最短）< ホット < コールド（最長）",
-        "text_en": "Warm (shortest) < Hot < Cold (longest)"
+        "text_jp": "ホット（最短）< ウォーム < コールド（最長）",
+        "text_en": "Hot (shortest) < Warm < Cold (longest)"
       },
       {
         "label": "D",
@@ -4366,8 +4366,8 @@
         "text_en": "All have the same recovery time"
       }
     ],
-    "answer": "A",
-    "explanation_jp": "【用語】ホット/ウォーム/コールドサイト\n\n【各選択肢の解説】\nA. ホット < ウォーム < コールド → ✅ 正解\n   ホット：即時復旧（分〜時間）。全設備・データ同期済み。最高コスト。\n   ウォーム：数時間〜数日。設備あり、データ復元必要。中間コスト。\n   コールド：数日〜数週間。空の施設。最低コスト。\n\nB. コールド < ウォーム < ホット → ❌ 完全に逆\n   コールドは設備調達から必要で最も時間がかかる。\n\nC. ウォーム < ホット... → ❌ 誤り\n   ホットが最も速い。\n   ウォームはデータ復元に時間がかかる。\n\nD. すべて同じ → ❌ 誤り\n   復旧時間は大きく異なる。\n   RTOに応じて選択。\n\n【定義】\nDRサイトの3タイプ。ホット（全装備・リアルタイム複製）、ウォーム（部分装備・定期バックアップ）、コールド（空施設のみ）。コストと復旧時間はトレードオフ。\n\n【覚え方のコツ】\n「Hot（熱い）= すぐ使える = 即座に稼働」\n「Cold（冷たい）= 冷えている = 暖まるまで時間がかかる」",
+    "answer": "C",
+    "explanation_jp": "【用語】ホット/ウォーム/コールドサイト\n\n【各選択肢の解説】\nC. ホット < ウォーム < コールド → ✅ 正解\n   ホット：即時復旧（分〜時間）。全設備・データ同期済み。最高コスト。\n   ウォーム：数時間〜数日。設備あり、データ復元必要。中間コスト。\n   コールド：数日〜数週間。空の施設。最低コスト。\n\nB. コールド < ウォーム < ホット → ❌ 完全に逆\n   コールドは設備調達から必要で最も時間がかかる。\n\nA. ウォーム < ホット... → ❌ 誤り\n   ホットが最も速い。\n   ウォームはデータ復元に時間がかかる。\n\nD. すべて同じ → ❌ 誤り\n   復旧時間は大きく異なる。\n   RTOに応じて選択。\n\n【定義】\nDRサイトの3タイプ。ホット（全装備・リアルタイム複製）、ウォーム（部分装備・定期バックアップ）、コールド（空施設のみ）。コストと復旧時間はトレードオフ。\n\n【覚え方のコツ】\n「Hot（熱い）= すぐ使える = 即座に稼働」\n「Cold（冷たい）= 冷えている = 暖まるまで時間がかかる」",
     "explanation_en": "Hot: Immediate (minutes-hours), full equipment, real-time sync, highest cost. Warm: Hours-days, some equipment, backup restore needed. Cold: Days-weeks, empty facility, lowest cost.",
     "tags_jp": [
       "DR",
@@ -4390,8 +4390,8 @@
     "options": [
       {
         "label": "A",
-        "text_jp": "Due Diligence=調査（知る）、Due Care=実施（行う）",
-        "text_en": "Due Diligence=investigate (know), Due Care=implement (do)"
+        "text_jp": "両方とも同じ意味",
+        "text_en": "Both mean the same thing"
       },
       {
         "label": "B",
@@ -4400,8 +4400,8 @@
       },
       {
         "label": "C",
-        "text_jp": "両方とも同じ意味",
-        "text_en": "Both mean the same thing"
+        "text_jp": "Due Diligence=調査（知る）、Due Care=実施（行う）",
+        "text_en": "Due Diligence=investigate (know), Due Care=implement (do)"
       },
       {
         "label": "D",
@@ -4409,8 +4409,8 @@
         "text_en": "Due Care=legal, Due Diligence=technical"
       }
     ],
-    "answer": "A",
-    "explanation_jp": "【用語】Due Care vs Due Diligence\n\n【各選択肢の解説】\nA. Due Diligence=調査（知る）、Due Care=実施（行う）→ ✅ 正解\n   Due Diligence：リスクを理解するための調査・管理（「知る」責任）。\n   Due Care：適切な対策を実際に実施（「行う」責任）。\n   両方とも法的責任を果たすために必要。\n\nB. Due Care=調査... → ❌ 逆\n   Careは「世話をする」= 実際に行動。\n   Diligenceは「勤勉に調べる」= 調査。\n\nC. 両方とも同じ → ❌ 異なる概念\n   補完的だが、役割が違う。\n   両方必要。\n\nD. Due Care=法的... → ❌ 両方とも法的・技術的\n   どちらも法的責任に関係。\n   技術面も両方含む。\n\n【定義】\nDue Diligence：リスクを認識し理解するための調査活動。Due Care：認識したリスクに対して適切な対策を実施する責任。「知って」「行う」の両方が必要。\n\n【覚え方のコツ】\n「Diligence（勤勉）= 勤勉に調べる = 調査」\n「Care（世話）= 世話をする = 実際に行動」",
+    "answer": "C",
+    "explanation_jp": "【用語】Due Care vs Due Diligence\n\n【各選択肢の解説】\nC. Due Diligence=調査（知る）、Due Care=実施（行う）→ ✅ 正解\n   Due Diligence：リスクを理解するための調査・管理（「知る」責任）。\n   Due Care：適切な対策を実際に実施（「行う」責任）。\n   両方とも法的責任を果たすために必要。\n\nB. Due Care=調査... → ❌ 逆\n   Careは「世話をする」= 実際に行動。\n   Diligenceは「勤勉に調べる」= 調査。\n\nA. 両方とも同じ → ❌ 異なる概念\n   補完的だが、役割が違う。\n   両方必要。\n\nD. Due Care=法的... → ❌ 両方とも法的・技術的\n   どちらも法的責任に関係。\n   技術面も両方含む。\n\n【定義】\nDue Diligence：リスクを認識し理解するための調査活動。Due Care：認識したリスクに対して適切な対策を実施する責任。「知って」「行う」の両方が必要。\n\n【覚え方のコツ】\n「Diligence（勤勉）= 勤勉に調べる = 調査」\n「Care（世話）= 世話をする = 実際に行動」",
     "explanation_en": "Due Diligence: Investigate and understand risks (knowing). Due Care: Implement appropriate measures (doing). Both required to fulfill legal responsibility.",
     "tags_jp": [
       "法的概念",
@@ -4519,8 +4519,8 @@
     "options": [
       {
         "label": "A",
-        "text_jp": "シグネチャ=既知パターン照合、振る舞い=異常検知",
-        "text_en": "Signature=known pattern matching, Behavior=anomaly detection"
+        "text_jp": "シグネチャ=クラウド、振る舞い=オンプレミス",
+        "text_en": "Signature=cloud, Behavior=on-premises"
       },
       {
         "label": "B",
@@ -4534,12 +4534,12 @@
       },
       {
         "label": "D",
-        "text_jp": "シグネチャ=クラウド、振る舞い=オンプレミス",
-        "text_en": "Signature=cloud, Behavior=on-premises"
+        "text_jp": "シグネチャ=既知パターン照合、振る舞い=異常検知",
+        "text_en": "Signature=known pattern matching, Behavior=anomaly detection"
       }
     ],
-    "answer": "A",
-    "explanation_jp": "【用語】シグネチャベース vs 振る舞いベース検知\n\n【各選択肢の解説】\nA. シグネチャ=既知パターン照合、振る舞い=異常検知 → ✅ 正解\n   シグネチャ：既知の攻撃パターン（シグネチャ）と照合。高速だがゼロデイに弱い。\n   振る舞い：正常な行動からの逸脱を検知。新種対応可能だが誤検知多い。\n\nB. シグネチャ=高コスト... → ❌ コストの違いではない\n   両方とも様々な価格帯がある。\n   検知方法の違い。\n\nC. シグネチャ=リアルタイム... → ❌ 両方リアルタイム可能\n   処理方式ではなく、検知ロジックの違い。\n\nD. シグネチャ=クラウド... → ❌ デプロイ場所ではない\n   両方ともどこでも動作可能。\n   検知手法の違い。\n\n【定義】\nシグネチャベース：既知の脅威パターンをデータベースと照合。振る舞いベース（アノマリー）：通常の行動パターンを学習し、逸脱を検知。\n\n【覚え方のコツ】\n「シグネチャ = サイン = 既知の犯人の指紋照合」\n「振る舞い = 怪しい動きを見つける = 不審者検知」",
+    "answer": "D",
+    "explanation_jp": "【用語】シグネチャベース vs 振る舞いベース検知\n\n【各選択肢の解説】\nD. シグネチャ=既知パターン照合、振る舞い=異常検知 → ✅ 正解\n   シグネチャ：既知の攻撃パターン（シグネチャ）と照合。高速だがゼロデイに弱い。\n   振る舞い：正常な行動からの逸脱を検知。新種対応可能だが誤検知多い。\n\nB. シグネチャ=高コスト... → ❌ コストの違いではない\n   両方とも様々な価格帯がある。\n   検知方法の違い。\n\nC. シグネチャ=リアルタイム... → ❌ 両方リアルタイム可能\n   処理方式ではなく、検知ロジックの違い。\n\nA. シグネチャ=クラウド... → ❌ デプロイ場所ではない\n   両方ともどこでも動作可能。\n   検知手法の違い。\n\n【定義】\nシグネチャベース：既知の脅威パターンをデータベースと照合。振る舞いベース（アノマリー）：通常の行動パターンを学習し、逸脱を検知。\n\n【覚え方のコツ】\n「シグネチャ = サイン = 既知の犯人の指紋照合」\n「振る舞い = 怪しい動きを見つける = 不審者検知」",
     "explanation_en": "Signature: Matches known patterns. Fast but misses zero-day. Behavior/Anomaly: Detects deviations from normal. Catches unknown threats but more false positives.",
     "tags_jp": [
       "検知手法",
@@ -4562,8 +4562,8 @@
     "options": [
       {
         "label": "A",
-        "text_jp": "内部から外部への不正通信を制限",
-        "text_en": "Restrict unauthorized outbound traffic"
+        "text_jp": "ログファイルを圧縮",
+        "text_en": "Compress log files"
       },
       {
         "label": "B",
@@ -4577,12 +4577,12 @@
       },
       {
         "label": "D",
-        "text_jp": "ログファイルを圧縮",
-        "text_en": "Compress log files"
+        "text_jp": "内部から外部への不正通信を制限",
+        "text_en": "Restrict unauthorized outbound traffic"
       }
     ],
-    "answer": "A",
-    "explanation_jp": "【用語】出口フィルタリング（Egress Filtering）\n\n【各選択肢の解説】\nA. 内部から外部への不正通信を制限 → ✅ 正解\n   C&C（Command & Control）サーバーへの通信を阻止。\n   データ持ち出し（Exfiltration）を防止。\n   マルウェアの外部通信を遮断。\n\nB. 外部からの攻撃を防止 → ❌ 入口フィルタリング\n   Ingress Filtering。\n   外部から内部への通信を制御。\n\nC. ユーザー認証を強化 → ❌ 認証とは別\n   フィルタリングは通信制御。\n   認証強化はIAMの領域。\n\nD. ログファイルを圧縮 → ❌ 無関係\n   フィルタリングはトラフィック制御。\n   ログ管理は別機能。\n\n【定義】\n出口フィルタリング：組織内部から外部への送信トラフィックを制御。許可されていない宛先やプロトコルをブロック。データ漏洩防止とマルウェア通信阻止に有効。\n\n【覚え方のコツ】\n「Egress（出口）= 出ていくものを検査」\n「Ingress（入口）= 入ってくるものを検査」",
+    "answer": "D",
+    "explanation_jp": "【用語】出口フィルタリング（Egress Filtering）\n\n【各選択肢の解説】\nD. 内部から外部への不正通信を制限 → ✅ 正解\n   C&C（Command & Control）サーバーへの通信を阻止。\n   データ持ち出し（Exfiltration）を防止。\n   マルウェアの外部通信を遮断。\n\nB. 外部からの攻撃を防止 → ❌ 入口フィルタリング\n   Ingress Filtering。\n   外部から内部への通信を制御。\n\nC. ユーザー認証を強化 → ❌ 認証とは別\n   フィルタリングは通信制御。\n   認証強化はIAMの領域。\n\nA. ログファイルを圧縮 → ❌ 無関係\n   フィルタリングはトラフィック制御。\n   ログ管理は別機能。\n\n【定義】\n出口フィルタリング：組織内部から外部への送信トラフィックを制御。許可されていない宛先やプロトコルをブロック。データ漏洩防止とマルウェア通信阻止に有効。\n\n【覚え方のコツ】\n「Egress（出口）= 出ていくものを検査」\n「Ingress（入口）= 入ってくるものを検査」",
     "explanation_en": "Egress filtering controls outbound traffic from internal network. Blocks C&C communication, data exfiltration, unauthorized destinations. Ingress filtering handles inbound traffic.",
     "tags_jp": [
       "ネットワークセキュリティ",
@@ -4648,13 +4648,13 @@
     "options": [
       {
         "label": "A",
-        "text_jp": "チェックリスト → 机上 → シミュレーション → 並行 → 完全中断",
-        "text_en": "Checklist → Tabletop → Simulation → Parallel → Full Interruption"
+        "text_jp": "完全中断 → 並行 → シミュレーション → 机上 → チェックリスト",
+        "text_en": "Full Interruption → Parallel → Simulation → Tabletop → Checklist"
       },
       {
         "label": "B",
-        "text_jp": "完全中断 → 並行 → シミュレーション → 机上 → チェックリスト",
-        "text_en": "Full Interruption → Parallel → Simulation → Tabletop → Checklist"
+        "text_jp": "チェックリスト → 机上 → シミュレーション → 並行 → 完全中断",
+        "text_en": "Checklist → Tabletop → Simulation → Parallel → Full Interruption"
       },
       {
         "label": "C",
@@ -4667,8 +4667,8 @@
         "text_en": "All have the same rigor"
       }
     ],
-    "answer": "A",
-    "explanation_jp": "【用語】DRテストの種類\n\n【各選択肢の解説】\nA. チェックリスト → 机上 → シミュレーション → 並行 → 完全中断 → ✅ 正解\n   チェックリスト：計画書の確認のみ。最も簡単。\n   机上（Tabletop）：関係者で計画を議論。\n   シミュレーション：模擬災害で対応を訓練。\n   並行：本番と同時に復旧サイトを稼働。\n   完全中断：本番を停止して復旧サイトに切替。最も厳格。\n\nB. 完全中断 → 並行... → ❌ 逆順\n   完全中断が最も厳格（リスク大）。\n\nC. シミュレーション → 机上... → ❌ 順序が違う\n   机上の方がシミュレーションより簡単。\n\nD. すべて同じ → ❌ 厳格さは異なる\n   リスクとコストに応じて選択。\n\n【定義】\nDRテストは徐々に厳格さを上げて実施。最初は机上確認から始め、最終的に完全中断テストで本番環境での復旧能力を検証。\n\n【覚え方のコツ】\n「紙の確認 → 話し合い → 練習 → 本番横で動かす → 本番止めて切替」\n徐々にリアルに近づく。",
+    "answer": "B",
+    "explanation_jp": "【用語】DRテストの種類\n\n【各選択肢の解説】\nB. チェックリスト → 机上 → シミュレーション → 並行 → 完全中断 → ✅ 正解\n   チェックリスト：計画書の確認のみ。最も簡単。\n   机上（Tabletop）：関係者で計画を議論。\n   シミュレーション：模擬災害で対応を訓練。\n   並行：本番と同時に復旧サイトを稼働。\n   完全中断：本番を停止して復旧サイトに切替。最も厳格。\n\nA. 完全中断 → 並行... → ❌ 逆順\n   完全中断が最も厳格（リスク大）。\n\nC. シミュレーション → 机上... → ❌ 順序が違う\n   机上の方がシミュレーションより簡単。\n\nD. すべて同じ → ❌ 厳格さは異なる\n   リスクとコストに応じて選択。\n\n【定義】\nDRテストは徐々に厳格さを上げて実施。最初は机上確認から始め、最終的に完全中断テストで本番環境での復旧能力を検証。\n\n【覚え方のコツ】\n「紙の確認 → 話し合い → 練習 → 本番横で動かす → 本番止めて切替」\n徐々にリアルに近づく。",
     "explanation_en": "DR test rigor increases: Checklist (paper review) → Tabletop (discussion) → Simulation (drill) → Parallel (run both) → Full Interruption (cutover to DR site).",
     "tags_jp": [
       "DRテスト",
@@ -4691,8 +4691,8 @@
     "options": [
       {
         "label": "A",
-        "text_jp": "実装（開発）フェーズ",
-        "text_en": "Implementation (Development) Phase"
+        "text_jp": "設計フェーズ",
+        "text_en": "Design Phase"
       },
       {
         "label": "B",
@@ -4701,8 +4701,8 @@
       },
       {
         "label": "C",
-        "text_jp": "設計フェーズ",
-        "text_en": "Design Phase"
+        "text_jp": "実装（開発）フェーズ",
+        "text_en": "Implementation (Development) Phase"
       },
       {
         "label": "D",
@@ -4710,8 +4710,8 @@
         "text_en": "Operations/Maintenance Phase"
       }
     ],
-    "answer": "A",
-    "explanation_jp": "【用語】SDLC（システム開発ライフサイクル）\n\n【各選択肢の解説】\nA. 実装（開発）フェーズ → ✅ 正解：コードレビューの適切なタイミング\n   コードが書かれた直後にレビュー。\n   早期にバグやセキュリティ問題を発見。\n   修正コストが低い段階で対処。\n\nB. 要件定義フェーズ → ❌ コードがまだない\n   要件の収集と分析の段階。\n   レビュー対象のコードが存在しない。\n\nC. 設計フェーズ → ❌ 設計レビューの段階\n   アーキテクチャや設計書をレビュー。\n   脅威モデリングはこのフェーズ。\n\nD. 運用保守フェーズ → ❌ 遅すぎる\n   本番環境での変更時にはレビューするが、最初のレビューには遅い。\n   開発中に行うべき。\n\n【定義】\nSDLC：要件定義→設計→実装→テスト→展開→運用保守。コードレビューは実装フェーズで行い、早期に問題を発見する（シフトレフト）。\n\n【覚え方のコツ】\n「コードレビュー = コードを見る = コードがある実装フェーズ」\n書いたらすぐレビュー。",
+    "answer": "C",
+    "explanation_jp": "【用語】SDLC（システム開発ライフサイクル）\n\n【各選択肢の解説】\nC. 実装（開発）フェーズ → ✅ 正解：コードレビューの適切なタイミング\n   コードが書かれた直後にレビュー。\n   早期にバグやセキュリティ問題を発見。\n   修正コストが低い段階で対処。\n\nB. 要件定義フェーズ → ❌ コードがまだない\n   要件の収集と分析の段階。\n   レビュー対象のコードが存在しない。\n\nA. 設計フェーズ → ❌ 設計レビューの段階\n   アーキテクチャや設計書をレビュー。\n   脅威モデリングはこのフェーズ。\n\nD. 運用保守フェーズ → ❌ 遅すぎる\n   本番環境での変更時にはレビューするが、最初のレビューには遅い。\n   開発中に行うべき。\n\n【定義】\nSDLC：要件定義→設計→実装→テスト→展開→運用保守。コードレビューは実装フェーズで行い、早期に問題を発見する（シフトレフト）。\n\n【覚え方のコツ】\n「コードレビュー = コードを見る = コードがある実装フェーズ」\n書いたらすぐレビュー。",
     "explanation_en": "Code review during Implementation phase. Requirements has no code. Design reviews architecture. Shift-left: Find issues early when cheaper to fix.",
     "tags_jp": [
       "SDLC",
@@ -4777,8 +4777,8 @@
     "options": [
       {
         "label": "A",
-        "text_jp": "組織全体でプロセスが標準化・文書化",
-        "text_en": "Processes standardized and documented organization-wide"
+        "text_jp": "基本的なプロジェクト管理が確立",
+        "text_en": "Basic project management established"
       },
       {
         "label": "B",
@@ -4787,8 +4787,8 @@
       },
       {
         "label": "C",
-        "text_jp": "基本的なプロジェクト管理が確立",
-        "text_en": "Basic project management established"
+        "text_jp": "組織全体でプロセスが標準化・文書化",
+        "text_en": "Processes standardized and documented organization-wide"
       },
       {
         "label": "D",
@@ -4796,8 +4796,8 @@
         "text_en": "Quantitative management and measurement"
       }
     ],
-    "answer": "A",
-    "explanation_jp": "【用語】SW-CMM（成熟度モデル）5レベル\n\n【各選択肢の解説】\nA. 組織全体でプロセスが標準化・文書化 → ✅ 正解：レベル3\n   全プロジェクトで一貫したプロセス。\n   組織の標準として定義・文書化。\n   トレーニングプログラムも確立。\n\nB. 場当たり的でカオス → ❌ レベル1「初期」\n   プロセスが未定義で個人依存。\n   成功は個人のスキルに依存。\n\nC. 基本的なプロジェクト管理が確立 → ❌ レベル2「反復可能」\n   プロジェクト単位で管理プロセス。\n   まだ組織全体ではない。\n\nD. 定量的な管理と測定 → ❌ レベル4「管理」\n   プロセスと品質を数値で測定。\n   データに基づく意思決定。\n\n【定義】\nCMM 5レベル：1.初期→2.反復可能→3.定義→4.管理→5.最適化。レベル3で組織全体のプロセス標準化、レベル4で定量管理、レベル5で継続的改善。\n\n【覚え方のコツ】\n「1=カオス、2=プロジェクト単位、3=組織全体、4=数値管理、5=継続改善」\n数字が大きくなるほど成熟。",
+    "answer": "C",
+    "explanation_jp": "【用語】SW-CMM（成熟度モデル）5レベル\n\n【各選択肢の解説】\nC. 組織全体でプロセスが標準化・文書化 → ✅ 正解：レベル3\n   全プロジェクトで一貫したプロセス。\n   組織の標準として定義・文書化。\n   トレーニングプログラムも確立。\n\nB. 場当たり的でカオス → ❌ レベル1「初期」\n   プロセスが未定義で個人依存。\n   成功は個人のスキルに依存。\n\nA. 基本的なプロジェクト管理が確立 → ❌ レベル2「反復可能」\n   プロジェクト単位で管理プロセス。\n   まだ組織全体ではない。\n\nD. 定量的な管理と測定 → ❌ レベル4「管理」\n   プロセスと品質を数値で測定。\n   データに基づく意思決定。\n\n【定義】\nCMM 5レベル：1.初期→2.反復可能→3.定義→4.管理→5.最適化。レベル3で組織全体のプロセス標準化、レベル4で定量管理、レベル5で継続的改善。\n\n【覚え方のコツ】\n「1=カオス、2=プロジェクト単位、3=組織全体、4=数値管理、5=継続改善」\n数字が大きくなるほど成熟。",
     "explanation_en": "CMM Level 3 'Defined': Organization-wide standardized processes. Level 1=chaotic, Level 2=project-level, Level 4=quantitative, Level 5=continuous improvement.",
     "tags_jp": [
       "CMM",
@@ -4820,8 +4820,8 @@
     "options": [
       {
         "label": "A",
-        "text_jp": "パラメータ化クエリ（プリペアドステートメント）",
-        "text_en": "Parameterized queries (Prepared Statements)"
+        "text_jp": "ログの監視",
+        "text_en": "Log monitoring"
       },
       {
         "label": "B",
@@ -4835,12 +4835,12 @@
       },
       {
         "label": "D",
-        "text_jp": "ログの監視",
-        "text_en": "Log monitoring"
+        "text_jp": "パラメータ化クエリ（プリペアドステートメント）",
+        "text_en": "Parameterized queries (Prepared Statements)"
       }
     ],
-    "answer": "A",
-    "explanation_jp": "【用語】SQLインジェクション\n\n【各選択肢の解説】\nA. パラメータ化クエリ → ✅ 正解：根本的な対策\n   入力値をSQL文から分離。\n   入力が「データ」として扱われ、コードとして実行されない。\n   ストアドプロシージャと組み合わせるとさらに安全。\n\nB. ファイアウォールの設置 → ❌ ネットワーク層の対策\n   SQLインジェクションはアプリケーション層。\n   WAFならある程度防げるが根本対策ではない。\n\nC. 暗号化の使用 → ❌ データ保護の対策\n   データベースの機密性には有効。\n   SQLインジェクション自体は防げない。\n\nD. ログの監視 → ❌ 検知の対策\n   攻撃の検知には有効。\n   防止にはならない。\n\n【定義】\nSQLインジェクション：入力欄にSQL文を挿入し、データベースを不正操作。「' OR '1'='1」等の入力でWHERE句を改ざん。\n\n【覚え方のコツ】\n「パラメータ化 = 入力とSQLを分ける = 混ぜないから安全」\n水と油を分けるように、コードとデータを分離。",
+    "answer": "D",
+    "explanation_jp": "【用語】SQLインジェクション\n\n【各選択肢の解説】\nD. パラメータ化クエリ → ✅ 正解：根本的な対策\n   入力値をSQL文から分離。\n   入力が「データ」として扱われ、コードとして実行されない。\n   ストアドプロシージャと組み合わせるとさらに安全。\n\nB. ファイアウォールの設置 → ❌ ネットワーク層の対策\n   SQLインジェクションはアプリケーション層。\n   WAFならある程度防げるが根本対策ではない。\n\nC. 暗号化の使用 → ❌ データ保護の対策\n   データベースの機密性には有効。\n   SQLインジェクション自体は防げない。\n\nA. ログの監視 → ❌ 検知の対策\n   攻撃の検知には有効。\n   防止にはならない。\n\n【定義】\nSQLインジェクション：入力欄にSQL文を挿入し、データベースを不正操作。「' OR '1'='1」等の入力でWHERE句を改ざん。\n\n【覚え方のコツ】\n「パラメータ化 = 入力とSQLを分ける = 混ぜないから安全」\n水と油を分けるように、コードとデータを分離。",
     "explanation_en": "SQL injection: Malicious SQL in input manipulates database. Parameterized queries separate data from code. Also: input validation, stored procedures, least privilege.",
     "tags_jp": [
       "SQLインジェクション",
@@ -4863,8 +4863,8 @@
     "options": [
       {
         "label": "A",
-        "text_jp": "トランザクションは全て成功するか全て失敗する",
-        "text_en": "Transaction either completes entirely or not at all"
+        "text_jp": "トランザクションは互いに独立",
+        "text_en": "Transactions are independent of each other"
       },
       {
         "label": "B",
@@ -4873,8 +4873,8 @@
       },
       {
         "label": "C",
-        "text_jp": "トランザクションは互いに独立",
-        "text_en": "Transactions are independent of each other"
+        "text_jp": "トランザクションは全て成功するか全て失敗する",
+        "text_en": "Transaction either completes entirely or not at all"
       },
       {
         "label": "D",
@@ -4882,8 +4882,8 @@
         "text_en": "Completed transactions are permanent"
       }
     ],
-    "answer": "A",
-    "explanation_jp": "【用語】ACID特性\n\n【各選択肢の解説】\nA. トランザクションは全て成功するか全て失敗する → ✅ 正解：原子性\n   「All or Nothing」の原則。\n   途中で失敗した場合は全てロールバック。\n   部分的な変更は許可されない。\n\nB. データは常に一貫した状態を維持 → ❌ 一貫性（Consistency）\n   トランザクション前後でデータ整合性を維持。\n   ビジネスルールに違反しない。\n\nC. トランザクションは互いに独立 → ❌ 分離性（Isolation）\n   同時実行されても互いに干渉しない。\n   各トランザクションは独立して見える。\n\nD. 完了したトランザクションは永続 → ❌ 耐久性（Durability）\n   コミット後はシステム障害でも保持。\n   ログやバックアップで保証。\n\n【定義】\nACID：データベーストランザクションの4特性。\n• A（Atomicity）：原子性 - All or Nothing\n• C（Consistency）：一貫性 - 整合性維持\n• I（Isolation）：分離性 - 独立実行\n• D（Durability）：耐久性 - 永続保存\n\n【覚え方のコツ】\n「A = Atom（原子）= 分割できない = 全部か無か」",
+    "answer": "C",
+    "explanation_jp": "【用語】ACID特性\n\n【各選択肢の解説】\nC. トランザクションは全て成功するか全て失敗する → ✅ 正解：原子性\n   「All or Nothing」の原則。\n   途中で失敗した場合は全てロールバック。\n   部分的な変更は許可されない。\n\nB. データは常に一貫した状態を維持 → ❌ 一貫性（Consistency）\n   トランザクション前後でデータ整合性を維持。\n   ビジネスルールに違反しない。\n\nA. トランザクションは互いに独立 → ❌ 分離性（Isolation）\n   同時実行されても互いに干渉しない。\n   各トランザクションは独立して見える。\n\nD. 完了したトランザクションは永続 → ❌ 耐久性（Durability）\n   コミット後はシステム障害でも保持。\n   ログやバックアップで保証。\n\n【定義】\nACID：データベーストランザクションの4特性。\n• A（Atomicity）：原子性 - All or Nothing\n• C（Consistency）：一貫性 - 整合性維持\n• I（Isolation）：分離性 - 独立実行\n• D（Durability）：耐久性 - 永続保存\n\n【覚え方のコツ】\n「C = Atom（原子）= 分割できない = 全部か無か」",
     "explanation_en": "ACID: Atomicity (all or nothing), Consistency (data integrity), Isolation (independent transactions), Durability (permanent after commit).",
     "tags_jp": [
       "ACID",
@@ -4950,8 +4950,8 @@
     "options": [
       {
         "label": "A",
-        "text_jp": "アジャイル=反復的・柔軟、ウォーターフォール=線形・順次",
-        "text_en": "Agile=iterative/flexible, Waterfall=linear/sequential"
+        "text_jp": "両方とも同じプロセス",
+        "text_en": "Both use the same process"
       },
       {
         "label": "B",
@@ -4965,12 +4965,12 @@
       },
       {
         "label": "D",
-        "text_jp": "両方とも同じプロセス",
-        "text_en": "Both use the same process"
+        "text_jp": "アジャイル=反復的・柔軟、ウォーターフォール=線形・順次",
+        "text_en": "Agile=iterative/flexible, Waterfall=linear/sequential"
       }
     ],
-    "answer": "A",
-    "explanation_jp": "【用語】アジャイル vs ウォーターフォール\n\n【各選択肢の解説】\nA. アジャイル=反復的・柔軟、ウォーターフォール=線形・順次 → ✅ 正解\n   アジャイル：短いスプリント（2-4週）で反復。変化に柔軟対応。顧客フィードバック重視。\n   ウォーターフォール：各フェーズを順番に完了。後戻り困難。要件が明確な場合に適する。\n\nB. アジャイル=大規模向け... → ❌ 逆の傾向\n   アジャイルは小〜中規模で効果的。\n   ウォーターフォールは大規模・高信頼性向け。\n\nC. アジャイル=ドキュメント重視... → ❌ 逆\n   アジャイルは動くソフトウェア重視。\n   ウォーターフォールは詳細ドキュメント重視。\n\nD. 両方とも同じ → ❌ 根本的に異なる\n   開発哲学が異なる。\n\n【定義】\nウォーターフォール：要件→設計→実装→テスト→展開を順次。アジャイル：スプリント単位で計画→開発→テスト→レビューを反復。スクラム、XPが代表例。\n\n【覚え方のコツ】\n「ウォーターフォール = 滝 = 一方向に流れる」\n「アジャイル = 機敏 = 柔軟に変更対応」",
+    "answer": "D",
+    "explanation_jp": "【用語】アジャイル vs ウォーターフォール\n\n【各選択肢の解説】\nD. アジャイル=反復的・柔軟、ウォーターフォール=線形・順次 → ✅ 正解\n   アジャイル：短いスプリント（2-4週）で反復。変化に柔軟対応。顧客フィードバック重視。\n   ウォーターフォール：各フェーズを順番に完了。後戻り困難。要件が明確な場合に適する。\n\nB. アジャイル=大規模向け... → ❌ 逆の傾向\n   アジャイルは小〜中規模で効果的。\n   ウォーターフォールは大規模・高信頼性向け。\n\nC. アジャイル=ドキュメント重視... → ❌ 逆\n   アジャイルは動くソフトウェア重視。\n   ウォーターフォールは詳細ドキュメント重視。\n\nA. 両方とも同じ → ❌ 根本的に異なる\n   開発哲学が異なる。\n\n【定義】\nウォーターフォール：要件→設計→実装→テスト→展開を順次。アジャイル：スプリント単位で計画→開発→テスト→レビューを反復。スクラム、XPが代表例。\n\n【覚え方のコツ】\n「ウォーターフォール = 滝 = 一方向に流れる」\n「アジャイル = 機敏 = 柔軟に変更対応」",
     "explanation_en": "Waterfall: Linear, sequential phases. Agile: Iterative sprints, flexible to change. Waterfall for stable requirements, Agile for evolving requirements.",
     "tags_jp": [
       "開発モデル",
@@ -5079,13 +5079,13 @@
     "options": [
       {
         "label": "A",
-        "text_jp": "感染ごとにコードを変更してシグネチャ検知を回避",
-        "text_en": "Changes code with each infection to evade signature detection"
+        "text_jp": "複数のOSで動作",
+        "text_en": "Works on multiple operating systems"
       },
       {
         "label": "B",
-        "text_jp": "複数のOSで動作",
-        "text_en": "Works on multiple operating systems"
+        "text_jp": "感染ごとにコードを変更してシグネチャ検知を回避",
+        "text_en": "Changes code with each infection to evade signature detection"
       },
       {
         "label": "C",
@@ -5098,8 +5098,8 @@
         "text_en": "Activates on specific date/time"
       }
     ],
-    "answer": "A",
-    "explanation_jp": "【用語】ポリモーフィックウイルス\n\n【各選択肢の解説】\nA. 感染ごとにコードを変更してシグネチャ検知を回避 → ✅ 正解\n   自己暗号化と変異エンジンを使用。\n   各感染で異なるコードに変化。\n   シグネチャベースの検知が困難。\n   振る舞い検知やヒューリスティックで対策。\n\nB. 複数のOSで動作 → ❌ クロスプラットフォームマルウェア\n   ポリモーフィックとは別の概念。\n\nC. ブートセクタとファイルの両方に感染 → ❌ マルチパータイトウイルス\n   複数の感染経路を持つウイルス。\n   ポリモーフィックはコード変異が特徴。\n\nD. 特定の日時に発動 → ❌ ロジックボム\n   条件で発動するマルウェア。\n   ポリモーフィックとは別の特徴。\n\n【定義】\nポリモーフィック（多形性）ウイルス：自己暗号化と変異により、感染ごとにコードを変化させる。従来のシグネチャ検知を回避。\n\n【覚え方のコツ】\n「Poly（多）+ Morphic（形）= 多くの形に変わる」\n変装の達人のように姿を変えて逃げる。",
+    "answer": "B",
+    "explanation_jp": "【用語】ポリモーフィックウイルス\n\n【各選択肢の解説】\nB. 感染ごとにコードを変更してシグネチャ検知を回避 → ✅ 正解\n   自己暗号化と変異エンジンを使用。\n   各感染で異なるコードに変化。\n   シグネチャベースの検知が困難。\n   振る舞い検知やヒューリスティックで対策。\n\nA. 複数のOSで動作 → ❌ クロスプラットフォームマルウェア\n   ポリモーフィックとは別の概念。\n\nC. ブートセクタとファイルの両方に感染 → ❌ マルチパータイトウイルス\n   複数の感染経路を持つウイルス。\n   ポリモーフィックはコード変異が特徴。\n\nD. 特定の日時に発動 → ❌ ロジックボム\n   条件で発動するマルウェア。\n   ポリモーフィックとは別の特徴。\n\n【定義】\nポリモーフィック（多形性）ウイルス：自己暗号化と変異により、感染ごとにコードを変化させる。従来のシグネチャ検知を回避。\n\n【覚え方のコツ】\n「Poly（多）+ Morphic（形）= 多くの形に変わる」\n変装の達人のように姿を変えて逃げる。",
     "explanation_en": "Polymorphic virus changes its code with each infection using encryption and mutation engine. Evades signature detection. Requires behavior-based or heuristic detection.",
     "tags_jp": [
       "マルウェア",
@@ -5122,13 +5122,13 @@
     "options": [
       {
         "label": "A",
-        "text_jp": "モジュール内の関連性が高く、モジュール間の依存性が低い",
-        "text_en": "High internal relatedness, low inter-module dependency"
+        "text_jp": "コードが短く、実行速度が速い",
+        "text_en": "Short code, fast execution"
       },
       {
         "label": "B",
-        "text_jp": "コードが短く、実行速度が速い",
-        "text_en": "Short code, fast execution"
+        "text_jp": "モジュール内の関連性が高く、モジュール間の依存性が低い",
+        "text_en": "High internal relatedness, low inter-module dependency"
       },
       {
         "label": "C",
@@ -5141,8 +5141,8 @@
         "text_en": "More users, fewer bugs"
       }
     ],
-    "answer": "A",
-    "explanation_jp": "【用語】高凝集・低結合（High Cohesion, Low Coupling）\n\n【各選択肢の解説】\nA. モジュール内の関連性が高く、モジュール間の依存性が低い → ✅ 正解\n   高凝集：1つのモジュールが1つの目的に集中。関連機能をまとめる。\n   低結合：モジュール間の依存を最小化。変更の影響を限定。\n   保守性、再利用性、テスト容易性が向上。\n\nB. コードが短く... → ❌ 異なる概念\n   コード長は凝集・結合とは別。\n   短いコードが常に良いわけではない。\n\nC. ドキュメントが多く... → ❌ 無関係\n   設計品質の指標ではない。\n\nD. ユーザー数が多く... → ❌ 無関係\n   利用状況とは関係ない設計原則。\n\n【定義】\n高凝集：モジュール内の要素が密接に関連し、単一の目的を果たす。低結合：モジュール間の相互依存を最小化。OOP設計の理想形。\n\n【覚え方のコツ】\n「凝集（まとまり）↑ = 一つのことに集中」\n「結合（つながり）↓ = 他への影響が少ない」",
+    "answer": "B",
+    "explanation_jp": "【用語】高凝集・低結合（High Cohesion, Low Coupling）\n\n【各選択肢の解説】\nB. モジュール内の関連性が高く、モジュール間の依存性が低い → ✅ 正解\n   高凝集：1つのモジュールが1つの目的に集中。関連機能をまとめる。\n   低結合：モジュール間の依存を最小化。変更の影響を限定。\n   保守性、再利用性、テスト容易性が向上。\n\nA. コードが短く... → ❌ 異なる概念\n   コード長は凝集・結合とは別。\n   短いコードが常に良いわけではない。\n\nC. ドキュメントが多く... → ❌ 無関係\n   設計品質の指標ではない。\n\nD. ユーザー数が多く... → ❌ 無関係\n   利用状況とは関係ない設計原則。\n\n【定義】\n高凝集：モジュール内の要素が密接に関連し、単一の目的を果たす。低結合：モジュール間の相互依存を最小化。OOP設計の理想形。\n\n【覚え方のコツ】\n「凝集（まとまり）↑ = 一つのことに集中」\n「結合（つながり）↓ = 他への影響が少ない」",
     "explanation_en": "High Cohesion: Module focuses on single purpose. Low Coupling: Minimal dependencies between modules. Improves maintainability, reusability, testability.",
     "tags_jp": [
       "OOP",
@@ -5165,8 +5165,8 @@
     "options": [
       {
         "label": "A",
-        "text_jp": "リクエストが正当なフォームから送信されたことを検証",
-        "text_en": "Verify request came from legitimate form"
+        "text_jp": "ログを記録",
+        "text_en": "Record logs"
       },
       {
         "label": "B",
@@ -5180,12 +5180,12 @@
       },
       {
         "label": "D",
-        "text_jp": "ログを記録",
-        "text_en": "Record logs"
+        "text_jp": "リクエストが正当なフォームから送信されたことを検証",
+        "text_en": "Verify request came from legitimate form"
       }
     ],
-    "answer": "A",
-    "explanation_jp": "【用語】CSRF（クロスサイトリクエストフォージェリ）\n\n【各選択肢の解説】\nA. リクエストが正当なフォームから送信されたことを検証 → ✅ 正解\n   サーバーがフォームに一意のトークンを埋め込む。\n   リクエスト受信時にトークンを検証。\n   攻撃者はトークンを予測できない。\n\nB. パスワードを暗号化 → ❌ 別の機能\n   CSRFトークンは暗号化ではない。\n   リクエストの正当性検証。\n\nC. セッションを終了 → ❌ セッション管理の機能\n   CSRFトークンはセッション終了とは別。\n\nD. ログを記録 → ❌ 監査機能\n   CSRFトークンはログとは無関係。\n\n【定義】\nCSRF：認証済みユーザーに意図しないリクエストを送信させる攻撃。対策：CSRFトークン（同期トークンパターン）、SameSite Cookie、Refererヘッダー検証。\n\n【覚え方のコツ】\n「CSRF = 偽造リクエスト = 本物かどうかトークンで確認」\n入場券（トークン）がないと入れない。",
+    "answer": "D",
+    "explanation_jp": "【用語】CSRF（クロスサイトリクエストフォージェリ）\n\n【各選択肢の解説】\nD. リクエストが正当なフォームから送信されたことを検証 → ✅ 正解\n   サーバーがフォームに一意のトークンを埋め込む。\n   リクエスト受信時にトークンを検証。\n   攻撃者はトークンを予測できない。\n\nB. パスワードを暗号化 → ❌ 別の機能\n   CSRFトークンは暗号化ではない。\n   リクエストの正当性検証。\n\nC. セッションを終了 → ❌ セッション管理の機能\n   CSRFトークンはセッション終了とは別。\n\nA. ログを記録 → ❌ 監査機能\n   CSRFトークンはログとは無関係。\n\n【定義】\nCSRF：認証済みユーザーに意図しないリクエストを送信させる攻撃。対策：CSRFトークン（同期トークンパターン）、SameSite Cookie、Refererヘッダー検証。\n\n【覚え方のコツ】\n「CSRF = 偽造リクエスト = 本物かどうかトークンで確認」\n入場券（トークン）がないと入れない。",
     "explanation_en": "CSRF token: Unique value embedded in form, verified on server. Attacker cannot predict token, preventing forged requests. Also: SameSite cookies, Referer validation.",
     "tags_jp": [
       "CSRF",
@@ -5294,8 +5294,8 @@
     "options": [
       {
         "label": "A",
-        "text_jp": "冗長データを排除しデータ整合性を向上",
-        "text_en": "Eliminate redundant data and improve data integrity"
+        "text_jp": "データを暗号化",
+        "text_en": "Encrypt data"
       },
       {
         "label": "B",
@@ -5304,8 +5304,8 @@
       },
       {
         "label": "C",
-        "text_jp": "データを暗号化",
-        "text_en": "Encrypt data"
+        "text_jp": "冗長データを排除しデータ整合性を向上",
+        "text_en": "Eliminate redundant data and improve data integrity"
       },
       {
         "label": "D",
@@ -5313,8 +5313,8 @@
         "text_en": "Increase number of users"
       }
     ],
-    "answer": "A",
-    "explanation_jp": "【用語】正規化（Normalization）\n\n【各選択肢の解説】\nA. 冗長データを排除しデータ整合性を向上 → ✅ 正解\n   重複データを削減し、更新異常を防止。\n   1NF→2NF→3NF→BCNFと段階的に正規化。\n   データの一貫性を維持しやすくなる。\n\nB. クエリの実行速度を向上 → ❌ むしろ遅くなることも\n   正規化でテーブルが分割され、JOIN が必要に。\n   パフォーマンスのために非正規化することも。\n\nC. データを暗号化 → ❌ 暗号化とは別の概念\n   正規化はデータ構造の最適化。\n   暗号化はセキュリティ対策。\n\nD. ユーザー数を増加 → ❌ 無関係\n   正規化はデータ構造の問題。\n   ユーザー数とは関係ない。\n\n【定義】\n正規化：リレーショナルデータベースの設計技法。冗長性を排除し、挿入/更新/削除異常を防止。1NF（原子値）、2NF（部分関数従属排除）、3NF（推移的関数従属排除）等。\n\n【覚え方のコツ】\n「正規化 = 正しい形にする = 重複をなくす」\n同じデータを複数箇所に持たない。",
+    "answer": "C",
+    "explanation_jp": "【用語】正規化（Normalization）\n\n【各選択肢の解説】\nC. 冗長データを排除しデータ整合性を向上 → ✅ 正解\n   重複データを削減し、更新異常を防止。\n   1NF→2NF→3NF→BCNFと段階的に正規化。\n   データの一貫性を維持しやすくなる。\n\nB. クエリの実行速度を向上 → ❌ むしろ遅くなることも\n   正規化でテーブルが分割され、JOIN が必要に。\n   パフォーマンスのために非正規化することも。\n\nA. データを暗号化 → ❌ 暗号化とは別の概念\n   正規化はデータ構造の最適化。\n   暗号化はセキュリティ対策。\n\nD. ユーザー数を増加 → ❌ 無関係\n   正規化はデータ構造の問題。\n   ユーザー数とは関係ない。\n\n【定義】\n正規化：リレーショナルデータベースの設計技法。冗長性を排除し、挿入/更新/削除異常を防止。1NF（原子値）、2NF（部分関数従属排除）、3NF（推移的関数従属排除）等。\n\n【覚え方のコツ】\n「正規化 = 正しい形にする = 重複をなくす」\n同じデータを複数箇所に持たない。",
     "explanation_en": "Normalization eliminates redundant data, prevents anomalies (insert/update/delete). Forms: 1NF (atomic), 2NF (no partial dependency), 3NF (no transitive dependency).",
     "tags_jp": [
       "データベース",
