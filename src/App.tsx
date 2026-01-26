@@ -1,5 +1,7 @@
 import { useState, useEffect, useRef, useMemo } from 'react'
 import { ChevronLeft, Shield, Check, X, Globe, RotateCcw, BookOpen, BarChart3, Upload, Download, Trash2, Plus, Database, AlertCircle, CheckCircle, Star, Flag, FileText, Package, ChevronDown, ChevronUp } from 'lucide-react'
+
+const APP_VERSION = '3.1.0'
 import type { Question, Deck, FilterState, SessionStats, ReportModal, HistoryRecord, Report, ExportData } from './types'
 import {
   BUILTIN_DECK,
@@ -341,7 +343,9 @@ export default function CISSPQuizApp() {
               <Shield className="text-slate-900" size={32} />
             </div>
             <div>
-              <h1 className="text-3xl font-bold bg-gradient-to-r from-amber-200 to-orange-300 bg-clip-text text-transparent">CISSP Quiz</h1>
+              <h1 className="text-3xl font-bold bg-gradient-to-r from-amber-200 to-orange-300 bg-clip-text text-transparent">
+                CISSP Quiz <span className="text-base font-normal text-slate-500">v{APP_VERSION}</span>
+              </h1>
               <p className="text-slate-400 text-sm">Security Certification Study App</p>
             </div>
           </div>
