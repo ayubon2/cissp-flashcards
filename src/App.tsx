@@ -1,7 +1,7 @@
 import { useState, useEffect, useRef, useMemo } from 'react'
 import { ChevronLeft, Shield, Check, X, Globe, RotateCcw, BookOpen, BarChart3, Upload, Download, Trash2, Plus, Database, AlertCircle, CheckCircle, Star, Flag, FileText, Package, ChevronDown, ChevronUp } from 'lucide-react'
 
-const APP_VERSION = '3.1.0'
+const APP_VERSION = '3.1.1'
 import type { Question, Deck, FilterState, SessionStats, ReportModal, HistoryRecord, Report, ExportData } from './types'
 import {
   BUILTIN_DECK,
